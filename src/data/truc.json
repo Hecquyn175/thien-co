@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "source": "Hiệp Kỷ Biện Phương Thư & Lịch vạn niên phổ thông Việt Nam — Kiến Trừ thập nhị trực (tháng Dần ngày Dần là Trực Kiến)",
+    "confidence": "A"
+  },
+  "items": [
+    {
+      "id": "kien",
+      "vi": "Kiến",
+      "han": "建",
+      "rating": "binh",
+      "summary": "Ngày khởi đầu khí mới của tháng: hợp việc bắt đầu nhẹ nhàng, xuất hành, nhận việc; kỵ động thổ lớn.",
+      "nen": ["xuat_hanh", "bat_dau_du_an", "gap_doi_tac", "thi_cu"],
+      "ky": ["dong_tho", "an_tang"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "tru",
+      "vi": "Trừ",
+      "han": "除",
+      "rating": "cat",
+      "summary": "Ngày dọn bỏ cái cũ, làm sạch và giải quyết tồn đọng; hợp dọn dẹp, khám sức khỏe định kỳ.",
+      "nen": ["kham_chua_benh", "bat_dau_du_an", "xuat_hanh"],
+      "ky": ["cuoi_hoi", "nhap_trach"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "man",
+      "vi": "Mãn",
+      "han": "滿",
+      "rating": "cat",
+      "summary": "Ngày đầy đặn, sung túc: hợp khai trương, cầu tài, cưới hỏi, sum họp.",
+      "nen": ["khai_truong", "cuoi_hoi", "ky_hop_dong", "mua_xe"],
+      "ky": ["kien_tung", "an_tang"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "binh",
+      "vi": "Bình",
+      "han": "平",
+      "rating": "binh",
+      "summary": "Ngày cân bằng, ôn hòa: hợp bàn bạc công việc thường nhật, tu sửa nhỏ, hòa giải.",
+      "nen": ["gap_doi_tac", "ky_hop_dong", "nhap_trach"],
+      "ky": ["kien_tung"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "dinh",
+      "vi": "Định",
+      "han": "定",
+      "rating": "cat",
+      "summary": "Ngày ổn định, yên vị: hợp ký kết thỏa thuận dài hạn, nhập trạch, cưới hỏi.",
+      "nen": ["cuoi_hoi", "ky_hop_dong", "nhap_trach", "khai_truong"],
+      "ky": ["kien_tung", "xuat_hanh"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "chap",
+      "vi": "Chấp",
+      "han": "執",
+      "rating": "binh",
+      "summary": "Ngày giữ gìn, củng cố nề nếp: hợp tu bổ, xây dựng nội bộ, tuyển dụng.",
+      "nen": ["dong_tho", "ky_hop_dong", "bat_dau_du_an"],
+      "ky": ["xuat_hanh", "nhap_trach"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "pha",
+      "vi": "Phá",
+      "han": "破",
+      "rating": "hung",
+      "summary": "Ngày xung khí tháng (Nguyệt Phá): chỉ hợp tháo dỡ cũ hoặc xử lý việc dứt điểm; kỵ khởi sự lớn.",
+      "nen": ["kham_chua_benh"],
+      "ky": ["cuoi_hoi", "khai_truong", "ky_hop_dong", "dong_tho", "nhap_trach", "mua_xe"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "nguy",
+      "vi": "Nguy",
+      "han": "危",
+      "rating": "hung",
+      "summary": "Ngày cần thận trọng: nên làm việc tỉ mỉ tại chỗ, hạn chế mạo hiểm hoặc đi xa.",
+      "nen": ["gap_doi_tac"],
+      "ky": ["xuat_hanh", "dong_tho", "khai_truong", "mua_xe"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "thanh",
+      "vi": "Thành",
+      "han": "成",
+      "rating": "cat",
+      "summary": "Ngày thành tựu, viên mãn: hợp khai trương, ký hợp đồng, cưới hỏi, nhập học/thi cử.",
+      "nen": ["khai_truong", "ky_hop_dong", "cuoi_hoi", "nhap_trach", "thi_cu", "bat_dau_du_an", "mua_xe"],
+      "ky": ["kien_tung"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "thu",
+      "vi": "Thu",
+      "han": "收",
+      "rating": "binh",
+      "summary": "Ngày thu hoạch, cất giữ: hợp thu hồi công nợ, tổng kết, tích lũy tài sản.",
+      "nen": ["ky_hop_dong", "nhap_trach", "gap_doi_tac"],
+      "ky": ["khai_truong", "xuat_hanh", "an_tang"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "khai",
+      "vi": "Khai",
+      "han": "開",
+      "rating": "cat",
+      "summary": "Ngày mở mang, hanh thông: rất hợp khai trương, xuất hành, nhậm chức, động thổ, cưới hỏi.",
+      "nen": ["khai_truong", "xuat_hanh", "cuoi_hoi", "dong_tho", "nhap_trach", "ky_hop_dong", "bat_dau_du_an", "mua_xe"],
+      "ky": ["an_tang"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    },
+    {
+      "id": "be",
+      "vi": "Bế",
+      "han": "閉",
+      "rating": "hung",
+      "summary": "Ngày thu khép khí: hợp nghỉ ngơi, kiểm điểm nội bộ, tu sửa kín; kỵ khai trương, mở việc mới.",
+      "nen": ["an_tang"],
+      "ky": ["khai_truong", "cuoi_hoi", "xuat_hanh", "nhap_trach", "dong_tho", "bat_dau_du_an"],
+      "source": "Hiệp Kỷ Biện Phương Thư",
+      "confidence": "A"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "source": "Hiệp Kỷ Biện Phương Thư — Thập nhị thần Hoàng đạo / Hắc đạo (Thanh Long, Minh Đường, Thiên Hình, Chu Tước, Kim Quỹ, Thiên Đức, Bạch Hổ, Ngọc Đường, Thiên Lao, Huyền Vũ, Tư Mệnh, Câu Trần)",
+    "confidence": "A"
+  },
+  "deities": [
+    { "id": "thanh_long", "vi": "Thanh Long", "han": "青龍", "hoangDao": true, "summary": "Cát thần chủ hỷ khí, thuận lợi khởi sự và gặp gỡ." },
+    { "id": "minh_duong", "vi": "Minh Đường", "han": "明堂", "hoangDao": true, "summary": "Cát thần chủ minh bạch, quý nhân, hợp công việc chính thống." },
+    { "id": "thien_hinh", "vi": "Thiên Hình", "han": "天刑", "hoangDao": false, "summary": "Hắc đạo chủ kỷ luật khắt khe, nên cẩn trọng thủ tục pháp lý." },
+    { "id": "chu_tuoc", "vi": "Chu Tước", "han": "朱雀", "hoangDao": false, "summary": "Hắc đạo dễ sinh khẩu thiệt, tranh luận lời qua tiếng lại." },
+    { "id": "kim_quy", "vi": "Kim Quỹ", "han": "金匱", "hoangDao": true, "summary": "Cát thần chủ tài lộc tích lũy, hợp giao dịch, cưới hỏi." },
+    { "id": "bao_quang", "vi": "Bảo Quang", "han": "寶光", "hoangDao": true, "summary": "Cát thần (Thiên Đức Hoàng đạo) chủ bình an, hóa giải trở ngại." },
+    { "id": "bach_ho", "vi": "Bạch Hổ", "han": "白虎", "hoangDao": false, "summary": "Hắc đạo chủ va chạm hoặc vội vàng, nên giữ bình tĩnh khi đi lại." },
+    { "id": "ngoc_duong", "vi": "Ngọc Đường", "han": "玉堂", "hoangDao": true, "summary": "Cát thần chủ học hành, văn thư, thăng tiến." },
+    { "id": "thien_lao", "vi": "Thiên Lao", "han": "天牢", "hoangDao": false, "summary": "Hắc đạo chủ bó buộc, trì trệ; tránh việc mạo hiểm." },
+    { "id": "nguyen_vu", "vi": "Huyền Vũ", "han": "玄武", "hoangDao": false, "summary": "Hắc đạo dễ nhầm lẫn thông tin hoặc thất lạc đồ vặt." },
+    { "id": "tu_menh", "vi": "Tư Mệnh", "han": "司命", "hoangDao": true, "summary": "Cát thần chủ sinh khí, thuận lợi cho việc nhà và mưu sự ban ngày." },
+    { "id": "cau_tran", "vi": "Câu Trần", "han": "勾陳", "hoangDao": false, "summary": "Hắc đạo chủ dây dưa, vướng mắc tiến độ." }
+  ],
+  "startBranchByHostBranch": {
+    "0": 8,
+    "1": 10,
+    "2": 0,
+    "3": 2,
+    "4": 4,
+    "5": 6,
+    "6": 8,
+    "7": 10,
+    "8": 0,
+    "9": 2,
+    "10": 4,
+    "11": 6
+  }
+}

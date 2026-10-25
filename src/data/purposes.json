@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "source": "Chuẩn hóa danh mục việc Nên/Kỵ theo Lịch vạn niên & Hiệp Kỷ Biện Phương Thư",
+    "confidence": "B"
+  },
+  "purposes": [
+    {
+      "id": "cuoi_hoi",
+      "vi": "Cưới hỏi / Nạp thái",
+      "allowSecondProfile": true,
+      "preferredTruc": ["man", "dinh", "thanh", "khai"],
+      "avoidTruc": ["pha", "nguy", "be", "tru"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "thien_hy", "tam_hop_ngay", "luc_hop_ngay"],
+      "avoidThanSat": ["sat_chu", "tho_tu", "tam_nuong", "nguyet_ky", "duong_cong_ky", "nguyet_pha"],
+      "preferredTenGods": ["chinh_tai", "chinh_quan", "chinh_an", "thuc_than"],
+      "note": "Ưu tiên ngày Hoàng đạo, Thiên Hỷ, Lục hợp/Tam hợp với tuổi hai người; tránh xung Nhật chi."
+    },
+    {
+      "id": "dong_tho",
+      "vi": "Động thổ / Xây dựng",
+      "allowSecondProfile": true,
+      "preferredTruc": ["thanh", "khai", "man", "dinh"],
+      "avoidTruc": ["pha", "kien", "nguy", "be"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "sinh_khi", "thien_phu"],
+      "avoidThanSat": ["sat_chu", "tho_tu", "nguyet_pha", "duong_cong_ky", "ha_khoi"],
+      "preferredTenGods": ["chinh_an", "thien_an", "chinh_tai"],
+      "note": "Ưu tiên Sinh Khí, Thiên Đức, Nguyệt Đức; tránh xung Niên chi và Nhật chi của gia chủ."
+    },
+    {
+      "id": "nhap_trach",
+      "vi": "Nhập trạch / Chuyển nhà",
+      "allowSecondProfile": false,
+      "preferredTruc": ["thanh", "khai", "man", "dinh"],
+      "avoidTruc": ["pha", "be", "tru", "nguy"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "thien_phu", "sinh_khi", "dich_ma"],
+      "avoidThanSat": ["sat_chu", "tho_tu", "nguyet_pha", "duong_cong_ky"],
+      "preferredTenGods": ["chinh_an", "chinh_tai", "thuc_than"],
+      "note": "Ưu tiên ngày ấm áp sinh khí, tránh xung Chi ngày của người đứng tên."
+    },
+    {
+      "id": "khai_truong",
+      "vi": "Khai trương / Mở hàng",
+      "allowSecondProfile": false,
+      "preferredTruc": ["man", "thanh", "khai", "dinh"],
+      "avoidTruc": ["pha", "be", "thu", "nguy"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "thien_tai", "thien_phu", "sinh_khi"],
+      "avoidThanSat": ["sat_chu", "tho_tu", "nguyet_pha", "duong_cong_ky", "tam_nuong", "nguyet_ky"],
+      "preferredTenGods": ["chinh_tai", "thien_tai", "thuc_than"],
+      "note": "Ưu tiên ngày Tài tinh/Thực Thần đắc dụng thần, Trực Khai/Thành/Mãn."
+    },
+    {
+      "id": "ky_hop_dong",
+      "vi": "Ký hợp đồng / Giao dịch",
+      "allowSecondProfile": false,
+      "preferredTruc": ["thanh", "dinh", "man", "khai", "binh"],
+      "avoidTruc": ["pha", "nguy", "be"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "thien_tai", "tam_hop_ngay", "luc_hop_ngay"],
+      "avoidThanSat": ["nguyet_pha", "cau_giao", "kiep_sat", "tho_tu"],
+      "preferredTenGods": ["chinh_an", "chinh_quan", "chinh_tai"],
+      "note": "Ưu tiên ngày Ấn/Quan/Tài sáng rõ, tránh ngày Hình/Xung với trụ tháng hoặc trụ ngày."
+    },
+    {
+      "id": "xuat_hanh",
+      "vi": "Xuất hành / Đi xa",
+      "allowSecondProfile": false,
+      "preferredTruc": ["kien", "khai", "thanh", "tru"],
+      "avoidTruc": ["pha", "nguy", "be", "dinh"],
+      "preferredThanSat": ["dich_ma", "thien_duc", "nguyet_duc"],
+      "avoidThanSat": ["vang_vong", "nguyet_pha", "tai_sat", "kiep_sat"],
+      "preferredTenGods": ["thuc_than", "thien_tai", "chinh_an"],
+      "note": "Ưu tiên ngày Dịch Mã, Hoàng đạo; kết hợp chọn giờ và hướng Hỷ thần / Tài thần."
+    },
+    {
+      "id": "thi_cu",
+      "vi": "Thi cử / Học tập / Nhậm chức",
+      "allowSecondProfile": false,
+      "preferredTruc": ["thanh", "khai", "dinh", "kien"],
+      "avoidTruc": ["pha", "be", "nguy"],
+      "preferredThanSat": ["thien_quan", "thien_duc", "nguyet_duc"],
+      "avoidThanSat": ["nguyet_pha", "tho_tu"],
+      "preferredTenGods": ["chinh_an", "chinh_quan", "thuc_than"],
+      "note": "Ưu tiên ngày Chính Ấn, Chính Quan và sao Ngọc Đường / Minh Đường."
+    },
+    {
+      "id": "mua_xe",
+      "vi": "Mua xe / Nhận phương tiện",
+      "allowSecondProfile": false,
+      "preferredTruc": ["thanh", "man", "khai", "dinh"],
+      "avoidTruc": ["pha", "nguy", "be"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "dich_ma", "thien_tai"],
+      "avoidThanSat": ["nguyet_pha", "tai_sat", "kiep_sat", "tho_tu"],
+      "preferredTenGods": ["chinh_tai", "chinh_an"],
+      "note": "Ưu tiên ngày bình an, tránh Lục xung với tuổi người sử dụng chính."
+    },
+    {
+      "id": "kham_chua_benh",
+      "vi": "Khám sức khỏe / Thủ thuật theo y lệnh",
+      "allowSecondProfile": false,
+      "preferredTruc": ["tru", "khai", "thanh", "pha"],
+      "avoidTruc": ["be"],
+      "preferredThanSat": ["thien_y", "thien_duc", "nguyet_duc", "sinh_khi"],
+      "avoidThanSat": ["tho_tu", "sat_chu"],
+      "preferredTenGods": ["chinh_an", "thuc_than"],
+      "note": "Chỉ mang tính tham khảo truyền thống (Thiên Y, Trừ). Luôn ưu tiên lịch hẹn và chỉ định của bác sĩ; nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ ngay."
+    },
+    {
+      "id": "gap_doi_tac",
+      "vi": "Gặp đối tác / Thương lượng",
+      "allowSecondProfile": false,
+      "preferredTruc": ["thanh", "khai", "binh", "dinh", "man"],
+      "avoidTruc": ["pha", "be"],
+      "preferredThanSat": ["tam_hop_ngay", "luc_hop_ngay", "thien_duc", "thien_hy"],
+      "avoidThanSat": ["nguyet_pha", "cau_giao"],
+      "preferredTenGods": ["thuc_than", "chinh_tai", "ty_kien"],
+      "note": "Ưu tiên ngày Lục hợp / Tam hợp và Thực Thần (giao tiếp hòa nhã)."
+    },
+    {
+      "id": "bat_dau_du_an",
+      "vi": "Bắt đầu dự án / Khởi sự",
+      "allowSecondProfile": false,
+      "preferredTruc": ["kien", "thanh", "khai", "dinh"],
+      "avoidTruc": ["pha", "be", "nguy"],
+      "preferredThanSat": ["sinh_khi", "thien_duc", "nguyet_duc", "thien_quan"],
+      "avoidThanSat": ["sat_chu", "tho_tu", "nguyet_pha", "duong_cong_ky"],
+      "preferredTenGods": ["chinh_quan", "chinh_an", "thuc_than"],
+      "note": "Ưu tiên ngày Sinh Khí, Trực Khai/Thành và hành ngày trợ Dụng thần."
+    },
+    {
+      "id": "kien_tung",
+      "vi": "Giải quyết thủ tục pháp lý",
+      "allowSecondProfile": false,
+      "preferredTruc": ["thanh", "binh", "khai"],
+      "avoidTruc": ["pha", "nguy", "be", "man"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc", "thien_quan"],
+      "avoidThanSat": ["ha_khoi", "cau_giao", "nguyet_pha"],
+      "preferredTenGods": ["chinh_quan", "chinh_an"],
+      "note": "Thông tin chỉ để tham khảo tâm lý; mọi vấn đề pháp lý cần hỏi ý kiến luật sư hoặc chuyên gia có thẩm quyền."
+    },
+    {
+      "id": "an_tang",
+      "vi": "Việc hiếu / An táng (truyền thống)",
+      "allowSecondProfile": false,
+      "preferredTruc": ["be", "tru", "nguy"],
+      "avoidTruc": ["kien", "man", "khai"],
+      "preferredThanSat": ["thien_duc", "nguyet_duc"],
+      "avoidThanSat": ["nguyet_pha"],
+      "preferredTenGods": [],
+      "note": "Thông tin tra cứu phong tục truyền thống."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "source": "Tổng hợp các nguồn dữ liệu và thuật toán sử dụng trong Thiên Cơ",
+    "confidence": "A"
+  },
+  "sources": [
+    {
+      "id": "meeus_1998",
+      "title": "Astronomical Algorithms (2nd Edition) — Jean Meeus",
+      "confidence": "A",
+      "usedFor": ["JDN", "Kinh độ biểu kiến Mặt Trời (VSOP87D rút gọn)", "Trăng mới (ch. 49)", "ΔT (Espenak & Meeus)"],
+      "notes": "Cài đặt thuần TypeScript, đối chiếu chéo với lunar-javascript trên toàn bộ dải 1900-2100."
+    },
+    {
+      "id": "ho_ngoc_duc_lunar_vn",
+      "title": "Quy tắc Âm lịch Việt Nam theo múi giờ UTC+7 (Hồ Ngọc Đức)",
+      "confidence": "A",
+      "usedFor": ["Âm lịch Việt Nam (UTC+7)", "Tháng nhuận không trung khí"],
+      "notes": "Khác lịch Trung Quốc (UTC+8) ở các kỳ sóc/trung khí rơi vào 23:00-24:00 giờ Việt Nam."
+    },
+    {
+      "id": "tam_menh_thong_hoi",
+      "title": "Tam Mệnh Thông Hội & Tử Bình Chân Thuyên (quy ước Bát Tự phổ thông)",
+      "confidence": "A",
+      "usedFor": ["60 Hoa Giáp Nạp âm", "Ngũ Hổ độn", "Ngũ Thử độn", "Tàng can", "Thập thần 10×10", "Quan hệ Can Chi"],
+      "notes": "Tỷ trọng Tàng can và thang điểm Thân vượng/nhược Phù Ức được chuẩn hóa ở mức tin cậy B."
+    },
+    {
+      "id": "hiep_ky_bien_phuong_thu",
+      "title": "Hiệp Kỷ Biện Phương Thư & Ngọc Hạp Ký (lịch vạn niên phổ thông Việt Nam)",
+      "confidence": "B",
+      "usedFor": ["12 Trực", "28 Tú", "12 sao Hoàng/Hắc đạo", "22+ sao Thần sát", "Hướng xuất hành (Hỷ/Tài/Hạc thần)"],
+      "notes": "Một số sao dân gian (Sát Chủ, Tam Nương) có dị bản giữa các sách; đã ghi rõ quy tắc tra trong than-sat.json."
+    },
+    {
+      "id": "bat_trach_minh_canh",
+      "title": "Bát Trạch Minh Cảnh & Lạc Thư Cửu Tinh",
+      "confidence": "B",
+      "usedFor": ["Bát quái Hậu thiên", "Mệnh quái Đông/Tây tứ mệnh", "Phi tinh năm/tháng/ngày/giờ"],
+      "notes": "Phi tinh ngày dùng quy tắc Dương độn sau Đông chí, Âm độn sau Hạ chí (mức tin cậy B)."
+    },
+    {
+      "id": "ky_mon_sach_bo",
+      "title": "Kỳ Môn Độn Giáp — Thời gia Chuyển Bàn, Sách Bổ pháp (拆補法)",
+      "confidence": "C",
+      "usedFor": ["Cục số Kỳ Môn theo tiết khí & Tam nguyên Phù Đầu", "Bát Môn", "Bát Thần", "Cửu Tinh"],
+      "notes": "Nhiều trường phái bất đồng (Sách Bổ vs Độn Giáp trí nhuận); luôn hiển thị nhãn 'Tham khảo, nhiều trường phái'."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "source": "Hiệp Kỷ Biện Phương Thư & Ngọc Hạp Thông Thư — Hướng Hỷ thần, Tài thần, Hạc thần",
+    "confidence": "B"
+  },
+  "byDayStem": [
+    { "stem": 0, "stemVi": "Giáp", "hyThan": "dong_bac", "taiThan": "dong_nam" },
+    { "stem": 1, "stemVi": "Ất", "hyThan": "tay_bac", "taiThan": "dong_nam" },
+    { "stem": 2, "stemVi": "Bính", "hyThan": "tay_nam", "taiThan": "dong" },
+    { "stem": 3, "stemVi": "Đinh", "hyThan": "nam", "taiThan": "dong" },
+    { "stem": 4, "stemVi": "Mậu", "hyThan": "dong_nam", "taiThan": "bac" },
+    { "stem": 5, "stemVi": "Kỷ", "hyThan": "dong_bac", "taiThan": "nam" },
+    { "stem": 6, "stemVi": "Canh", "hyThan": "tay_bac", "taiThan": "dong_nam" },
+    { "stem": 7, "stemVi": "Tân", "hyThan": "tay_nam", "taiThan": "dong" },
+    { "stem": 8, "stemVi": "Nhâm", "hyThan": "nam", "taiThan": "tay_nam" },
+    { "stem": 9, "stemVi": "Quý", "hyThan": "dong_nam", "taiThan": "tay" }
+  ],
+  "hacThan60": [
+    { "fromSexagenary": 0, "toSexagenary": 5, "direction": "dong_bac", "note": "Giáp Tý → Kỷ Tỵ: Hạc thần ở Đông Bắc" },
+    { "fromSexagenary": 6, "toSexagenary": 10, "direction": "dong", "note": "Canh Ngọ → Giáp Tuất: Hạc thần ở Đông" },
+    { "fromSexagenary": 11, "toSexagenary": 16, "direction": "dong_nam", "note": "Ất Hợi → Canh Thìn: Hạc thần ở Đông Nam" },
+    { "fromSexagenary": 17, "toSexagenary": 21, "direction": "nam", "note": "Tân Tỵ → Ất Dậu: Hạc thần ở Nam" },
+    { "fromSexagenary": 22, "toSexagenary": 27, "direction": "tay_nam", "note": "Bính Tuất → Tân Mão: Hạc thần ở Tây Nam" },
+    { "fromSexagenary": 28, "toSexagenary": 32, "direction": "tay", "note": "Nhâm Thìn → Bính Thân: Hạc thần ở Tây" },
+    { "fromSexagenary": 33, "toSexagenary": 38, "direction": "tay_bac", "note": "Đinh Dậu → Nhâm Dần: Hạc thần ở Tây Bắc" },
+    { "fromSexagenary": 39, "toSexagenary": 43, "direction": "bac", "note": "Quý Mão → Đinh Mùi: Hạc thần ở Bắc" },
+    { "fromSexagenary": 44, "toSexagenary": 59, "direction": "trung_cung", "note": "Mậu Thân → Quý Hợi: Hạc thần tại Trung cung (lên trời)" }
+  ]
+}
