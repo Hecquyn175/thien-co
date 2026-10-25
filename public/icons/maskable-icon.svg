@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#b8332a"/>
+  <circle cx="256" cy="256" r="164" fill="none" stroke="#f6efe0" stroke-width="10"/>
+  <text x="256" y="240" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="bold" fill="#f6efe0">天機</text>
+  <text x="256" y="325" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="bold" fill="#f5d076" letter-spacing="3">THIÊN CƠ</text>
+</svg>

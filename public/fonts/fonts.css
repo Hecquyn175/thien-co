@@ -1,0 +1,25 @@
+/* Self-hosted & Offline-first Typography Stack for Thiên Cơ */
+/* Zero external network requests; uses local metrics-compatible system glyphs with full Vietnamese & CJK coverage */
+@font-face {
+  font-family: 'ThienCoSans';
+  src: local('Be Vietnam Pro'), local('Inter'), local('Segoe UI'), local('Roboto'), local('Helvetica Neue'), local('Arial');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ThienCoSerif';
+  src: local('Noto Serif'), local('Playfair Display'), local('Georgia'), local('Times New Roman'), local('Palatino Linotype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ThienCoCJK';
+  src: local('Noto Serif CJK SC'), local('PingFang SC'), local('Hiragino Sans GB'), local('Microsoft YaHei'), local('SimSun'), local('PMingLiU');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
