@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "source": "Quy ước Can Chi/Ngũ hành phổ thông (Hán Việt)",
+    "confidence": "A"
+  },
+  "elements": [
+    { "id": "kim", "vi": "Kim", "han": "金" },
+    { "id": "moc", "vi": "Mộc", "han": "木" },
+    { "id": "thuy", "vi": "Thủy", "han": "水" },
+    { "id": "hoa", "vi": "Hỏa", "han": "火" },
+    { "id": "tho", "vi": "Thổ", "han": "土" }
+  ],
+  "stems": [
+    { "id": "giap", "vi": "Giáp", "han": "甲", "element": "moc", "yang": true },
+    { "id": "at", "vi": "Ất", "han": "乙", "element": "moc", "yang": false },
+    { "id": "binh", "vi": "Bính", "han": "丙", "element": "hoa", "yang": true },
+    { "id": "dinh", "vi": "Đinh", "han": "丁", "element": "hoa", "yang": false },
+    { "id": "mau", "vi": "Mậu", "han": "戊", "element": "tho", "yang": true },
+    { "id": "ky", "vi": "Kỷ", "han": "己", "element": "tho", "yang": false },
+    { "id": "canh", "vi": "Canh", "han": "庚", "element": "kim", "yang": true },
+    { "id": "tan", "vi": "Tân", "han": "辛", "element": "kim", "yang": false },
+    { "id": "nham", "vi": "Nhâm", "han": "壬", "element": "thuy", "yang": true },
+    { "id": "quy", "vi": "Quý", "han": "癸", "element": "thuy", "yang": false }
+  ],
+  "branches": [
+    { "id": "ty", "vi": "Tý", "han": "子", "element": "thuy", "yang": true, "animal": "Chuột", "hours": "23h-1h" },
+    { "id": "suu", "vi": "Sửu", "han": "丑", "element": "tho", "yang": false, "animal": "Trâu", "hours": "1h-3h" },
+    { "id": "dan", "vi": "Dần", "han": "寅", "element": "moc", "yang": true, "animal": "Hổ", "hours": "3h-5h" },
+    { "id": "mao", "vi": "Mão", "han": "卯", "element": "moc", "yang": false, "animal": "Mèo", "hours": "5h-7h" },
+    { "id": "thin", "vi": "Thìn", "han": "辰", "element": "tho", "yang": true, "animal": "Rồng", "hours": "7h-9h" },
+    { "id": "ti", "vi": "Tỵ", "han": "巳", "element": "hoa", "yang": false, "animal": "Rắn", "hours": "9h-11h" },
+    { "id": "ngo", "vi": "Ngọ", "han": "午", "element": "hoa", "yang": true, "animal": "Ngựa", "hours": "11h-13h" },
+    { "id": "mui", "vi": "Mùi", "han": "未", "element": "tho", "yang": false, "animal": "Dê", "hours": "13h-15h" },
+    { "id": "than", "vi": "Thân", "han": "申", "element": "kim", "yang": true, "animal": "Khỉ", "hours": "15h-17h" },
+    { "id": "dau", "vi": "Dậu", "han": "酉", "element": "kim", "yang": false, "animal": "Gà", "hours": "17h-19h" },
+    { "id": "tuat", "vi": "Tuất", "han": "戌", "element": "tho", "yang": true, "animal": "Chó", "hours": "19h-21h" },
+    { "id": "hoi", "vi": "Hợi", "han": "亥", "element": "thuy", "yang": false, "animal": "Lợn", "hours": "21h-23h" }
+  ],
+  "solarTerms": [
+    { "id": "tieu_han", "vi": "Tiểu Hàn", "han": "小寒", "longitude": 285, "jie": true },
+    { "id": "dai_han", "vi": "Đại Hàn", "han": "大寒", "longitude": 300, "jie": false },
+    { "id": "lap_xuan", "vi": "Lập Xuân", "han": "立春", "longitude": 315, "jie": true },
+    { "id": "vu_thuy", "vi": "Vũ Thủy", "han": "雨水", "longitude": 330, "jie": false },
+    { "id": "kinh_trap", "vi": "Kinh Trập", "han": "驚蟄", "longitude": 345, "jie": true },
+    { "id": "xuan_phan", "vi": "Xuân Phân", "han": "春分", "longitude": 0, "jie": false },
+    { "id": "thanh_minh", "vi": "Thanh Minh", "han": "清明", "longitude": 15, "jie": true },
+    { "id": "coc_vu", "vi": "Cốc Vũ", "han": "穀雨", "longitude": 30, "jie": false },
+    { "id": "lap_ha", "vi": "Lập Hạ", "han": "立夏", "longitude": 45, "jie": true },
+    { "id": "tieu_man", "vi": "Tiểu Mãn", "han": "小滿", "longitude": 60, "jie": false },
+    { "id": "mang_chung", "vi": "Mang Chủng", "han": "芒種", "longitude": 75, "jie": true },
+    { "id": "ha_chi", "vi": "Hạ Chí", "han": "夏至", "longitude": 90, "jie": false },
+    { "id": "tieu_thu", "vi": "Tiểu Thử", "han": "小暑", "longitude": 105, "jie": true },
+    { "id": "dai_thu", "vi": "Đại Thử", "han": "大暑", "longitude": 120, "jie": false },
+    { "id": "lap_thu", "vi": "Lập Thu", "han": "立秋", "longitude": 135, "jie": true },
+    { "id": "xu_thu", "vi": "Xử Thử", "han": "處暑", "longitude": 150, "jie": false },
+    { "id": "bach_lo", "vi": "Bạch Lộ", "han": "白露", "longitude": 165, "jie": true },
+    { "id": "thu_phan", "vi": "Thu Phân", "han": "秋分", "longitude": 180, "jie": false },
+    { "id": "han_lo", "vi": "Hàn Lộ", "han": "寒露", "longitude": 195, "jie": true },
+    { "id": "suong_giang", "vi": "Sương Giáng", "han": "霜降", "longitude": 210, "jie": false },
+    { "id": "lap_dong", "vi": "Lập Đông", "han": "立冬", "longitude": 225, "jie": true },
+    { "id": "tieu_tuyet", "vi": "Tiểu Tuyết", "han": "小雪", "longitude": 240, "jie": false },
+    { "id": "dai_tuyet", "vi": "Đại Tuyết", "han": "大雪", "longitude": 255, "jie": true },
+    { "id": "dong_chi", "vi": "Đông Chí", "han": "冬至", "longitude": 270, "jie": false }
+  ]
+}

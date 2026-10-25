@@ -1,0 +1,28 @@
+{
+  "name": "thien-co",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Thiên Cơ — hệ thống dự đoán sự kiện theo Can Chi (PWA offline)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint:data": "tsx scripts/lint-data.ts"
+  },
+  "dependencies": {
+    "idb": "^8.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "lunar-javascript": "^1.7.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.5",
+    "workbox-window": "^7.4.1"
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "source": "Ánh xạ thập thần, quan hệ chi, trực, dịch mã và thần sát phổ thông sang nhịp nghỉ ngơi, đi lại, thay đổi; chỉ ở mức sinh hoạt thường ngày; văn bản tự viết",
+    "confidence": "B"
+  },
+  "events": [
+    {
+      "id": "suc_khoe_di_chuyen.met_moi_can_nghi_ngoi",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Cơ thể có xu hướng mệt, nên nghỉ ngơi",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "useful_god.day_element", "is": "ky" },
+          { "signal": "almanac.truc", "in": ["be", "nguy", "pha"] },
+          { "signal": "ten_god.day_stem", "in": ["kiep_tai", "that_sat"] }
+        ]
+      },
+      "weights": {
+        "useful_god.day_element.ky": 2,
+        "almanac.truc.be": 1.5,
+        "ten_god.day_stem.that_sat": 1,
+        "ten_god.day_stem.kiep_tai": 1,
+        "luck_cycle.luu_nguyet.ky": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có cảm giác người nặng nề từ đầu giờ chiều, dù lịch trong ngày không quá dày.",
+        "Có xu hướng cần nhiều thời gian hơn bình thường để lấy lại tinh thần sau một việc đòi hỏi tập trung.",
+        "Sức bền của bạn có thể giảm nhẹ khi phải làm việc liên tục, nhất là vào cuối ngày."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc xen các quãng nghỉ ngắn, đứng dậy vươn vai và uống nước giữa các giờ làm việc.",
+          "Ưu tiên bữa ăn đúng giờ và một giấc ngủ đủ vào đêm nay."
+        ],
+        "avoid": [
+          "Tránh ép mình kéo dài những việc nặng chỉ để kịp mục tiêu trong ngày.",
+          "Tránh dùng quá nhiều đồ uống có caffeine để gượng tỉnh táo."
+        ],
+        "remedy": [
+          "Dành mười lăm phút buổi chiều đi dạo nhẹ hoặc nhắm mắt thư giãn để lấy lại nhịp.",
+          "Hoãn những việc không gấp sang hôm sau, giữ lại sức cho phần quan trọng. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.nang_luong_doi_dao", "mode": "suppress" }],
+      "ref": { "palaceHint": "ban_than" },
+      "source": "Ánh xạ kỵ thần, trực Bế/Nguy → hao sức, cần nghỉ; chỉ ở mức sinh hoạt; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.de_cau_gat_cang_thang",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Tâm trạng dễ căng, dễ cáu gắt",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["that_sat", "thuong_quan"] },
+          { "signal": "branch_relation.day_branch", "in": ["hinh_nhat_chi", "xung_nhat_chi"] },
+          { "signal": "stem_relation.day_stem", "is": "xung_nhat_chu" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.that_sat": 2,
+        "ten_god.day_stem.thuong_quan": 1.5,
+        "branch_relation.day_branch.hinh_nhat_chi": 1.5,
+        "stem_relation.day_stem.xung_nhat_chu": 1,
+        "useful_god.day_element.ky": 1,
+        "than_sat.thien_hinh": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có lúc một chuyện nhỏ làm bạn thấy bực hơn mức thường lệ.",
+        "Có xu hướng nói nhanh, nói gắt hơn ý muốn khi đang vội hoặc thiếu kiên nhẫn.",
+        "Khả năng bạn thấy khó chịu với tiếng ồn, sự chậm trễ hay những điều lặp đi lặp lại."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc hít thở sâu vài nhịp trước khi trả lời một tin nhắn hay cuộc gọi khó.",
+          "Dành khoảng thời gian yên tĩnh buổi sáng hoặc tối để tâm trí được chậm lại."
+        ],
+        "avoid": [
+          "Tránh bàn những vấn đề nhạy cảm khi bạn đang đói hoặc thiếu ngủ.",
+          "Tránh tiếp xúc quá nhiều tin tức gây căng thẳng trước giờ đi ngủ."
+        ],
+        "remedy": [
+          "Khi thấy bực, hãy rời khỏi chỗ ngồi vài phút, uống một ly nước ấm rồi quay lại.",
+          "Nếu căng thẳng kéo dài nhiều ngày, nên trò chuyện với người tin cậy. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.tinh_than_thu_thai", "mode": "dampen", "factor": 0.7 }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ Thất Sát/Thương Quan, hình/xung chi → dễ nóng nảy; chỉ ở mức cảm xúc thường ngày; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.kho_ngu",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Giấc ngủ dễ chập chờn",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "almanac.hour_hoang_dao", "is": "hac_dao" },
+          { "signal": "qimen.hour_overall", "is": "hung" },
+          { "signal": "flying_star.day_star", "in": ["2", "5"] },
+          { "signal": "ten_god.hour_stem", "in": ["thuong_quan", "that_sat"] }
+        ]
+      },
+      "weights": {
+        "almanac.hour_hoang_dao.hac_dao": 1.5,
+        "qimen.hour_overall.hung": 1.5,
+        "flying_star.day_star.5": 1,
+        "ten_god.hour_stem.thuong_quan": 1,
+        "useful_god.hour_element.ky": 1,
+        "than_sat.nguyet_ky": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có đêm trằn trọc lâu mới vào giấc vì đầu óc còn nghĩ về công việc.",
+        "Có xu hướng giấc ngủ bị ngắt quãng, tỉnh dậy sớm hơn giờ đặt trước.",
+        "Khả năng buổi sáng hôm sau bạn thấy đầu óc chưa thật sự sảng khoái dù đã nằm đủ giờ."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc đặt giờ đi ngủ cố định và giảm ánh sáng màn hình từ một giờ trước đó.",
+          "Giữ phòng ngủ thoáng, yên tĩnh và nhiệt độ dễ chịu."
+        ],
+        "avoid": [
+          "Tránh dùng cà phê, trà đặc vào buổi chiều tối.",
+          "Tránh xử lý việc gấp trên điện thoại ngay trên giường."
+        ],
+        "remedy": [
+          "Trước khi ngủ, viết ra những việc còn lo nghĩ lên giấy để đầu óc nhẹ bớt.",
+          "Thử tắm nước ấm hoặc nghe nhạc nhẹ mười lăm phút. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.nang_luong_doi_dao", "mode": "dampen", "factor": 0.7 }],
+      "ref": { "palaceHint": "ban_than" },
+      "source": "Ánh xạ giờ Hắc đạo, Kỳ Môn hung, sao 5 → tâm thần bất an; chỉ ở mức giấc ngủ thường ngày; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.can_than_khi_di_chuyen",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Nên cẩn thận hơn khi đi lại",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" },
+          { "signal": "than_sat", "in": ["dich_ma", "thien_hinh", "cau_tran"] },
+          { "signal": "almanac.hoang_dao", "is": "hac_dao" }
+        ],
+        "none": [{ "signal": "almanac.truc", "in": ["thanh", "khai"] }]
+      },
+      "weights": {
+        "branch_relation.day_branch.xung_nhat_chi": 2,
+        "than_sat.dich_ma": 1.5,
+        "almanac.hoang_dao.hac_dao": 1,
+        "useful_god.day_element.ky": 1,
+        "than_sat.cau_tran": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có lúc bạn vội vàng trên đường, dẫn đến sơ ý khi qua đường hay chuyển làn.",
+        "Có xu hướng lịch trình di chuyển bị chồng lên nhau, khiến bạn chạy đua với thời gian.",
+        "Khả năng đường sá đông hơn dự kiến hoặc phương tiện trục trặc nhỏ làm bạn mất bình tĩnh."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc xuất phát sớm hơn mười lăm phút và kiểm tra phương tiện trước khi đi.",
+          "Giữ tốc độ vừa phải, tập trung quan sát, cất điện thoại khi đang lái xe."
+        ],
+        "avoid": [
+          "Tránh đi lại khi đang quá mệt hoặc thiếu ngủ.",
+          "Tránh chạy theo giờ bằng cách đi nhanh, vượt đèn hay đi sát xe phía trước."
+        ],
+        "remedy": [
+          "Nếu lịch quá sát, hãy dời một cuộc hẹn hoặc chọn phương tiện công cộng để bớt áp lực.",
+          "Khi cảm thấy đầu óc lơ đãng, dừng lại nghỉ vài phút ở nơi an toàn. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.chuyen_di_thuan_loi", "mode": "suppress" }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ xung Chi ngày, Dịch mã, Hắc đạo → cẩn thận đi lại ở mức thường ngày; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.chuyen_di_thuan_loi",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Chuyến đi có nhiều điều thuận lợi",
+      "baseWeight": 1.0,
+      "match": {
+        "all": [{ "signal": "than_sat", "in": ["dich_ma", "thien_duc", "nguyet_duc", "thanh_long"] }],
+        "any": [
+          { "signal": "almanac.hoang_dao", "is": "hoang_dao" },
+          { "signal": "almanac.truc", "in": ["khai", "thanh", "man"] },
+          { "signal": "qimen.hour_overall", "is": "cat" }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "than_sat.dich_ma": 2,
+        "almanac.hoang_dao.hoang_dao": 1.5,
+        "almanac.truc.khai": 1,
+        "qimen.hour_overall.cat": 1,
+        "useful_god.day_element.dung": 1,
+        "than_sat.thanh_long": 0.5
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có hành trình êm, giờ giấc khớp và ít phải chờ đợi giữa các chặng.",
+        "Có xu hướng gặp người hỗ trợ tốt dọc đường, từ chỗ hỏi đường đến nơi nghỉ chân.",
+        "Khả năng điểm đến mang lại cảm giác thoải mái, giúp đầu óc được đổi gió."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc tận dụng thời điểm này cho chuyến đi đã dự định, với lịch trình gọn và có chỗ nghỉ.",
+          "Mang theo nước, đồ ăn nhẹ và sạc dự phòng để chuyến đi trọn vẹn hơn."
+        ],
+        "avoid": [
+          "Tránh nhồi quá nhiều điểm đến vào một ngày chỉ vì thấy đường thuận.",
+          "Tránh lơ là việc kiểm tra giấy tờ tùy thân và đặt chỗ."
+        ],
+        "remedy": [
+          "Nếu có phát sinh nhỏ giữa đường, hãy giữ bình tĩnh và đổi sang phương án gần nhất đã chuẩn bị.",
+          "Chia lịch đi thành các quãng ngắn có nghỉ xen kẽ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.tri_hoan_tac_nghen", "mode": "dampen", "factor": 0.6 }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Dịch mã + ngày Hoàng đạo + trực Khai/Thành → di chuyển thuận; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.doi_cho_o_cho_lam",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Dịp cân nhắc đổi chỗ ở hoặc chỗ làm việc",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "than_sat", "is": "dich_ma" },
+          { "signal": "branch_relation.month_branch", "is": "xung_nguyet_chi" },
+          { "signal": "branch_relation.year_branch", "is": "xung_nien_chi" }
+        ]
+      },
+      "weights": {
+        "than_sat.dich_ma": 2,
+        "branch_relation.month_branch.xung_nguyet_chi": 1.5,
+        "branch_relation.year_branch.xung_nien_chi": 1,
+        "ten_god.day_stem.thien_tai": 0.8,
+        "luck_cycle.luu_nien.trung_tinh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có những ý nghĩ về việc dọn sang chỗ mới, sắp xếp lại góc làm việc hoặc đổi nơi ở.",
+        "Có xu hướng một thông tin về địa điểm làm việc, cơ sở mới hay lịch luân chuyển làm bạn phải suy nghĩ lại.",
+        "Khả năng bạn thấy không gian quen thuộc hiện nay chưa còn hợp, và muốn thử một bố cục khác."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc liệt kê ưu nhược điểm về khoảng cách, chi phí sinh hoạt và quỹ thời gian đi lại.",
+          "Bắt đầu bằng thay đổi nhỏ như sắp xếp lại bàn làm việc hoặc căn phòng."
+        ],
+        "avoid": [
+          "Tránh quyết định ngay trong lúc cảm xúc đang nóng.",
+          "Tránh ký thỏa thuận thuê hoặc nhận chỗ khi chưa đọc hết điều khoản."
+        ],
+        "remedy": [
+          "Nếu cần quyết định sớm, hãy đến xem trực tiếp vào hai khung giờ khác nhau trước khi chốt.",
+          "Đối với văn bản thuê hoặc bàn giao có ràng buộc pháp lý, nên tham khảo chuyên gia. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Dịch mã, xung Chi tháng/năm → dời đổi nơi chốn; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.tin_tuc_quan_trong",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Có thể nhận tin tức đáng chú ý",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "than_sat", "in": ["thien_hy", "dich_ma"] },
+          { "signal": "ten_god.hour_stem", "in": ["thien_an", "chinh_an", "thien_tai"] },
+          { "signal": "stem_relation.hour_stem", "is": "hop_gio_can" }
+        ]
+      },
+      "weights": {
+        "than_sat.thien_hy": 1.5,
+        "ten_god.hour_stem.thien_an": 1.5,
+        "ten_god.hour_stem.chinh_an": 1,
+        "stem_relation.hour_stem.hop_gio_can": 1,
+        "than_sat.dich_ma": 1,
+        "iching.day_hexagram_nature.binh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một cuộc gọi hay tin nhắn từ xa mang nội dung cần bạn chú ý và trả lời.",
+        "Có xu hướng nhận thông tin từ người quen, hé lộ một thay đổi chưa được công bố rộng rãi.",
+        "Khả năng bạn nghe được một tin làm bạn phải sắp xếp lại một phần dự định gần đây."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc giữ điện thoại ở gần trong khung giờ quan trọng để kịp phản hồi.",
+          "Ghi lại các điểm chính của thông tin vừa nhận để đối chiếu lại sau khi bình tĩnh."
+        ],
+        "avoid": [
+          "Tránh chia sẻ lại thông tin chưa kiểm chứng.",
+          "Tránh đưa ra quyết định ngay khi vừa nghe tin."
+        ],
+        "remedy": [
+          "Hãy xác nhận lại nguồn tin bằng cách hỏi trực tiếp người có trách nhiệm.",
+          "Dành một khoảng lặng ngắn để hít thở rồi mới phản hồi. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "ref": { "palaceHint": "con_cai_cap_duoi", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thiên Hỷ, Dịch mã, Ấn tinh ở giờ → thông tin, tin báo; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.tri_hoan_tac_nghen",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Lịch trình dễ bị trì hoãn, tắc nghẽn",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "almanac.truc", "in": ["be", "nguy", "pha"] },
+          { "signal": "qimen.hour_doors", "in": ["do_mon", "tu_mon"] },
+          { "signal": "almanac.hour_hoang_dao", "is": "hac_dao" }
+        ],
+        "none": [{ "signal": "almanac.truc", "in": ["khai", "thanh"] }]
+      },
+      "weights": {
+        "almanac.truc.be": 2,
+        "almanac.truc.nguy": 1.5,
+        "qimen.hour_doors.do_mon": 1,
+        "qimen.hour_doors.tu_mon": 0.8,
+        "almanac.hour_hoang_dao.hac_dao": 0.8,
+        "useful_god.hour_element.ky": 0.8
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có cảnh kẹt xe hoặc chờ đợi lâu hơn dự kiến, làm lệch một mốc hẹn.",
+        "Có xu hướng một chuyến đi hay một lịch hẹn phải lùi lại vì khâu chuẩn bị chưa đủ.",
+        "Khả năng bạn thấy mọi việc chuyển động chậm, từ giao thông đến phản hồi của người khác."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc chừa đệm thời gian giữa các cuộc hẹn và chuẩn bị việc có thể làm trong lúc chờ.",
+          "Kiểm tra tình hình đường đi hoặc lịch phương tiện trước khi ra khỏi nhà."
+        ],
+        "avoid": [
+          "Tránh xếp những cuộc hẹn quan trọng sát nhau trong cùng buổi.",
+          "Tránh nóng vội, cố đi tắt qua những đoạn đường lạ."
+        ],
+        "remedy": [
+          "Nhắn sớm cho người chờ bạn để họ chủ động sắp xếp lại, thay vì để họ đợi.",
+          "Mang theo sách, đồ uống để bớt khó chịu khi phải chờ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.chuyen_di_thuan_loi", "mode": "dampen", "factor": 0.7 }],
+      "ref": { "palaceHint": "ban_than" },
+      "source": "Ánh xạ trực Bế/Nguy/Phá, Đỗ môn, Tử môn → tắc nghẽn, chậm trễ; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.nang_luong_doi_dao",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Năng lượng khá dồi dào",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "useful_god.day_element", "is": "dung" },
+          { "signal": "than_sat", "in": ["sinh_khi", "thien_y"] },
+          { "signal": "qimen.hour_doors", "in": ["sinh_mon", "khai_mon"] }
+        ],
+        "none": [{ "signal": "almanac.truc", "in": ["be", "pha"] }]
+      },
+      "weights": {
+        "useful_god.day_element.dung": 2,
+        "than_sat.sinh_khi": 1.5,
+        "qimen.hour_doors.sinh_mon": 1,
+        "ten_god.day_stem.thuc_than": 1,
+        "almanac.hoang_dao.hoang_dao": 0.8,
+        "than_sat.thien_y": 0.5
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có buổi sáng tỉnh táo, bắt tay vào việc nhanh và ít phải gượng ép.",
+        "Có xu hướng bạn muốn vận động hoặc làm điều mình trì hoãn lâu nay.",
+        "Khả năng tinh thần phấn chấn giúp bạn trò chuyện và phối hợp với người khác dễ dàng hơn."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc dùng khoảng đầu ngày cho việc cần nhiều tập trung hoặc một buổi vận động vừa sức.",
+          "Tận dụng đà tốt để dọn dẹp những việc tồn đọng nhỏ ở nhà hoặc nơi làm việc."
+        ],
+        "avoid": [
+          "Tránh lao vào quá nhiều việc rồi kiệt sức vào cuối ngày.",
+          "Tránh bỏ bữa hay quên uống nước vì mải làm."
+        ],
+        "remedy": [
+          "Nếu đà giảm giữa chừng, hãy nghỉ ngắn và ăn nhẹ thay vì tiếp tục gượng.",
+          "Chia mục tiêu trong ngày thành phần vừa sức và ghi lại cảm nhận cuối ngày. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.met_moi_can_nghi_ngoi", "mode": "dampen", "factor": 0.7 }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ hỷ thần, Sinh khí, Sinh môn → tinh thần phấn chấn; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.thay_doi_thoi_quen",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Dịp xem lại và thay đổi thói quen",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.hour_branch", "is": "xung_gio_chi" },
+          { "signal": "ten_god.day_stem", "in": ["thuong_quan", "thien_an"] },
+          { "signal": "than_sat", "is": "dich_ma" }
+        ]
+      },
+      "weights": {
+        "branch_relation.hour_branch.xung_gio_chi": 1.5,
+        "ten_god.day_stem.thuong_quan": 1.5,
+        "ten_god.day_stem.thien_an": 1,
+        "than_sat.dich_ma": 1,
+        "useful_god.day_element.trung_tinh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có lúc bạn nhận ra một thói quen hằng ngày đang làm mình mệt hơn là giúp ích.",
+        "Có xu hướng muốn thử lịch sinh hoạt mới, ví dụ dậy sớm hơn hay ăn tối sớm hơn.",
+        "Khả năng một sự thay đổi bên ngoài buộc bạn điều chỉnh nhịp giờ giấc quen thuộc."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc chọn một thay đổi nhỏ duy nhất và giữ trong một tuần trước khi thêm điều khác.",
+          "Gắn thói quen mới vào một việc đã quen, ví dụ đi bộ sau bữa tối."
+        ],
+        "avoid": [
+          "Tránh đổi cùng lúc nhiều thứ khiến cơ thể và tâm trí chưa kịp thích nghi.",
+          "Tránh tự đặt mục tiêu quá khắt khe rồi tự trách khi bỏ lỡ."
+        ],
+        "remedy": [
+          "Nếu đang gặp khó khăn với nếp mới, hãy hạ mức độ xuống một nửa rồi tăng dần.",
+          "Dùng lịch hoặc ứng dụng nhắc để theo dõi nhẹ nhàng. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than" },
+      "source": "Ánh xạ xung Chi giờ, Thương Quan, Dịch mã → thay đổi nhịp sống; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.hoat_dong_ngoai_troi_thuan_loi",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Hoạt động ngoài trời có nhiều điều thuận",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "almanac.truc", "in": ["khai", "thanh", "man"] },
+          { "signal": "qimen.hour_doors", "in": ["sinh_mon", "khai_mon", "huu_mon"] },
+          { "signal": "than_sat", "in": ["sinh_khi", "thanh_long", "minh_duong"] }
+        ],
+        "none": [{ "signal": "almanac.hoang_dao", "is": "hac_dao" }]
+      },
+      "weights": {
+        "almanac.truc.khai": 1.5,
+        "almanac.truc.thanh": 1.5,
+        "qimen.hour_doors.khai_mon": 1,
+        "qimen.hour_doors.sinh_mon": 1,
+        "than_sat.sinh_khi": 1,
+        "almanac.hoang_dao.hoang_dao": 1
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có một buổi đi dạo hay tập luyện ngoài trời mang lại cảm giác nhẹ người.",
+        "Có xu hướng cuộc hẹn dã ngoại hoặc sinh hoạt tập thể diễn ra suôn sẻ, vui vẻ.",
+        "Khả năng thời gian ngoài trời giúp đầu óc thông thoáng và nghĩ ra cách xử lý một việc còn vướng."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc dành một khung giờ nắng nhẹ trong ngày để đi bộ hoặc tập vừa sức.",
+          "Rủ một người bạn hay người thân đi cùng để vừa vui vừa an toàn."
+        ],
+        "avoid": [
+          "Tránh vận động quá sức hoặc ra ngoài vào giờ nắng gắt mà không che chắn.",
+          "Tránh đến nơi vắng vẻ khi trời sắp tối."
+        ],
+        "remedy": [
+          "Nếu thời tiết đổi, hãy chuyển sang hoạt động trong nhà như giãn cơ hoặc đi bộ trong trung tâm.",
+          "Mang theo nước, mũ nón và áo khoác mỏng để thích ứng. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.can_giu_am_tranh_thuc_khuya", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ trực Khai/Thành, Sinh môn, Sinh khí → hoạt động thoáng đạt; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.can_giu_am_tranh_thuc_khuya",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Nên giữ ấm và ngủ sớm hơn thường lệ",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "useful_god.hour_element", "is": "ky" },
+          { "signal": "almanac.hour_hoang_dao", "is": "hac_dao" },
+          { "signal": "ten_god.hour_stem", "in": ["kiep_tai", "that_sat"] },
+          { "signal": "almanac.truc", "in": ["be", "nguy"] }
+        ]
+      },
+      "weights": {
+        "useful_god.hour_element.ky": 1.5,
+        "almanac.hour_hoang_dao.hac_dao": 1,
+        "ten_god.hour_stem.that_sat": 1,
+        "almanac.truc.be": 1,
+        "luck_cycle.luu_nguyet.ky": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có cảm giác se lạnh hoặc mỏi người vào buổi tối, nhất là khi ngồi lâu trong phòng điều hòa.",
+        "Có xu hướng bạn bị cuốn vào một việc hay một bộ phim đến khuya, khiến hôm sau thiếu sức.",
+        "Khả năng sự thay đổi thời tiết làm cơ thể cần thích nghi chậm hơn thường lệ."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc mang thêm áo mỏng, uống nước ấm và đi ngủ sớm hơn mười lăm đến ba mươi phút.",
+          "Chuẩn bị sẵn bữa tối nhẹ, dễ tiêu để bụng không bị nặng khi đi ngủ."
+        ],
+        "avoid": [
+          "Tránh ngồi trực tiếp dưới luồng gió điều hòa trong thời gian dài.",
+          "Tránh thức khuya xử lý những việc có thể để sang sáng mai."
+        ],
+        "remedy": [
+          "Đặt báo thức nhắc giờ ngủ và để điện thoại xa giường.",
+          "Ngâm chân nước ấm vài phút trước khi nằm để thư giãn. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "conflictsWith": [{ "id": "suc_khoe_di_chuyen.hoat_dong_ngoai_troi_thuan_loi", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "ban_than" },
+      "source": "Ánh xạ kỵ thần ở giờ, Hắc đạo, trực Bế/Nguy → nên nghỉ sớm, giữ ấm; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.tinh_than_thu_thai",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Tinh thần khá thư thái, dễ thư giãn",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thuc_than", "chinh_an"] },
+          { "signal": "than_sat", "in": ["thien_hy", "thien_duc", "nguyet_duc"] },
+          { "signal": "qimen.hour_overall", "is": "cat" }
+        ],
+        "none": [{ "signal": "ten_god.day_stem", "is": "that_sat" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuc_than": 2,
+        "ten_god.day_stem.chinh_an": 1.5,
+        "than_sat.thien_hy": 1,
+        "qimen.hour_overall.cat": 1,
+        "useful_god.day_element.dung": 1
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có khoảng thời gian chậm rãi, cho phép bạn thưởng thức bữa ăn hay tách trà mà không nghĩ nhiều.",
+        "Có xu hướng cảm giác biết ơn và nhẹ lòng khi trò chuyện với người thân hoặc bạn bè.",
+        "Khả năng một sở thích nhỏ như đọc sách, làm vườn mang lại cảm giác cân bằng cho cả ngày."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc dành một giờ cho sở thích riêng, không màn hình, không công việc.",
+          "Chia sẻ cảm nhận tích cực của bạn với một người tin cậy để cả hai cùng thấy nhẹ nhàng."
+        ],
+        "avoid": [
+          "Tránh lấp đầy mọi khoảng trống trong ngày bằng lịch hẹn và công việc.",
+          "Tránh ăn uống quá no hoặc thức quá khuya vì thấy dễ chịu."
+        ],
+        "remedy": [
+          "Nếu bị cuốn vào việc, hãy đặt chuông nhắc nghỉ mười phút mỗi giờ.",
+          "Giữ lại một nghi thức nhỏ mỗi tối như pha trà hay nghe nhạc để duy trì cảm giác yên. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thực Thần, Chính Ấn, Thiên Hỷ → thư thái, bình ổn; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "suc_khoe_di_chuyen.di_lai_xa_can_giu_suc",
+      "group": "suc_khoe_di_chuyen",
+      "title": "Chuyến đi xa cần chú ý giữ sức",
+      "baseWeight": 0.8,
+      "match": {
+        "all": [{ "signal": "than_sat", "is": "dich_ma" }],
+        "any": [
+          { "signal": "useful_god.day_element", "in": ["ky", "trung_tinh"] },
+          { "signal": "almanac.tu28_rating", "in": ["binh", "hung"] },
+          { "signal": "ten_god.hour_stem", "in": ["that_sat", "kiep_tai"] }
+        ]
+      },
+      "weights": {
+        "than_sat.dich_ma": 2,
+        "useful_god.day_element.ky": 1,
+        "almanac.tu28_rating.hung": 1,
+        "ten_god.hour_stem.that_sat": 1,
+        "branch_relation.hour_branch.xung_gio_chi": 0.8
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có hành trình dài với nhiều chặng, khiến việc giữ nhịp ăn ngủ trở nên khó hơn thường ngày.",
+        "Có xu hướng lịch trình dày đặc làm bạn quên nghỉ giữa các điểm dừng.",
+        "Khả năng thay đổi múi giờ, nơi ở hoặc thời tiết làm cơ thể cần vài ngày để thích nghi."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc đặt lịch có thời gian nghỉ và hạn chế gộp nhiều điểm đến trong một ngày.",
+          "Mang theo nước uống, đồ ăn nhẹ và áo khoác mỏng để thích ứng với thay đổi."
+        ],
+        "avoid": [
+          "Tránh khởi hành lúc quá khuya hoặc ngay sau khi vừa làm việc căng.",
+          "Tránh tự lái xe liên tục nhiều giờ mà không dừng nghỉ."
+        ],
+        "remedy": [
+          "Nếu thấy mệt giữa chuyến đi, hãy dừng ở chỗ an toàn, vận động nhẹ rồi tiếp tục.",
+          "Dành nửa ngày đầu sau khi đến nơi để nghỉ ngơi, chưa vội xếp lịch. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Dịch mã + nền ngày trung/kỵ → hành trình dài cần giữ sức; văn bản tự viết",
+      "confidence": "B"
+    }
+  ]
+}

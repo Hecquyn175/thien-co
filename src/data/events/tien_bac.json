@@ -1,0 +1,744 @@
+{
+  "meta": {
+    "source": "Ánh xạ thập thần (Tài tinh, Tỷ Kiếp, Thực Thương), quan hệ Chi và thần sát phổ thông sang chủ đề tiền bạc; toàn bộ văn bản tự viết",
+    "confidence": "B"
+  },
+  "events": [
+    {
+      "id": "tien_bac.thu_ngoai_du_kien",
+      "group": "tien_bac",
+      "title": "Khoản thu ngoài dự kiến",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thien_tai", "chinh_tai"] },
+          { "signal": "ten_god.day_branch", "is": "thien_tai" },
+          { "signal": "than_sat", "in": ["thien_tai", "thanh_long"] }
+        ],
+        "none": [{ "signal": "ten_god.day_stem", "is": "kiep_tai" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thien_tai": 3,
+        "ten_god.day_stem.chinh_tai": 1.5,
+        "ten_god.day_branch.thien_tai": 1.5,
+        "useful_god.day_element.dung": 1.2,
+        "than_sat.thien_tai": 1,
+        "than_sat.thanh_long": 0.8,
+        "almanac.hoang_dao.hoang_dao": 0.6
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một khoản tiền nhỏ đến từ nơi bạn không để ý, chẳng hạn hoàn trả, thưởng thêm hoặc tiền ai đó gửi lại.",
+        "Có xu hướng xuất hiện một việc làm thêm ngắn hạn hoặc lời đề nghị cộng tác mang lại chút thu nhập ngoài kế hoạch.",
+        "Một khoản bạn đã quên từ lâu có thể được nhắc lại và trở về tay bạn.",
+        "Dễ gặp tình huống một thương vụ nhỏ hay một lời giới thiệu mở ra nguồn thu không nằm trong dự tính."
+      ],
+      "advice": {
+        "use": [
+          "Ghi lại nguồn và số tiền ngay khi nhận để biết rõ đây là khoản ngoài kế hoạch.",
+          "Chia khoản này theo tỷ lệ cố định, ví dụ một phần cho quỹ dự phòng, một phần cho nhu cầu đã có từ trước.",
+          "Chờ ít nhất một ngày trước khi quyết định dùng vào việc lớn."
+        ],
+        "avoid": [
+          "Tránh coi đây là thu nhập đều đặn rồi nâng mức chi tiêu thường ngày.",
+          "Tránh chia sẻ con số cụ thể khi chưa cần thiết."
+        ],
+        "remedy": [
+          "Nếu muốn dùng khoản này vào việc quan trọng, hãy tham khảo ý kiến người có chuyên môn về tài chính cá nhân.",
+          "Viết ra mục tiêu tài chính gần nhất của mình để có căn cứ khi phân bổ khoản này."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.chi_tieu_phat_sinh", "mode": "dampen", "factor": 0.6 },
+        { "id": "tien_bac.thu_nhap_cham_ve", "mode": "dampen", "factor": 0.7 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "tai_than" },
+      "source": "Ánh xạ Thiên Tài → tiền ngoài dự kiến, cơ hội; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.thu_nhap_deu_on_dinh",
+      "group": "tien_bac",
+      "title": "Thu nhập đều, tình hình ổn định",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_tai", "chinh_quan"] },
+          { "signal": "ten_god.month_stem", "is": "chinh_tai" },
+          { "signal": "ten_god.day_branch", "is": "chinh_tai" }
+        ],
+        "none": [{ "signal": "branch_relation.month_branch", "is": "xung_nguyet_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_tai": 3,
+        "ten_god.day_stem.chinh_quan": 1,
+        "ten_god.month_stem.chinh_tai": 1.5,
+        "ten_god.day_branch.chinh_tai": 1.2,
+        "useful_god.month_element.dung": 1,
+        "almanac.truc.dinh": 0.8,
+        "than_sat.thien_phu": 0.6
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ thấy dòng tiền trong ngày diễn ra đúng như dự tính, không có bất ngờ lớn.",
+        "Có xu hướng khoản lương, doanh thu hoặc tiền công đến đúng hẹn, giúp bạn yên tâm lập kế hoạch ngắn hạn.",
+        "Một thói quen tài chính đều đặn bạn giữ gần đây có thể bắt đầu cho thấy kết quả rõ ràng.",
+        "Dễ có cảm giác các khoản thu chi cân bằng, đủ để bạn thở nhẹ hơn một chút."
+      ],
+      "advice": {
+        "use": [
+          "Tận dụng sự yên ổn này để rà lại ngân sách tháng và điều chỉnh những khoản chưa hợp lý.",
+          "Đặt lịch xem lại thu chi cố định mỗi tuần, ngắn gọn khoảng mười phút."
+        ],
+        "avoid": [
+          "Tránh chủ quan vì thấy mọi thứ ổn mà bỏ qua việc ghi chép.",
+          "Tránh tăng chi tiêu ngay khi vừa thấy dư một chút."
+        ],
+        "remedy": [
+          "Nếu chưa có sổ chi tiêu, hãy bắt đầu với bảng ghi đơn giản gồm ba cột: khoản chi, lý do, mức cần thiết.",
+          "Dành một phần cố định sau mỗi lần nhận thu nhập vào quỹ riêng, đừng chờ còn dư mới tính."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.chi_tieu_phat_sinh", "mode": "dampen", "factor": 0.7 }
+      ],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "tai_than" },
+      "source": "Ánh xạ Chính Tài → thu nhập ổn định, thực tế; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.chi_tieu_phat_sinh",
+      "group": "tien_bac",
+      "title": "Chi tiêu phát sinh, dễ hao tài",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["kiep_tai", "thuong_quan"] },
+          { "signal": "ten_god.day_branch", "is": "kiep_tai" },
+          { "signal": "branch_relation.day_branch", "in": ["xung_nhat_chi", "pha_nhat_chi"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.kiep_tai": 3,
+        "ten_god.day_stem.thuong_quan": 1.2,
+        "ten_god.day_branch.kiep_tai": 1.2,
+        "branch_relation.day_branch.pha_nhat_chi": 1.2,
+        "useful_god.day_element.ky": 1.5,
+        "almanac.truc.pha": 1,
+        "than_sat.nguyet_pha": 0.8
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có một khoản chi nhỏ hoặc vừa không nằm trong kế hoạch, như sửa chữa, phí dịch vụ hay lời mời bất ngờ.",
+        "Có xu hướng tiền ra nhiều hơn thường lệ vì những khoản lặt vặt gộp lại.",
+        "Một khoản nhờ vả hoặc hiếu hỉ có thể xuất hiện đúng lúc ngân sách vừa được sắp xếp.",
+        "Dễ bất ngờ khi xem lại tài khoản và thấy số dư thấp hơn tưởng tượng."
+      ],
+      "advice": {
+        "use": [
+          "Xem lại những khoản chi trong vài ngày gần đây để tìm khoản có thể điều chỉnh.",
+          "Dùng quỹ dự phòng cho chi tiêu bất ngờ, đừng lấy từ phần dành cho mục tiêu dài hạn."
+        ],
+        "avoid": [
+          "Tránh để cảm giác tiếc tiền thúc đẩy quyết định vội vàng.",
+          "Tránh dùng thẻ hoặc ứng dụng thanh toán liên tục mà không đối chiếu số tiền."
+        ],
+        "remedy": [
+          "Ghi lại từng khoản chi trong ngày, kể cả khoản rất nhỏ, rồi xem lại vào buổi tối.",
+          "Đặt hạn mức chi cho từng ngày, vượt hạn mức thì chờ sang hôm sau mới quyết định.",
+          "Tạm hoãn những khoản chi không gấp thêm một đến hai ngày."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.thu_ngoai_du_kien", "mode": "dampen", "factor": 0.7 },
+        { "id": "tien_bac.tiet_kiem_co_ket_qua", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ Kiếp Tài → hao tài, tranh phần; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.co_hoi_dau_tu_nhieu_rui_ro",
+      "group": "tien_bac",
+      "title": "Cơ hội hấp dẫn nhưng nhiều ẩn số",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "thien_tai" },
+          { "signal": "ten_god.day_branch", "in": ["thien_tai", "that_sat"] },
+          { "signal": "than_sat", "is": "dich_ma" }
+        ],
+        "all": [
+          { "signal": "ten_god.hour_stem", "in": ["that_sat", "thien_tai", "thuong_quan", "kiep_tai"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.thien_tai": 2.5,
+        "ten_god.day_branch.that_sat": 1.2,
+        "ten_god.hour_stem.that_sat": 1.2,
+        "ten_god.hour_stem.thien_tai": 1,
+        "useful_god.hour_element.ky": 1,
+        "qimen.hour_overall.hung": 0.8,
+        "than_sat.dich_ma": 0.6
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ gặp một lời mời tham gia kênh tăng thu nhập được giới thiệu rất hấp dẫn, nhưng thông tin còn mỏng.",
+        "Có xu hướng bạn bắt gặp một cơ hội nghe rất thuận tai, và cảm giác phải quyết nhanh sẽ đi kèm.",
+        "Một người quen có thể kể về mức lợi nhuận đáng chú ý, khiến bạn băn khoăn có nên tìm hiểu thêm hay không.",
+        "Dễ có tình huống mức hấp dẫn và mức ẩn số đều cao, cần cân nhắc kỹ hơn vẻ ngoài."
+      ],
+      "advice": {
+        "use": [
+          "Dùng lúc này để thu thập thêm thông tin, ghi lại câu hỏi còn chưa rõ về nguồn gốc và cách vận hành.",
+          "Tham khảo ý kiến người có chuyên môn tài chính trước khi đưa ra bất kỳ quyết định nào liên quan đến tiền của mình."
+        ],
+        "avoid": [
+          "Tránh quyết định ngay trong lúc nghe thuyết phục hoặc dưới áp lực thời gian.",
+          "Tránh dùng khoản tiền mình cần cho sinh hoạt thiết yếu để thử nghiệm."
+        ],
+        "remedy": [
+          "Chờ thêm ít nhất vài ngày rồi xem lại với đầu óc bình tĩnh, nhờ một người am hiểu cùng đọc thông tin.",
+          "Viết ra mức thiệt hại tối đa mình có thể chịu đựng, để biết giới hạn trước khi xem xét tiếp.",
+          "Kiểm tra độ minh bạch của thông tin: ai chịu trách nhiệm, điều khoản ra sao, có tài liệu rõ ràng không."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.thu_nhap_deu_on_dinh", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "tai_than" },
+      "source": "Ánh xạ Thiên Tài và Thất Sát → cơ hội biến động, nhiều ẩn số; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.that_lac_do_dac",
+      "group": "tien_bac",
+      "title": "Dễ thất lạc, quên đồ",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "almanac.hoang_dao", "is": "hac_dao" },
+          { "signal": "branch_relation.day_branch", "in": ["xung_nhat_chi", "hai_nhat_chi"] },
+          { "signal": "ten_god.day_stem", "in": ["thuong_quan", "kiep_tai"] }
+        ]
+      },
+      "weights": {
+        "almanac.hoang_dao.hac_dao": 1.5,
+        "branch_relation.day_branch.xung_nhat_chi": 1.5,
+        "branch_relation.day_branch.hai_nhat_chi": 1,
+        "ten_god.day_stem.thuong_quan": 1,
+        "ten_god.day_stem.kiep_tai": 1,
+        "almanac.truc.nguy": 0.8,
+        "than_sat.thien_lao": 0.6
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ để quên ví, chìa khóa hoặc thẻ ở một nơi nào đó trong lúc tâm trí đang bận chuyện khác.",
+        "Có xu hướng đặt đồ ở chỗ lạ rồi mất công tìm lại vào lúc vội.",
+        "Một món đồ nhỏ có thể bị lẫn trong túi, trên bàn hoặc trong xe, khiến bạn mất thời gian.",
+        "Dễ nhầm lẫn khi đưa nhận đồ giữa nhiều người, nhất là ở chỗ đông."
+      ],
+      "advice": {
+        "use": [
+          "Dành một phút kiểm tra ví, điện thoại, chìa khóa trước khi rời khỏi mỗi nơi.",
+          "Chụp ảnh hoặc ghi chú nhanh những giấy tờ, thẻ quan trọng để dễ xử lý khi cần."
+        ],
+        "avoid": [
+          "Tránh để đồ có giá trị ở nơi dễ bị quên như mép bàn, ghế xe hoặc quầy thanh toán.",
+          "Tránh vừa làm việc vừa nói chuyện điện thoại trong lúc thu dọn đồ."
+        ],
+        "remedy": [
+          "Đặt một chỗ cố định cho các món đồ hay dùng ở nhà và ở nơi làm việc.",
+          "Đọc thầm danh sách các món cần mang theo trước khi bước ra khỏi cửa.",
+          "Nếu đã thất lạc, hãy bình tĩnh nhớ lại thứ tự các nơi vừa đi qua rồi hỏi nhân viên nơi đó."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ ngày hắc đạo, xung Chi ngày → dễ sơ suất, thất lạc; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.mua_sam_boc_dong",
+      "group": "tien_bac",
+      "title": "Dễ mua sắm bốc đồng",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thuong_quan", "thuc_than"] },
+          { "signal": "ten_god.hour_stem", "in": ["thuong_quan", "thuc_than"] },
+          { "signal": "than_sat", "in": ["thien_hy", "dich_ma"] }
+        ],
+        "none": [{ "signal": "useful_god.day_element", "is": "dung" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuong_quan": 2.5,
+        "ten_god.day_stem.thuc_than": 1.5,
+        "ten_god.hour_stem.thuong_quan": 1,
+        "useful_god.day_element.ky": 1.2,
+        "almanac.truc.man": 0.6,
+        "than_sat.thien_hy": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có một món đồ hoặc ưu đãi hấp dẫn khiến bạn muốn chốt ngay mà chưa nghĩ kỹ.",
+        "Có xu hướng bạn chi cho niềm vui nhất thời sau một ngày căng thẳng hoặc sau khi được khen.",
+        "Một lời giới thiệu tốt từ người quen có thể làm bạn mua nhiều hơn dự định.",
+        "Dễ thấy giỏ hàng trực tuyến đầy lên lúc nào không hay khi đang lướt xem giải trí."
+      ],
+      "advice": {
+        "use": [
+          "Phân biệt rõ nhu cầu thật với mong muốn nhất thời bằng cách tự hỏi: sau một tuần mình còn cần nó không.",
+          "Cho phép mình một khoản nhỏ dành riêng cho niềm vui để bớt cảm giác bị kìm nén."
+        ],
+        "avoid": [
+          "Tránh thanh toán khi đang mệt, đói hoặc đang bực bội.",
+          "Tránh lưu sẵn thông tin thanh toán ở những nơi hay làm bạn dễ bị cuốn."
+        ],
+        "remedy": [
+          "Để món muốn mua vào danh sách chờ hai mươi bốn giờ rồi mới xem lại.",
+          "Ghi lại khoản vừa chi kèm cảm xúc lúc đó để nhận ra thói quen của chính mình.",
+          "Gỡ tạm ứng dụng mua sắm khỏi màn hình chính trong ngày hôm nay."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.tiet_kiem_co_ket_qua", "mode": "dampen", "factor": 0.7 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ Thương Quan/Thực Thần → hứng khởi, chi theo cảm xúc; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.chuyen_cho_muon",
+      "group": "tien_bac",
+      "title": "Chuyện cho mượn, vay mượn giữa người quen",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["kiep_tai", "ty_kien"] },
+          { "signal": "ten_god.hour_stem", "in": ["kiep_tai", "ty_kien"] },
+          { "signal": "ten_god.day_branch", "in": ["kiep_tai", "ty_kien"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.kiep_tai": 2.5,
+        "ten_god.day_stem.ty_kien": 1.5,
+        "ten_god.hour_stem.kiep_tai": 1,
+        "ten_god.day_branch.ty_kien": 1,
+        "useful_god.day_element.ky": 1,
+        "branch_relation.hour_branch.xung_gio_chi": 0.6,
+        "than_sat.sat_chu": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một người quen nhắc đến chuyện tiền bạc tạm thời, và bạn đang cân nhắc nên trả lời thế nào.",
+        "Có xu hướng bạn nhớ đến một khoản còn dang dở giữa mình và một người bạn, chưa biết mở lời ra sao.",
+        "Một người thân hoặc đồng nghiệp có thể ngỏ ý cần hỗ trợ tài chính ngắn hạn.",
+        "Dễ có cảm giác khó xử khi chuyện tình cảm và chuyện tiền bạc cùng xuất hiện trong một cuộc nói chuyện."
+      ],
+      "advice": {
+        "use": [
+          "Cân nhắc kỹ khả năng của mình và nói rõ giới hạn một cách điềm tĩnh, lịch sự.",
+          "Nếu liên quan đến số tiền đáng kể, hãy tham khảo ý kiến người có chuyên môn hoặc người am hiểu trước khi quyết định."
+        ],
+        "avoid": [
+          "Tránh quyết định ngay tại chỗ chỉ vì ngại làm mất lòng.",
+          "Tránh để các thỏa thuận chỉ nằm trong lời nói miệng."
+        ],
+        "remedy": [
+          "Hẹn trả lời sau một ngày, dùng thời gian đó để tính lại hoàn cảnh tài chính của mình.",
+          "Với bất kỳ thỏa thuận nào, hãy ghi lại bằng văn bản ngắn gọn để hai bên cùng nắm rõ.",
+          "Nếu từ chối, hãy kèm một cách hỗ trợ khác không liên quan đến tiền, như hướng dẫn tìm nguồn trợ giúp."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.cong_no_duoc_giai_quyet", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ Tỷ Kiên/Kiếp Tài → người quen nhờ cậy, chia phần; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.cong_no_duoc_giai_quyet",
+      "group": "tien_bac",
+      "title": "Thanh toán, công nợ được giải quyết",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_tai", "chinh_an"] },
+          { "signal": "almanac.truc", "in": ["thanh", "khai", "thu"] },
+          { "signal": "branch_relation.day_branch", "is": "luc_hop_nhat_chi" }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_tai": 2,
+        "ten_god.day_stem.chinh_an": 1.2,
+        "branch_relation.day_branch.luc_hop_nhat_chi": 1.8,
+        "useful_god.day_element.dung": 1,
+        "almanac.truc.thanh": 1,
+        "almanac.truc.thu": 1,
+        "almanac.truc.khai": 0.6
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có một khoản còn treo được hai bên thống nhất xong, kèm cảm giác nhẹ nhõm.",
+        "Có xu hướng một hóa đơn, khoản thanh toán chờ lâu cuối cùng được xử lý trơn tru.",
+        "Một cuộc trao đổi về khoản chưa rõ ràng có thể ra kết quả rõ ràng hơn bạn nghĩ.",
+        "Dễ nhận được xác nhận hoặc biên nhận giúp khép lại một việc tồn đọng."
+      ],
+      "advice": {
+        "use": [
+          "Nhân dịp này, hoàn tất nốt những khoản nhỏ còn dang dở để đỡ phải nhớ.",
+          "Giữ lại chứng từ hoặc tin nhắn xác nhận vào một thư mục riêng."
+        ],
+        "avoid": [
+          "Tránh bỏ qua việc kiểm tra lại số liệu chỉ vì mọi thứ đang suôn sẻ.",
+          "Tránh dồn chuyện thanh toán sang cuối ngày khi đã mệt."
+        ],
+        "remedy": [
+          "Lập danh sách các khoản đang chờ xử lý, đánh dấu từng khoản khi đã xong.",
+          "Nếu còn khoản chưa rõ, hãy hỏi lại bên liên quan bằng tin nhắn lịch sự kèm số liệu cụ thể."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.chuyen_cho_muon", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "tai_than" },
+      "source": "Ánh xạ Chính Tài, trực thành/thu → hoàn tất, thu về; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.hop_tac_tai_chinh",
+      "group": "tien_bac",
+      "title": "Hợp tác chung quyền lợi tài chính",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["ty_kien", "thien_tai"] },
+          { "signal": "branch_relation.day_branch", "in": ["tam_hop_nhat_chi", "ban_tam_hop_nhat_chi", "luc_hop_nhat_chi"] },
+          { "signal": "stem_relation.day_stem", "is": "hop_nhat_chu" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.ty_kien": 1.8,
+        "ten_god.day_stem.thien_tai": 1.5,
+        "branch_relation.day_branch.tam_hop_nhat_chi": 1.8,
+        "branch_relation.day_branch.ban_tam_hop_nhat_chi": 1,
+        "branch_relation.day_branch.luc_hop_nhat_chi": 1.2,
+        "stem_relation.day_stem.hop_nhat_chu": 1,
+        "useful_god.day_element.dung": 0.8,
+        "than_sat.kim_quy": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có lời đề nghị cùng góp sức làm một việc có chia phần quyền lợi với người khác.",
+        "Có xu hướng cuộc nói chuyện về phân chia chi phí hay lợi ích trong nhóm trở nên cụ thể hơn.",
+        "Một người quen có thể gợi ý hùn vào một dự án chung, nghe hợp lý nhưng cần xem kỹ chi tiết.",
+        "Dễ thấy việc cùng nhau chi trả một khoản lớn mở ra khả năng mà một mình khó làm được."
+      ],
+      "advice": {
+        "use": [
+          "Thống nhất sớm cách chia phần và trách nhiệm, rồi ghi lại bằng văn bản đơn giản.",
+          "Với thỏa thuận có giá trị lớn, hãy tham khảo ý kiến người có chuyên môn pháp lý hoặc tài chính."
+        ],
+        "avoid": [
+          "Tránh dựa hoàn toàn vào sự tin tưởng cá nhân mà bỏ qua các điều khoản.",
+          "Tránh để lẫn tiền chung với tiền riêng trong cùng một tài khoản."
+        ],
+        "remedy": [
+          "Đề nghị mỗi bên ghi lại phần mình đóng góp và kỳ vọng, rồi so sánh với nhau.",
+          "Thử bắt đầu với phạm vi nhỏ và thời hạn ngắn để quan sát cách phối hợp trước khi mở rộng."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.chuyen_cho_muon", "mode": "dampen", "factor": 0.9 }
+      ],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "tai_than" },
+      "source": "Ánh xạ Tỷ Kiên/Thiên Tài và hợp Chi ngày → hợp tác chia phần; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.gia_ca_bien_dong",
+      "group": "tien_bac",
+      "title": "Giá cả biến động",
+      "baseWeight": 0.7,
+      "match": {
+        "any": [
+          { "signal": "almanac.truc", "in": ["pha", "nguy", "be"] },
+          { "signal": "iching.day_hexagram_nature", "is": "hung" },
+          { "signal": "ten_god.month_stem", "in": ["thien_tai", "that_sat"] }
+        ]
+      },
+      "weights": {
+        "almanac.truc.pha": 1.5,
+        "almanac.truc.nguy": 1.2,
+        "almanac.truc.be": 0.8,
+        "iching.day_hexagram_nature.hung": 1,
+        "ten_god.month_stem.thien_tai": 1,
+        "ten_god.month_stem.that_sat": 0.8,
+        "useful_god.month_element.ky": 0.8
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ nhận thấy giá một số thứ bạn hay dùng đã lên hoặc xuống so với lần trước.",
+        "Có xu hướng bảng giá hoặc chương trình khuyến mãi thay đổi liên tục khiến bạn khó chọn thời điểm.",
+        "Một tin về giá cả chung có thể làm bạn bận tâm nhiều hơn mức cần thiết.",
+        "Dễ gặp cảnh hai nơi bán cùng một thứ nhưng mức giá chênh lệch đáng kể."
+      ],
+      "advice": {
+        "use": [
+          "So sánh ít nhất vài nguồn trước khi quyết định, và ghi lại mức giá bạn thấy.",
+          "Theo dõi biến động trong vài ngày để có cảm nhận khách quan hơn."
+        ],
+        "avoid": [
+          "Tránh hoảng hốt theo tin đồn hoặc bài chia sẻ chưa kiểm chứng.",
+          "Tránh đưa ra quyết định lớn chỉ dựa vào một mức giá tại một thời điểm."
+        ],
+        "remedy": [
+          "Đặt ra mức ngân sách tối đa cho từng khoản trước khi bắt đầu tìm hiểu giá.",
+          "Nếu chưa gấp, hãy chờ thêm thông tin rồi mới quyết định thay vì chạy theo biến động hằng ngày."
+        ]
+      },
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "tai_than" },
+      "source": "Ánh xạ trực phá/nguy, thiên tài tháng → biến động; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.nhan_qua_tang",
+      "group": "tien_bac",
+      "title": "Nhận quà tặng, được tặng thưởng",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thuc_than", "chinh_an", "thien_an"] },
+          { "signal": "than_sat", "in": ["thien_hy", "kim_quy", "ngoc_duong", "bao_quang"] }
+        ],
+        "none": [{ "signal": "ten_god.day_stem", "is": "kiep_tai" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuc_than": 2.2,
+        "ten_god.day_stem.chinh_an": 1.5,
+        "ten_god.day_stem.thien_an": 1.2,
+        "useful_god.day_element.dung": 1,
+        "than_sat.thien_hy": 1,
+        "than_sat.bao_quang": 0.8,
+        "almanac.hoang_dao.hoang_dao": 0.6
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ nhận được một món quà nhỏ hoặc lời cảm ơn kèm theo vật chất từ người từng nhờ bạn giúp.",
+        "Có xu hướng ai đó mời bạn một bữa ăn hoặc gửi bạn thứ gì đó thiết thực.",
+        "Một phần thưởng nhỏ, voucher hoặc quà từ nơi làm việc có thể đến bất ngờ.",
+        "Dễ có người thân dành cho bạn một món quà để bày tỏ sự quan tâm."
+      ],
+      "advice": {
+        "use": [
+          "Đón nhận bằng lời cảm ơn chân thành và nhớ ghi lại để đáp lại vào dịp phù hợp.",
+          "Dùng quà vào đúng mục đích người tặng mong muốn, nếu đó là điều bạn thấy hợp."
+        ],
+        "avoid": [
+          "Tránh từ chối quá gay gắt khiến người tặng thấy mình bị gạt đi.",
+          "Tránh so đo giá trị món quà với người khác."
+        ],
+        "remedy": [
+          "Nếu cảm thấy món quà vượt khả năng đáp lễ, hãy đáp lại bằng sự quan tâm hoặc lời cảm ơn cụ thể.",
+          "Ghi lại sổ quà tặng đơn giản để sau này dễ nhớ ai đã giúp mình."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thực Thần/Ấn tinh và thần sát thiên hỷ → quà tặng, phúc lộc nhỏ; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.tiet_kiem_co_ket_qua",
+      "group": "tien_bac",
+      "title": "Tiết kiệm bắt đầu có kết quả",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_tai", "chinh_an"] },
+          { "signal": "ten_god.day_branch", "in": ["chinh_tai", "chinh_an"] },
+          { "signal": "almanac.truc", "in": ["man", "thu", "dinh"] }
+        ],
+        "none": [{ "signal": "ten_god.day_stem", "in": ["kiep_tai", "thuong_quan"] }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_tai": 2,
+        "ten_god.day_stem.chinh_an": 1.2,
+        "ten_god.day_branch.chinh_tai": 1.2,
+        "useful_god.day_element.dung": 1,
+        "almanac.truc.man": 1,
+        "almanac.truc.thu": 0.8,
+        "almanac.truc.dinh": 0.6
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ nhận thấy số dư tích lũy tăng lên đều đều nhờ thói quen cắt giảm những khoản không cần thiết.",
+        "Có xu hướng một mục tiêu nhỏ bạn đặt ra gần đây đã đến gần hơn bạn tưởng.",
+        "Một khoản dự phòng bạn lập từ trước có thể giúp bạn bình tĩnh trước một việc bất ngờ.",
+        "Dễ có cảm giác tự tin hơn về tài chính cá nhân khi nhìn lại biểu đồ thu chi của mình."
+      ],
+      "advice": {
+        "use": [
+          "Ghi nhận thành quả nhỏ để duy trì động lực và giữ nhịp tiết kiệm.",
+          "Xem lại mục tiêu tiết kiệm, điều chỉnh mức đóng góp cho vừa sức."
+        ],
+        "avoid": [
+          "Tránh chủ quan rồi tự thưởng quá tay làm mất đà tích lũy.",
+          "Tránh đặt mục tiêu quá cao khiến việc duy trì thành gánh nặng."
+        ],
+        "remedy": [
+          "Nếu thấy khó giữ nhịp, hãy chia mục tiêu thành những mốc theo tuần.",
+          "Tự thưởng một khoản rất nhỏ theo kế hoạch khi đạt mốc để có động lực tiếp tục."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.mua_sam_boc_dong", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "tai_than" },
+      "source": "Ánh xạ Chính Tài/Chính Ấn, trực mãn/thu → tích lũy, gom về; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.thu_nhap_cham_ve",
+      "group": "tien_bac",
+      "title": "Khoản thu về chậm, cần kiên nhẫn",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.hour_branch", "in": ["xung_gio_chi", "hinh_gio_chi", "hai_gio_chi"] },
+          { "signal": "ten_god.hour_stem", "in": ["thien_tai", "chinh_tai"] },
+          { "signal": "almanac.truc", "in": ["chap", "be"] }
+        ]
+      },
+      "weights": {
+        "branch_relation.hour_branch.xung_gio_chi": 1.5,
+        "branch_relation.hour_branch.hai_gio_chi": 1,
+        "ten_god.hour_stem.thien_tai": 1,
+        "ten_god.hour_stem.chinh_tai": 1,
+        "almanac.truc.chap": 1,
+        "almanac.truc.be": 1,
+        "useful_god.hour_element.ky": 1
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ gặp tình huống khoản tiền bạn chờ đến muộn hơn ngày dự kiến vì thủ tục hoặc khâu duyệt.",
+        "Có xu hướng bạn phải nhắc lại một lần nữa về khoản còn chờ xử lý.",
+        "Một kế hoạch tài chính ngắn hạn có thể bị lùi một nhịp vì bên liên quan chưa kịp phản hồi.",
+        "Dễ có cảm giác sốt ruột khi dòng tiền chưa khớp với lịch chi tiêu đã xếp."
+      ],
+      "advice": {
+        "use": [
+          "Dùng thời gian chờ để rà lại giấy tờ, thông tin cần cung cấp cho đủ.",
+          "Xếp lại thứ tự ưu tiên các khoản cần chi trong thời gian khoản thu chưa về."
+        ],
+        "avoid": [
+          "Tránh nhắn nhắc nhở liên tục bằng giọng gay gắt.",
+          "Tránh tính trước khoản chưa nhận vào những cam kết chi tiêu mới."
+        ],
+        "remedy": [
+          "Gửi một tin nhắn lịch sự hỏi về mốc thời gian dự kiến, rồi đặt nhắc nhở để theo dõi.",
+          "Chuẩn bị một khoản đệm nhỏ cho những ngày chờ để không bị gấp rút."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "tien_bac.thu_ngoai_du_kien", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "con_cai_cap_duoi", "directionHint": "tai_than" },
+      "source": "Ánh xạ Tài tinh giờ, trực chấp/bế → thu về chậm; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.ra_soat_giay_to_hoa_don",
+      "group": "tien_bac",
+      "title": "Cần rà soát giấy tờ, hóa đơn",
+      "baseWeight": 0.7,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_an", "thien_an"] },
+          { "signal": "branch_relation.month_branch", "in": ["hinh_nguyet_chi", "hai_nguyet_chi", "pha_nguyet_chi"] },
+          { "signal": "than_sat", "in": ["thien_hinh", "chu_tuoc"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_an": 1.8,
+        "ten_god.day_stem.thien_an": 1.5,
+        "branch_relation.month_branch.hinh_nguyet_chi": 1.2,
+        "branch_relation.month_branch.hai_nguyet_chi": 1,
+        "than_sat.thien_hinh": 0.8,
+        "than_sat.chu_tuoc": 0.8,
+        "useful_god.month_element.trung_tinh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một hóa đơn, hợp đồng dịch vụ hay thông báo định kỳ cần bạn đọc kỹ hơn thường lệ.",
+        "Có xu hướng bạn phát hiện một khoản trừ tiền tự động mà mình đã quên từ lâu.",
+        "Một giấy tờ liên quan đến tiền bạc có thể cần bổ sung hoặc xác nhận thêm.",
+        "Dễ gặp chuyện số liệu hai bên đối chiếu không khớp ở một chỗ nhỏ."
+      ],
+      "advice": {
+        "use": [
+          "Dành một buổi ngắn đọc lại các khoản định kỳ, hủy những khoản không còn dùng.",
+          "Lưu bản chụp các giấy tờ quan trọng ở nơi có thể tìm lại dễ dàng."
+        ],
+        "avoid": [
+          "Tránh ký hay xác nhận khi chưa đọc hết nội dung.",
+          "Tránh dựa vào trí nhớ thay vì kiểm tra lại số liệu."
+        ],
+        "remedy": [
+          "Lập một danh sách các khoản trả định kỳ kèm ngày thanh toán và rà lại hằng tháng.",
+          "Nếu có điểm chưa hiểu, hãy hỏi lại bên cung cấp hoặc người có chuyên môn trước khi xác nhận."
+        ]
+      },
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "tai_than" },
+      "source": "Ánh xạ Ấn tinh → giấy tờ, văn bản; hình/hại Chi tháng → chi tiết cần soát; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "tien_bac.chi_cho_gia_dinh",
+      "group": "tien_bac",
+      "title": "Khoản chi cho gia đình, người thân",
+      "baseWeight": 0.7,
+      "match": {
+        "any": [
+          { "signal": "ten_god.year_stem", "in": ["chinh_an", "thien_an", "chinh_tai"] },
+          { "signal": "branch_relation.year_branch", "in": ["xung_nien_chi", "hai_nien_chi", "luc_hop_nien_chi"] },
+          { "signal": "ten_god.day_branch", "in": ["chinh_an", "thien_an"] }
+        ]
+      },
+      "weights": {
+        "ten_god.year_stem.chinh_an": 1.2,
+        "ten_god.year_stem.chinh_tai": 1,
+        "ten_god.day_branch.chinh_an": 1.2,
+        "branch_relation.year_branch.xung_nien_chi": 1.2,
+        "branch_relation.year_branch.luc_hop_nien_chi": 0.8,
+        "useful_god.year_element.ky": 0.8,
+        "than_sat.thien_phu": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một khoản chi cho người thân như quà, lễ nghĩa hoặc hỗ trợ việc nhà xuất hiện trong tuần.",
+        "Có xu hướng bạn cân nhắc phần đóng góp của mình trong một việc chung của gia đình.",
+        "Một người trong nhà có thể nhắc đến nhu cầu cần sắm sửa mà bạn chưa kịp chuẩn bị.",
+        "Dễ có chuyện tiền bạc trong gia đình được đem ra bàn, cần giữ giọng nhẹ nhàng."
+      ],
+      "advice": {
+        "use": [
+          "Bàn bạc cởi mở về phần đóng góp của từng người để ai cũng thấy công bằng.",
+          "Tạo một khoản nhỏ cố định hằng tháng dành cho việc gia đình để đỡ bị động."
+        ],
+        "avoid": [
+          "Tránh gánh một mình vì ngại nói ra rồi tích dần cảm giác thiệt thòi.",
+          "Tránh nhắc chuyện tiền bạc trong lúc mọi người đang mệt hoặc căng thẳng."
+        ],
+        "remedy": [
+          "Chọn một thời điểm thoải mái để nói rõ khả năng của mình và đề nghị chia sẻ cùng nhau.",
+          "Ghi nhận các khoản đã chi cho gia đình vào cột riêng để dễ xem lại và điều chỉnh."
+        ]
+      },
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "tai_than" },
+      "source": "Ánh xạ Chi/Can năm → gia đình gốc, chi cho người thân; văn bản tự viết",
+      "confidence": "B"
+    }
+  ]
+}

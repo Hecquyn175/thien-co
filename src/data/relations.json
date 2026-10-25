@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "Bảng quan hệ Can Chi phổ thông (ngũ hợp, lục hợp, tam hợp, tam hội, lục xung, hình, hại, phá)",
+    "confidence": "A"
+  },
+  "stemHe": [
+    { "pair": [0, 5], "transform": "tho" },
+    { "pair": [1, 6], "transform": "kim" },
+    { "pair": [2, 7], "transform": "thuy" },
+    { "pair": [3, 8], "transform": "moc" },
+    { "pair": [4, 9], "transform": "hoa" }
+  ],
+  "stemChong": [[0, 6], [1, 7], [2, 8], [3, 9]],
+  "lucHop": [
+    { "pair": [0, 1], "transform": "tho" },
+    { "pair": [2, 11], "transform": "moc" },
+    { "pair": [3, 10], "transform": "hoa" },
+    { "pair": [4, 9], "transform": "kim" },
+    { "pair": [5, 8], "transform": "thuy" },
+    { "pair": [6, 7], "transform": "tho", "note": "Ngọ-Mùi: một số sách ghi hóa Hỏa; bản này ghi Thổ" }
+  ],
+  "tamHop": [
+    { "set": [8, 0, 4], "element": "thuy", "note": "Thân-Tý-Thìn; phần tử giữa là vượng địa" },
+    { "set": [11, 3, 7], "element": "moc", "note": "Hợi-Mão-Mùi" },
+    { "set": [2, 6, 10], "element": "hoa", "note": "Dần-Ngọ-Tuất" },
+    { "set": [5, 9, 1], "element": "kim", "note": "Tỵ-Dậu-Sửu" }
+  ],
+  "tamHoi": [
+    { "set": [2, 3, 4], "element": "moc", "note": "Dần-Mão-Thìn (phương Đông)" },
+    { "set": [5, 6, 7], "element": "hoa", "note": "Tỵ-Ngọ-Mùi (phương Nam)" },
+    { "set": [8, 9, 10], "element": "kim", "note": "Thân-Dậu-Tuất (phương Tây)" },
+    { "set": [11, 0, 1], "element": "thuy", "note": "Hợi-Tý-Sửu (phương Bắc)" }
+  ],
+  "hinh": {
+    "triples": [
+      { "set": [2, 5, 8], "name": "vo_an", "note": "Dần-Tỵ-Thân: vô ân chi hình" },
+      { "set": [1, 10, 7], "name": "y_the", "note": "Sửu-Tuất-Mùi: ỷ thế chi hình" }
+    ],
+    "pairs": [{ "pair": [0, 3], "name": "vo_le", "note": "Tý-Mão: vô lễ chi hình" }],
+    "self": [4, 6, 9, 11]
+  },
+  "hai": [[0, 7], [1, 6], [2, 5], [3, 4], [8, 11], [9, 10]],
+  "pha": [[0, 9], [1, 4], [2, 11], [3, 6], [5, 8], [7, 10]]
+}

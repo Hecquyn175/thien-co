@@ -1,0 +1,54 @@
+{
+  "$comment": "Chủ dự án điền các ngày đã tự đối chiếu với lịch vạn niên uy tín (đặc biệt quanh Tết và ngày giao tiết khí). Mục có status TODO_USER_VERIFY chưa được kiểm; mục VERIFIED_BY_USER sẽ được test so khớp với code.",
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "anchor-2000-01-01",
+      "solar": "2000-01-01",
+      "tz": 420,
+      "expect": { "dayGanzhi": "Mậu Ngọ", "yearGanzhi": "Kỷ Mão", "lunar": { "year": 1999, "month": 11, "day": 25, "leap": false } },
+      "status": "ANCHOR_FROM_SPEC",
+      "note": "2000-01-01 là ngày Mậu Ngọ (JDN 2451545) — test vector trong đặc tả."
+    },
+    {
+      "id": "tet-2026",
+      "solar": "2026-02-17",
+      "tz": 420,
+      "expect": { "lunar": { "year": 2026, "month": 1, "day": 1, "leap": false } },
+      "status": "TODO_USER_VERIFY",
+      "note": "Mùng 1 Tết Bính Ngọ. Đối chiếu lịch vạn niên."
+    },
+    {
+      "id": "tet-2025",
+      "solar": "2025-01-29",
+      "tz": 420,
+      "expect": { "lunar": { "year": 2025, "month": 1, "day": 1, "leap": false } },
+      "status": "TODO_USER_VERIFY",
+      "note": "Mùng 1 Tết Ất Tỵ."
+    },
+    {
+      "id": "lap-xuan-2026-boundary",
+      "instant": "2026-02-04T03:00:00",
+      "tz": 420,
+      "expect": { "yearGanzhi": "TODO", "monthGanzhi": "TODO" },
+      "status": "TODO_USER_VERIFY",
+      "note": "Quanh giờ giao Lập Xuân 2026: điền Can Chi năm/tháng trước và sau giờ giao tiết theo lịch uy tín."
+    },
+    {
+      "id": "vn-vs-cn-divergence",
+      "solar": "TODO",
+      "tz": 420,
+      "expect": { "lunar": "TODO" },
+      "status": "TODO_USER_VERIFY",
+      "note": "Một ngày mà âm lịch Việt (UTC+7) khác Trung Quốc (UTC+8): điền ngày âm theo lịch Việt chính thống."
+    },
+    {
+      "id": "leap-month-2025",
+      "solar": "2025-07-25",
+      "tz": 420,
+      "expect": { "lunar": { "year": 2025, "month": 6, "day": 1, "leap": true } },
+      "status": "TODO_USER_VERIFY",
+      "note": "Mùng 1 tháng 6 nhuận năm Ất Tỵ."
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "source": "Ánh xạ thập thần, quan hệ Chi và thần sát phổ thông sang chủ đề quan hệ con người; toàn bộ văn bản tự viết",
+    "confidence": "B"
+  },
+  "events": [
+    {
+      "id": "nguoi.quy_nhan_giup_do",
+      "group": "nguoi",
+      "title": "Quý nhân giúp đỡ",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_an", "thien_an"] },
+          { "signal": "ten_god.day_branch", "in": ["chinh_an", "thien_an"] },
+          { "signal": "than_sat", "in": ["thien_duc", "nguyet_duc"] }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_an": 3,
+        "ten_god.day_stem.thien_an": 2.5,
+        "ten_god.day_branch.chinh_an": 1.5,
+        "branch_relation.day_branch.luc_hop_nguyet_chi": 1,
+        "useful_god.day_element.dung": 1,
+        "than_sat.thien_duc": 1,
+        "than_sat.nguyet_duc": 0.8
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có một người đi trước hoặc người từng trải bất ngờ chỉ cho bạn một lối đi gọn hơn so với cách bạn đang loay hoay.",
+        "Có xu hướng xuất hiện một người sẵn lòng giới thiệu bạn với đúng người cần gặp, chỉ qua một câu nói đúng lúc.",
+        "Một thầy cô, người lớn tuổi hoặc người quen cũ có thể dành cho bạn lời khuyên khiến vấn đề đang vướng trở nên sáng ra.",
+        "Dễ nhận được sự hỗ trợ thầm lặng từ người ở xa, thể hiện qua một thông tin hữu ích hay một lời nhắc kịp thời."
+      ],
+      "advice": {
+        "use": [
+          "Chủ động hỏi thẳng điều mình đang cần, nói rõ và ngắn gọn để người giúp dễ hình dung.",
+          "Ghi lại lời khuyên ngay sau cuộc trò chuyện, rồi chọn một việc nhỏ để làm theo trong ngày.",
+          "Gửi một lời cảm ơn cụ thể sau khi nhận giúp đỡ để giữ mối quan hệ lâu dài."
+        ],
+        "avoid": [
+          "Tránh xem sự giúp đỡ là điều đương nhiên rồi lơ là phần việc của chính mình.",
+          "Tránh khoe khoang kết quả quá sớm khiến người giúp cảm thấy bị bỏ qua."
+        ],
+        "remedy": [
+          "Nếu chưa gặp được ai, hãy thử nhắn cho một người quen cũ để hỏi thăm và hỏi ý kiến về việc đang làm.",
+          "Dành mười phút liệt kê các câu hỏi muốn hỏi, để khi cơ hội đến bạn không bị lúng túng."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.tieu_nhan_loi_ra_tieng_vao", "mode": "dampen", "factor": 0.7 },
+        { "id": "nguoi.bat_dong_nguoi_gan_gui", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hy_than" },
+      "source": "Ánh xạ Chính Ấn/Thiên Ấn → quý nhân, người che chở; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.tieu_nhan_loi_ra_tieng_vao",
+      "group": "nguoi",
+      "title": "Lời ra tiếng vào, người khó chiều",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["that_sat", "thuong_quan"] },
+          { "signal": "ten_god.hour_stem", "is": "that_sat" },
+          { "signal": "almanac.hoang_dao", "is": "hac_dao" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.that_sat": 2.5,
+        "ten_god.day_stem.thuong_quan": 1.5,
+        "ten_god.hour_stem.that_sat": 1,
+        "useful_god.day_element.ky": 1.5,
+        "almanac.hoang_dao.hac_dao": 1,
+        "than_sat.bach_ho": 0.8,
+        "than_sat.cau_giao": 0.6
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ nghe được vài lời bàn tán về một việc bạn làm, có thể xuất phát từ hiểu sai chứ không hẳn ác ý.",
+        "Có xu hướng gặp một người quen nói chuyện hơi gai góc, khiến tâm trạng bị chùng xuống giữa buổi.",
+        "Một thông tin chưa được kiểm chứng có thể lan trong nhóm và chạm đến bạn theo cách khó chịu.",
+        "Dễ có cảm giác ai đó đang để ý từng bước đi của mình nhiều hơn mức bình thường."
+      ],
+      "advice": {
+        "use": [
+          "Dùng lời đồn như tín hiệu để rà lại cách mình trao đổi, xem chỗ nào cần nói rõ hơn.",
+          "Giữ nhịp làm việc đều đặn, để kết quả thực tế tự lên tiếng thay cho lời giải thích."
+        ],
+        "avoid": [
+          "Tránh đáp trả ngay khi còn nóng, nhất là trên tin nhắn nhóm hay mạng xã hội.",
+          "Tránh kể lại chuyện chưa kiểm chứng cho người thứ ba.",
+          "Tránh đoán ý người khác khi chưa có đủ thông tin."
+        ],
+        "remedy": [
+          "Chọn một người đáng tin để kể lại sự việc, nhờ họ góp góc nhìn trước khi bạn phản hồi.",
+          "Nếu cần làm rõ, hãy nhắn riêng bằng giọng bình tĩnh, nêu điều bạn thực sự muốn trao đổi.",
+          "Đi bộ hoặc uống một ly nước chậm rãi trước khi trả lời tin nhắn khiến bạn khó chịu."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.quy_nhan_giup_do", "mode": "dampen", "factor": 0.7 },
+        { "id": "nguoi.duoc_khen_cong_nhan", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "hac_than" },
+      "source": "Ánh xạ Thất Sát/Thương Quan → áp lực, lời qua tiếng lại; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.co_nguoi_nho_va",
+      "group": "nguoi",
+      "title": "Có người nhờ vả",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["kiep_tai", "ty_kien"] },
+          { "signal": "ten_god.hour_stem", "in": ["kiep_tai", "ty_kien"] },
+          { "signal": "ten_god.day_branch", "in": ["kiep_tai", "ty_kien"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.kiep_tai": 2.5,
+        "ten_god.day_stem.ty_kien": 2,
+        "ten_god.hour_stem.kiep_tai": 1,
+        "ten_god.day_branch.ty_kien": 1,
+        "useful_god.day_element.dung": 0.8,
+        "branch_relation.hour_branch.luc_hop_gio_chi": 0.6
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một người bạn hoặc đồng nghiệp ngỏ lời nhờ bạn xem giúp một việc nằm ngoài phần của bạn.",
+        "Có xu hướng nhận được lời nhờ vả vào lúc lịch của bạn đã khá kín.",
+        "Một người quen có thể hỏi mượn thời gian, công sức hoặc kinh nghiệm của bạn để giải quyết chuyện riêng.",
+        "Dễ gặp tình huống ai đó cần một câu trả lời nhanh và trông chờ bạn là chỗ dựa."
+      ],
+      "advice": {
+        "use": [
+          "Nếu có dư sức, hãy giúp trong phạm vi rõ ràng, vì sự hỗ trợ đúng lúc thường được nhớ lâu.",
+          "Hỏi rõ người nhờ cần gì và đến khi nào để tránh đoán sai."
+        ],
+        "avoid": [
+          "Tránh nhận lời ngay khi chưa tính được thời gian và sức lực của mình.",
+          "Tránh ngại từ chối đến mức gánh việc vượt khả năng."
+        ],
+        "remedy": [
+          "Trả lời dạng: mình giúp được phần này, đến mốc này, để cả hai cùng nhẹ nhàng.",
+          "Nếu không giúp được, hãy gợi ý một nguồn hỗ trợ khác thay vì từ chối gọn lỏn."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.bi_canh_tranh", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Tỷ Kiên/Kiếp Tài → bạn bè, người nhờ cậy; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.hieu_lam_cai_va",
+      "group": "nguoi",
+      "title": "Hiểu lầm, dễ cãi vã",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.day_branch", "in": ["xung_nhat_chi", "hai_nhat_chi", "hinh_nhat_chi"] },
+          { "signal": "stem_relation.day_stem", "is": "xung_nhat_chu" },
+          { "signal": "ten_god.day_stem", "is": "thuong_quan" }
+        ]
+      },
+      "weights": {
+        "branch_relation.day_branch.xung_nhat_chi": 2.5,
+        "branch_relation.day_branch.hai_nhat_chi": 1.5,
+        "branch_relation.day_branch.hinh_nhat_chi": 1.5,
+        "stem_relation.day_stem.xung_nhat_chu": 2,
+        "ten_god.day_stem.thuong_quan": 1.5,
+        "useful_god.day_element.ky": 1,
+        "than_sat.cau_tran": 0.6
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ xảy ra chuyện hai bên hiểu một câu nói theo hai nghĩa khác nhau, rồi cả hai cùng thấy mình bị hiểu sai.",
+        "Có xu hướng bật ra lời nặng hơn ý định khi đang mệt hoặc đang vội.",
+        "Một chuyện nhỏ như giờ giấc hay cách làm việc có thể bị thổi lên thành cuộc tranh luận kéo dài.",
+        "Dễ có cảm giác muốn thắng trong cuộc nói chuyện thay vì cùng tìm cách giải quyết."
+      ],
+      "advice": {
+        "use": [
+          "Dùng cuộc trao đổi này để nói rõ kỳ vọng của hai bên, những điều trước giờ chỉ ngầm hiểu.",
+          "Nhắc lại ý của người đối diện bằng lời của mình trước khi đưa ý kiến."
+        ],
+        "avoid": [
+          "Tránh nhắn tin để giải quyết chuyện nhạy cảm khi cảm xúc còn đang lên.",
+          "Tránh lôi chuyện cũ ra làm bằng chứng.",
+          "Tránh dùng những từ khẳng định tuyệt đối như lúc nào cũng hay không bao giờ."
+        ],
+        "remedy": [
+          "Tạm dừng khoảng mười phút, hít thở sâu hoặc đi ra chỗ khác rồi quay lại nói tiếp.",
+          "Mở đầu bằng cảm nhận của mình, ví dụ: mình thấy hơi hụt hẫng khi..., thay vì đánh giá người kia.",
+          "Hẹn một thời điểm khác để nói chuyện nếu cả hai đều đã mệt."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.hop_tac_thuan_loi", "mode": "dampen", "factor": 0.7 },
+        { "id": "nguoi.cuoc_gap_than_tinh", "mode": "dampen", "factor": 0.7 }
+      ],
+      "ref": { "palaceHint": "phoi_ngau", "directionHint": "hac_than" },
+      "source": "Ánh xạ xung/hại/hình Chi ngày → bất ổn với người gần gũi; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.tin_tu_nguoi_cu",
+      "group": "nguoi",
+      "title": "Tin từ người cũ",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "stem_relation.day_stem", "in": ["hop_nien_can", "hop_nguyet_can"] },
+          { "signal": "branch_relation.year_branch", "in": ["luc_hop_nien_chi", "tam_hop_nien_chi"] },
+          { "signal": "than_sat", "is": "dich_ma" }
+        ]
+      },
+      "weights": {
+        "stem_relation.day_stem.hop_nien_can": 2,
+        "stem_relation.day_stem.hop_nguyet_can": 1.2,
+        "branch_relation.year_branch.luc_hop_nien_chi": 1.5,
+        "ten_god.day_stem.thien_an": 1,
+        "than_sat.dich_ma": 1,
+        "almanac.truc.khai": 0.6
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ nhận được tin nhắn hoặc cuộc gọi từ một người quen cũ, có thể là bạn học, đồng nghiệp trước đây.",
+        "Có xu hướng nghe lại tên một người từng gắn bó qua câu chuyện của người thứ ba.",
+        "Một đoạn ký ức hoặc một bức ảnh cũ có thể đưa bạn đến việc liên lạc lại với ai đó.",
+        "Dễ có tin tức từ nơi từng sinh sống hoặc làm việc, mang lại cảm xúc lẫn lộn."
+      ],
+      "advice": {
+        "use": [
+          "Phản hồi bằng sự thân thiện nhẹ nhàng, hỏi thăm trước khi bàn đến chuyện khác.",
+          "Tận dụng dịp này để cập nhật thông tin, vì người cũ thường nắm những điều bạn chưa biết."
+        ],
+        "avoid": [
+          "Tránh vội đặt kỳ vọng hay quay lại cách ứng xử của nhiều năm trước.",
+          "Tránh để cảm xúc cũ quyết định việc bạn đang cân nhắc hiện tại."
+        ],
+        "remedy": [
+          "Nếu thấy lấn cấn, hãy đợi một đêm rồi mới trả lời để cân nhắc bạn muốn giữ mối liên hệ ở mức nào.",
+          "Thống nhất sớm cách liên lạc phù hợp, như nhắn tin hoặc gặp mặt vào một ngày nhẹ nhàng."
+        ]
+      },
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "hy_than" },
+      "source": "Ánh xạ hợp niên can/niên chi → mối quan hệ cũ, gốc; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.cap_tren_chu_y",
+      "group": "nguoi",
+      "title": "Cấp trên chú ý hoặc tạo áp lực",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_quan", "that_sat"] },
+          { "signal": "ten_god.month_stem", "in": ["chinh_quan", "that_sat"] },
+          { "signal": "branch_relation.month_branch", "in": ["xung_nguyet_chi", "luc_hop_nguyet_chi"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_quan": 2.5,
+        "ten_god.day_stem.that_sat": 2,
+        "ten_god.month_stem.chinh_quan": 1.5,
+        "branch_relation.month_branch.xung_nguyet_chi": 1.5,
+        "branch_relation.month_branch.luc_hop_nguyet_chi": 1,
+        "useful_god.month_element.dung": 0.8,
+        "than_sat.thien_quan": 0.8
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một người giữ vai trò quản lý hỏi han tiến độ hoặc yêu cầu bạn giải trình rõ hơn thường lệ.",
+        "Có xu hướng bạn được giao thêm trách nhiệm, cùng với kỳ vọng cao hơn từ người phụ trách.",
+        "Một cấp trên có thể để ý đến cách bạn phối hợp với mọi người nhiều hơn bình thường.",
+        "Dễ gặp tình huống quy trình hoặc thời hạn được siết lại, khiến bạn phải sắp xếp gọn hơn."
+      ],
+      "advice": {
+        "use": [
+          "Chuẩn bị sẵn bản tóm tắt tiến độ ngắn, nêu số liệu và bước tiếp theo.",
+          "Xem sự chú ý này là dịp để trình bày ý tưởng hoặc đề xuất mà bạn đã cân nhắc từ trước."
+        ],
+        "avoid": [
+          "Tránh tranh luận gay gắt trước đông người với người phụ trách.",
+          "Tránh để việc tồn đọng tích lại đến lúc bị hỏi mới xử lý."
+        ],
+        "remedy": [
+          "Chủ động cập nhật ngắn gọn một lần trong ngày để người phụ trách bớt phải hỏi.",
+          "Nếu thấy yêu cầu quá sức, hãy đề xuất thứ tự ưu tiên thay vì im lặng gánh hết."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.duoc_khen_cong_nhan", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hy_than" },
+      "source": "Ánh xạ Chính Quan/Thất Sát và quan hệ Chi tháng → cấp trên, quy củ; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.co_hoi_ket_noi_moi",
+      "group": "nguoi",
+      "title": "Cơ hội kết nối mới",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thuc_than", "ty_kien"] },
+          { "signal": "branch_relation.day_branch", "in": ["tam_hop_nhat_chi", "ban_tam_hop_nhat_chi"] },
+          { "signal": "than_sat", "in": ["thien_hy", "dich_ma"] }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuc_than": 2,
+        "ten_god.day_stem.ty_kien": 1.5,
+        "branch_relation.day_branch.tam_hop_nhat_chi": 2,
+        "branch_relation.day_branch.ban_tam_hop_nhat_chi": 1.2,
+        "than_sat.thien_hy": 1,
+        "than_sat.dich_ma": 0.8,
+        "almanac.hoang_dao.hoang_dao": 0.8
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có dịp làm quen một người mới qua một buổi họp mặt, một nhóm học hoặc một cuộc trò chuyện tình cờ.",
+        "Có xu hướng bạn tìm thấy điểm chung bất ngờ với một người trước đây chỉ biết mặt.",
+        "Một lời mời tham gia nhóm hoặc sự kiện nhỏ có thể mở ra những mối quen hữu ích về sau.",
+        "Dễ gặp người có cùng sở thích hoặc cùng mối bận tâm, tạo cảm giác trò chuyện rất tự nhiên."
+      ],
+      "advice": {
+        "use": [
+          "Chủ động bắt chuyện bằng một câu hỏi mở về điều bạn thấy thú vị ở đối phương.",
+          "Trao đổi cách liên lạc ngay khi cuộc nói chuyện hợp ý, rồi nhắn một câu hỏi thăm sau vài ngày."
+        ],
+        "avoid": [
+          "Tránh đặt nặng mục đích lợi ích ngay từ lần gặp đầu.",
+          "Tránh nói quá nhiều về mình mà quên lắng nghe."
+        ],
+        "remedy": [
+          "Nếu hay ngại giao tiếp, chuẩn bị trước hai ba câu mở đầu để thấy tự tin hơn.",
+          "Chọn gặp ở nơi yên tĩnh vừa phải để cả hai nói chuyện thoải mái."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thực Thần/Tỷ Kiên và tam hợp Chi ngày → kết nối, giao tiếp thuận; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.nguoi_than_can_giup",
+      "group": "nguoi",
+      "title": "Người thân cần được giúp",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.year_stem", "in": ["chinh_an", "thien_an", "chinh_quan"] },
+          { "signal": "branch_relation.year_branch", "in": ["xung_nien_chi", "hinh_nien_chi", "hai_nien_chi"] },
+          { "signal": "ten_god.day_branch", "in": ["chinh_an", "thien_an"] }
+        ]
+      },
+      "weights": {
+        "ten_god.year_stem.chinh_an": 1.5,
+        "ten_god.year_stem.thien_an": 1.2,
+        "ten_god.day_branch.chinh_an": 1.5,
+        "branch_relation.year_branch.xung_nien_chi": 1.5,
+        "branch_relation.year_branch.hai_nien_chi": 1,
+        "useful_god.year_element.ky": 0.8,
+        "than_sat.thien_y": 0.6
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một người trong gia đình gọi hỏi ý kiến bạn về một việc họ đang cân nhắc.",
+        "Có xu hướng người thân cần bạn dành thời gian hơn bình thường, chẳng hạn đưa đón hoặc ngồi nghe tâm sự.",
+        "Một việc nhà tưởng nhỏ có thể cần bạn góp sức sắp xếp trong vài ngày tới.",
+        "Dễ có chuyện cả nhà phải cùng bàn một quyết định chung, và bạn được tin cậy để làm người điều phối."
+      ],
+      "advice": {
+        "use": [
+          "Dành một khoảng thời gian cố định để nghe người thân nói trọn ý trước khi góp ý.",
+          "Chia việc rõ ràng giữa các thành viên để không ai thấy mình gánh nhiều nhất."
+        ],
+        "avoid": [
+          "Tránh ôm hết mọi việc rồi tích lại cảm giác mệt mỏi.",
+          "Tránh áp đặt cách làm của mình lên người đang cần được lắng nghe."
+        ],
+        "remedy": [
+          "Nếu lịch của mình dày, hãy nói trước khoảng thời gian có thể dành ra để hai bên cùng chủ động.",
+          "Hỏi người thân: bạn muốn mình lắng nghe hay muốn mình giúp tìm cách, để hỗ trợ đúng nhu cầu."
+        ]
+      },
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "hy_than" },
+      "source": "Ánh xạ Ấn tinh và quan hệ Chi năm → gia đình gốc, người thân; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.bat_dong_nguoi_gan_gui",
+      "group": "nguoi",
+      "title": "Bất đồng với người gần gũi",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.day_branch", "in": ["xung_nhat_chi", "hinh_nhat_chi", "pha_nhat_chi"] },
+          { "signal": "ten_god.day_branch", "in": ["that_sat", "thuong_quan"] }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "luc_hop_nhat_chi" }]
+      },
+      "weights": {
+        "branch_relation.day_branch.xung_nhat_chi": 2.5,
+        "branch_relation.day_branch.hinh_nhat_chi": 1.5,
+        "branch_relation.day_branch.pha_nhat_chi": 1.2,
+        "ten_god.day_branch.that_sat": 1.2,
+        "ten_god.day_branch.thuong_quan": 1,
+        "useful_god.day_element.ky": 1,
+        "than_sat.thien_hinh": 0.6
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có bất đồng nhỏ với người ở gần mình về cách sắp xếp sinh hoạt hoặc một kế hoạch chung.",
+        "Có xu hướng cả hai đều muốn được lắng nghe nhưng chưa ai nhường lời trước.",
+        "Một thói quen quen thuộc của người bên cạnh bỗng trở nên khó chịu hơn thường lệ.",
+        "Dễ có khoảng lặng kéo dài sau một ý kiến trái chiều, tạo cảm giác xa cách tạm thời."
+      ],
+      "advice": {
+        "use": [
+          "Dùng dịp này để nói rõ điều mình cần, thay vì chờ người kia tự hiểu.",
+          "Ghi nhận phần đúng trong quan điểm của người đối diện trước khi trình bày ý mình."
+        ],
+        "avoid": [
+          "Tránh im lặng kéo dài hoặc tránh mặt vì mong chuyện tự qua.",
+          "Tránh so sánh người gần gũi với người khác khi đang tranh luận."
+        ],
+        "remedy": [
+          "Hẹn một buổi trò chuyện yên tĩnh, cả hai cùng tắt điện thoại trong ít phút.",
+          "Viết ra vài ý chính trước khi nói để không bị cuốn vào cảm xúc.",
+          "Làm một việc nhỏ chu đáo cho người kia, như pha một ly nước, để mở lại không khí dễ chịu."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.cuoc_gap_than_tinh", "mode": "dampen", "factor": 0.6 },
+        { "id": "nguoi.hop_tac_thuan_loi", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "phoi_ngau", "directionHint": "hac_than" },
+      "source": "Ánh xạ xung/hình Chi ngày → bất ổn với người gần gũi; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.duoc_khen_cong_nhan",
+      "group": "nguoi",
+      "title": "Được khen, được công nhận",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thuc_than", "chinh_quan", "chinh_an"] },
+          { "signal": "than_sat", "in": ["thien_quan", "minh_duong", "bao_quang", "ngoc_duong"] },
+          { "signal": "almanac.hoang_dao", "is": "hoang_dao" }
+        ],
+        "none": [{ "signal": "ten_god.day_stem", "is": "that_sat" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuc_than": 2,
+        "ten_god.day_stem.chinh_quan": 1.8,
+        "ten_god.day_stem.chinh_an": 1.2,
+        "useful_god.day_element.dung": 1.2,
+        "almanac.hoang_dao.hoang_dao": 1,
+        "than_sat.minh_duong": 0.8,
+        "than_sat.bao_quang": 0.8
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có người ghi nhận một việc làm tốt của bạn mà bản thân bạn tưởng chẳng ai để ý.",
+        "Có xu hướng bạn nhận được lời cảm ơn hoặc phản hồi tích cực từ người từng nhờ bạn.",
+        "Một đóng góp nhỏ của bạn có thể được nhắc đến trong cuộc họp hoặc trong nhóm.",
+        "Dễ gặp tình huống ai đó khen cách bạn xử lý vấn đề, khiến bạn thêm tự tin."
+      ],
+      "advice": {
+        "use": [
+          "Đón nhận lời khen bằng một lời cảm ơn giản dị, rồi chia sẻ công với người cùng làm.",
+          "Ghi lại phản hồi tích cực để dùng làm động lực khi gặp ngày kém hứng thú."
+        ],
+        "avoid": [
+          "Tránh tự hạ thấp thành quả khiến người khen cảm thấy lời mình không được trân trọng.",
+          "Tránh để lời khen khiến bạn chủ quan với phần việc còn dở."
+        ],
+        "remedy": [
+          "Nếu cảm thấy ngượng khi được khen, hãy tập trả lời bằng một câu ngắn như: mình rất vui vì điều đó.",
+          "Dành vài phút nhìn lại điều gì giúp bạn làm tốt để nhân rộng ở những việc sau."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.tieu_nhan_loi_ra_tieng_vao", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thực Thần, Chính Quan và thần sát minh đường → được ghi nhận; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.bi_canh_tranh",
+      "group": "nguoi",
+      "title": "Có sự cạnh tranh",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["kiep_tai", "that_sat"] },
+          { "signal": "ten_god.month_stem", "in": ["kiep_tai", "that_sat"] },
+          { "signal": "branch_relation.month_branch", "is": "xung_nguyet_chi" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.kiep_tai": 2.5,
+        "ten_god.day_stem.that_sat": 1.5,
+        "ten_god.month_stem.kiep_tai": 1,
+        "branch_relation.month_branch.xung_nguyet_chi": 1.5,
+        "useful_god.day_element.ky": 1,
+        "than_sat.nguyet_pha": 0.6
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có một người cùng vị trí hoặc cùng mục tiêu với bạn, khiến cả hai bị đem ra so sánh.",
+        "Có xu hướng cơ hội mà bạn quan tâm cũng được người khác nhắm tới.",
+        "Một đồng nghiệp hoặc bạn bè có thể tiến nhanh hơn bạn ở một mảng, tạo chút áp lực ngầm.",
+        "Dễ cảm thấy phải chứng tỏ bản thân nhiều hơn trong nhóm vào những ngày này."
+      ],
+      "advice": {
+        "use": [
+          "Dùng sự so sánh như tấm gương để nhìn ra điểm mạnh riêng của mình và làm rõ nó.",
+          "Học một thói quen tốt của người đồng hành mà không mất đi phong cách riêng."
+        ],
+        "avoid": [
+          "Tránh dùng lời lẽ dè bỉu hoặc nói xấu đối thủ trong nhóm.",
+          "Tránh chạy theo nhịp của người khác đến mức quên mục tiêu của mình."
+        ],
+        "remedy": [
+          "Viết ra ba điều mình làm tốt hơn tuần trước để lấy lại sự cân bằng về tâm lý.",
+          "Chọn một việc cụ thể để cải thiện trong tuần, thay vì lo nghĩ đến người khác.",
+          "Trao đổi cởi mở với đồng nghiệp để thấy phần có thể phối hợp thay vì đối đầu."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.hop_tac_thuan_loi", "mode": "dampen", "factor": 0.7 }
+      ],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hac_than" },
+      "source": "Ánh xạ Kiếp Tài/Thất Sát → cạnh tranh, tranh phần; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.hop_tac_thuan_loi",
+      "group": "nguoi",
+      "title": "Hợp tác thuận lợi",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["ty_kien", "thuc_than", "chinh_an"] },
+          { "signal": "branch_relation.day_branch", "in": ["luc_hop_nhat_chi", "tam_hop_nhat_chi"] },
+          { "signal": "stem_relation.day_stem", "is": "hop_nhat_chu" }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.ty_kien": 2,
+        "branch_relation.day_branch.luc_hop_nhat_chi": 2.5,
+        "branch_relation.day_branch.tam_hop_nhat_chi": 2,
+        "stem_relation.day_stem.hop_nhat_chu": 1.5,
+        "useful_god.day_element.dung": 1,
+        "almanac.truc.thanh": 0.8,
+        "than_sat.thien_hy": 0.6
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có buổi làm việc nhóm trôi chảy, ai cũng hiểu phần mình và bổ trợ cho nhau.",
+        "Có xu hướng một người đồng nghiệp hoặc bạn bè dễ dàng nhất trí với đề xuất của bạn.",
+        "Một dự án chung có thể được tháo gỡ nhanh nhờ hai bên cùng chịu nhường một chút.",
+        "Dễ tìm được tiếng nói chung với người trước đây khác quan điểm."
+      ],
+      "advice": {
+        "use": [
+          "Tranh thủ chốt các việc cần nhiều người cùng làm và ghi rõ ai phụ trách phần nào.",
+          "Chia sẻ sớm phần việc dự kiến để mọi người có thời gian chuẩn bị."
+        ],
+        "avoid": [
+          "Tránh bỏ qua bàn bạc chi tiết chỉ vì bầu không khí đang dễ chịu.",
+          "Tránh nhận phần việc của người khác mà không trao đổi."
+        ],
+        "remedy": [
+          "Sau buổi họp, gửi bản tóm tắt ngắn để mọi người cùng xác nhận.",
+          "Đặt mốc kiểm tra giữa kỳ, để nếu có lệch hướng thì điều chỉnh sớm."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.bi_canh_tranh", "mode": "dampen", "factor": 0.8 },
+        { "id": "nguoi.hieu_lam_cai_va", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hy_than" },
+      "source": "Ánh xạ Tỷ Kiên và lục hợp/tam hợp Chi ngày → hợp tác, đồng lòng; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.gop_y_thang_than",
+      "group": "nguoi",
+      "title": "Góp ý thẳng, phản biện",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "thuong_quan" },
+          { "signal": "ten_god.hour_stem", "is": "thuong_quan" },
+          { "signal": "ten_god.day_branch", "is": "thuong_quan" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.thuong_quan": 3,
+        "ten_god.hour_stem.thuong_quan": 1.2,
+        "ten_god.day_branch.thuong_quan": 1.2,
+        "useful_god.day_element.dung": 1,
+        "almanac.hoang_dao.hac_dao": 0.6,
+        "than_sat.thien_hinh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có người nói thẳng nhận xét về cách làm của bạn, nghe hơi gắt nhưng có thể chứa điều đáng cân nhắc.",
+        "Có xu hướng chính bạn muốn đưa ra phản biện về một ý tưởng đang được mọi người xuôi theo.",
+        "Một cuộc thảo luận có thể nghiêng sang tranh luận, khi mỗi người giữ cách nhìn khác nhau.",
+        "Dễ bắt gặp một ý tưởng mới lạ từ cuộc cãi lý nhẹ, nếu hai bên đủ cởi mở."
+      ],
+      "advice": {
+        "use": [
+          "Tách nhận xét về công việc khỏi cảm xúc về con người để lấy phần có ích.",
+          "Nếu bạn là người phản biện, hãy nêu kèm một hướng thay thế để cuộc bàn bạc có hướng đi."
+        ],
+        "avoid": [
+          "Tránh dùng giọng mỉa mai hay hài hước chọc người khác khi đang tranh luận.",
+          "Tránh bảo vệ ý kiến chỉ vì sợ mất mặt."
+        ],
+        "remedy": [
+          "Hỏi lại: ý bạn là... đúng không?, để chắc rằng mình hiểu đúng điều được nói.",
+          "Dành một ngày để nghĩ về góp ý rồi mới quyết định điều chỉnh gì.",
+          "Mở đầu phản biện bằng điểm bạn đồng tình để cuộc nói chuyện nhẹ nhàng hơn."
+        ]
+      },
+      "conflictsWith": [
+        { "id": "nguoi.cuoc_gap_than_tinh", "mode": "dampen", "factor": 0.8 }
+      ],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hac_than" },
+      "source": "Ánh xạ Thương Quan → tranh luận, phản biện, ý tưởng bứt phá; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.cuoc_gap_than_tinh",
+      "group": "nguoi",
+      "title": "Cuộc gặp thân tình, dễ chịu",
+      "baseWeight": 0.8,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thuc_than", "chinh_an"] },
+          { "signal": "ten_god.hour_stem", "is": "thuc_than" },
+          { "signal": "than_sat", "in": ["thien_hy", "kim_quy", "ngoc_duong"] }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "in": ["xung_nhat_chi", "hinh_nhat_chi"] }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuc_than": 2.5,
+        "ten_god.day_stem.chinh_an": 1,
+        "ten_god.hour_stem.thuc_than": 1,
+        "useful_god.hour_element.dung": 0.8,
+        "almanac.hour_hoang_dao.hoang_dao": 1,
+        "than_sat.thien_hy": 1,
+        "than_sat.kim_quy": 0.6
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có một bữa cơm hoặc buổi cà phê với người quen, nơi câu chuyện đi rất tự nhiên và nhiều tiếng cười.",
+        "Có xu hướng bạn cảm thấy nhẹ lòng sau khi tâm sự với một người bạn lâu năm.",
+        "Một cuộc trò chuyện ngắn tình cờ có thể làm bạn thấy được thấu hiểu hơn hẳn.",
+        "Dễ có không khí gần gũi trong buổi gặp mặt gia đình hoặc bạn bè, ai cũng thư thả."
+      ],
+      "advice": {
+        "use": [
+          "Sắp xếp một khoảng thời gian trọn vẹn cho cuộc gặp, hạn chế nhìn điện thoại.",
+          "Nhân lúc không khí tốt, nói ra một lời quý mến hay cảm ơn còn đang để dành."
+        ],
+        "avoid": [
+          "Tránh mang chuyện công việc căng thẳng vào bàn ăn.",
+          "Tránh kéo cuộc gặp quá khuya làm ngày hôm sau uể oải."
+        ],
+        "remedy": [
+          "Nếu chưa có dịp gặp, hãy gọi video hoặc nhắn tin dài hơn thường lệ để giữ cảm giác gần gũi.",
+          "Chủ động đề xuất một buổi hẹn nhỏ vào cuối tuần cho những người bạn lâu chưa gặp."
+        ]
+      },
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thực Thần → thư thả, ăn uống, trò chuyện thuận; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "nguoi.cap_duoi_can_dinh_huong",
+      "group": "nguoi",
+      "title": "Cấp dưới, người nhỏ tuổi cần định hướng",
+      "baseWeight": 0.7,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.hour_branch", "in": ["xung_gio_chi", "luc_hop_gio_chi", "hai_gio_chi"] },
+          { "signal": "ten_god.hour_stem", "in": ["thuc_than", "thuong_quan", "chinh_quan"] },
+          { "signal": "stem_relation.hour_stem", "is": "hop_gio_can" }
+        ]
+      },
+      "weights": {
+        "branch_relation.hour_branch.xung_gio_chi": 1.5,
+        "branch_relation.hour_branch.luc_hop_gio_chi": 1,
+        "branch_relation.hour_branch.hai_gio_chi": 1,
+        "ten_god.hour_stem.thuc_than": 1.2,
+        "ten_god.hour_stem.thuong_quan": 1.2,
+        "stem_relation.hour_stem.hop_gio_can": 1,
+        "useful_god.hour_element.ky": 0.8
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một bạn nhỏ tuổi hơn hoặc thành viên mới trong nhóm hỏi bạn cách xử lý một việc còn bỡ ngỡ.",
+        "Có xu hướng kế hoạch của bạn phụ thuộc vào việc người cấp dưới hoặc con cháu có theo kịp nhịp hay không.",
+        "Một cuộc trao đổi với người trẻ hơn có thể mang đến cho bạn góc nhìn mới mẻ.",
+        "Dễ thấy mình cần giải thích kỹ hơn thường lệ vì người nghe chưa nắm rõ bối cảnh."
+      ],
+      "advice": {
+        "use": [
+          "Chia nhiệm vụ thành từng bước nhỏ có mốc rõ ràng để người mới dễ theo.",
+          "Hỏi ngược lại để biết người nghe đã hiểu điều bạn muốn truyền đạt hay chưa."
+        ],
+        "avoid": [
+          "Tránh giao việc theo kiểu ngầm hiểu rồi phàn nàn khi kết quả khác kỳ vọng.",
+          "Tránh so sánh người nhỏ tuổi với chính mình hồi trước."
+        ],
+        "remedy": [
+          "Dành mười phút cuối ngày để kiểm tra tiến độ và giải đáp thắc mắc, thay vì dồn đến cuối tuần.",
+          "Đưa ra một ví dụ mẫu để người kia hình dung kết quả mong muốn."
+        ]
+      },
+      "ref": { "palaceHint": "con_cai_cap_duoi", "directionHint": "hy_than" },
+      "source": "Ánh xạ Chi giờ → cấp dưới, con cái, kế hoạch; văn bản tự viết",
+      "confidence": "B"
+    }
+  ]
+}

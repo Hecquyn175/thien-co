@@ -1,0 +1,724 @@
+{
+  "meta": {
+    "source": "Ánh xạ thập thần, quan hệ chi, trực và thần sát phổ thông sang bối cảnh công việc, học tập, giấy tờ; văn bản tự viết",
+    "confidence": "B"
+  },
+  "events": [
+    {
+      "id": "cong_viec.co_hoi_giao_viec_moi",
+      "group": "cong_viec",
+      "title": "Cơ hội nhận việc mới hoặc được cân nhắc thăng tiến",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_quan", "thien_an"] },
+          { "signal": "ten_god.hour_stem", "is": "chinh_quan" },
+          { "signal": "than_sat", "in": ["thien_quan", "thien_phu"] }
+        ],
+        "none": [{ "signal": "branch_relation.month_branch", "is": "xung_nguyet_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_quan": 3,
+        "ten_god.hour_stem.chinh_quan": 1.5,
+        "branch_relation.month_branch.luc_hop_nguyet_chi": 1.5,
+        "useful_god.day_element.dung": 1,
+        "than_sat.thien_quan": 1,
+        "almanac.truc.khai": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một đầu mối từ phía cấp trên hoặc bộ phận khác, mở ra khả năng bạn được nhắc tên cho một vị trí hay đầu việc mới.",
+        "Có xu hướng xuất hiện lời đề nghị đảm nhận một mảng việc chưa quen tay, cần cân nhắc xem phù hợp với sức của mình đến đâu.",
+        "Khả năng cao là năng lực làm việc đều đặn của bạn đang được để ý, dù chưa ai nói thẳng ra trong ngày."
+      ],
+      "advice": {
+        "use": [
+          "Chủ động cập nhật ngắn gọn thành quả gần đây cho người phụ trách trực tiếp.",
+          "Nên cân nhắc nhận những đầu việc có phạm vi rõ ràng, có thể đo được kết quả."
+        ],
+        "avoid": [
+          "Tránh nhận lời ngay khi chưa hỏi rõ phạm vi, thời hạn và nguồn lực hỗ trợ.",
+          "Tránh so sánh công khai với đồng nghiệp trong lúc đang được chú ý."
+        ],
+        "remedy": [
+          "Nếu cơ hội đến sớm hơn dự tính, hãy xin một ngày để cân nhắc và liệt kê điều kiện cần có trước khi trả lời.",
+          "Nếu thấy lời đề nghị chưa rõ ràng, nên hẹn một buổi trao đổi riêng để làm rõ kỳ vọng hai bên."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.tien_do_cham", "mode": "dampen", "factor": 0.7 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hy_than" },
+      "source": "Ánh xạ Chính Quan → cấp trên, thăng tiến chính thống; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.ap_luc_han_chot",
+      "group": "cong_viec",
+      "title": "Áp lực hạn chót dồn lại",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "that_sat" },
+          { "signal": "ten_god.hour_stem", "is": "that_sat" },
+          { "signal": "almanac.truc", "in": ["nguy", "chap"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.that_sat": 3,
+        "ten_god.hour_stem.that_sat": 1.5,
+        "useful_god.day_element.ky": 1.5,
+        "almanac.truc.nguy": 1,
+        "than_sat.thien_hinh": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có cảm giác nhiều mốc thời gian chồng lên nhau, khiến lịch làm việc trong ngày bị dồn về cuối buổi.",
+        "Có xu hướng bị nhắc tiến độ dồn dập, trong khi một khâu phụ thuộc vào người khác vẫn chưa xong.",
+        "Một yêu cầu bổ sung có thể xuất hiện sát giờ nộp, buộc bạn sắp xếp lại thứ tự ưu tiên."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc chia việc thành các phần nhỏ và hoàn tất phần quan trọng nhất trước buổi trưa.",
+          "Báo sớm cho người liên quan về những khâu có thể chậm để cùng điều chỉnh."
+        ],
+        "avoid": [
+          "Tránh nhận thêm việc phát sinh khi danh sách hiện tại chưa gọn.",
+          "Tránh bỏ bữa hay làm liên tục nhiều giờ không nghỉ chỉ để kịp mốc."
+        ],
+        "remedy": [
+          "Dành mười phút đầu ngày viết ra ba việc bắt buộc và gạch bỏ những việc có thể dời sang hôm sau.",
+          "Nếu không kịp trọn vẹn, hãy gửi bản tạm hoàn chỉnh phần cốt lõi kèm lịch bổ sung rõ ràng."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.nay_y_tuong_sang_tao", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hac_than" },
+      "source": "Ánh xạ Thất Sát → áp lực, hạn chót, cạnh tranh; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.ky_ket_thuan_loi",
+      "group": "cong_viec",
+      "title": "Thuận lợi cho việc ký kết, chốt thỏa thuận",
+      "baseWeight": 1.0,
+      "match": {
+        "all": [{ "signal": "almanac.hoang_dao", "is": "hoang_dao" }],
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_quan", "chinh_an"] },
+          { "signal": "branch_relation.day_branch", "in": ["luc_hop_nhat_chi", "tam_hop_nhat_chi"] },
+          { "signal": "almanac.truc", "in": ["thanh", "man", "dinh"] }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_quan": 2,
+        "branch_relation.day_branch.luc_hop_nhat_chi": 2,
+        "almanac.truc.thanh": 1.5,
+        "almanac.truc.dinh": 1,
+        "useful_god.day_element.dung": 1,
+        "than_sat.kim_quy": 0.5
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có không khí đối thoại cởi mở, giúp hai bên nhanh chóng đi đến điểm chung trong một thỏa thuận đang bàn dở.",
+        "Có xu hướng một văn bản hay biên bản được rà soát gọn gàng, ít phải chỉnh sửa lại nhiều vòng.",
+        "Một cuộc gặp về điều khoản hợp tác có thể kết thúc bằng sự đồng thuận ban đầu."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc đưa những nội dung đã chuẩn bị kỹ ra bàn trong buổi sáng, khi đầu óc còn tỉnh táo.",
+          "Ghi lại các điểm đã thống nhất bằng văn bản ngắn để hai bên cùng xác nhận."
+        ],
+        "avoid": [
+          "Tránh bỏ qua việc đọc kỹ từng điều khoản vì thấy không khí đang thuận.",
+          "Tránh hứa thêm những điều nằm ngoài thẩm quyền của mình."
+        ],
+        "remedy": [
+          "Với văn bản có giá trị ràng buộc, nên nhờ chuyên gia pháp lý hoặc bộ phận pháp chế xem lại trước khi ký.",
+          "Nếu còn một điều khoản chưa rõ, hãy xin thêm thời gian thay vì ký vội trong cùng buổi."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.vuong_mac_hop_dong", "mode": "dampen", "factor": 0.6 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hy_than" },
+      "source": "Ánh xạ Chính Quan, Lục hợp, trực Thành/Định → ký kết thuận; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.giay_to_thu_tuc_tru_trat",
+      "group": "cong_viec",
+      "title": "Giấy tờ, thủ tục dễ vướng mắc nhỏ",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "almanac.truc", "in": ["pha", "nguy", "be"] },
+          { "signal": "almanac.hoang_dao", "is": "hac_dao" },
+          { "signal": "ten_god.day_stem", "in": ["thien_an", "chinh_an"] }
+        ],
+        "none": [{ "signal": "almanac.truc", "in": ["thanh", "khai"] }]
+      },
+      "weights": {
+        "almanac.truc.be": 2,
+        "almanac.truc.pha": 2,
+        "ten_god.day_stem.thien_an": 1.5,
+        "useful_god.day_element.ky": 1.5,
+        "almanac.hoang_dao.hac_dao": 1,
+        "than_sat.nguyet_pha": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ gặp tình huống hồ sơ thiếu một giấy tờ phụ, khiến việc nộp hoặc nhận kết quả phải lùi lại.",
+        "Có xu hướng thông tin ghi trên biểu mẫu chưa khớp giữa các bản, cần đối chiếu lại từng dòng.",
+        "Cơ quan hay bộ phận tiếp nhận có thể đổi yêu cầu hoặc giờ làm việc so với điều bạn nắm trước đó."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc gọi điện hoặc nhắn hỏi trước về danh sách giấy tờ cần mang theo.",
+          "Chụp lưu một bản sao của mọi hồ sơ trước khi nộp."
+        ],
+        "avoid": [
+          "Tránh để việc nộp hồ sơ sát giờ đóng cửa.",
+          "Tránh điền biểu mẫu vội vàng khi chưa đọc hướng dẫn."
+        ],
+        "remedy": [
+          "Nếu hồ sơ bị trả lại, hãy ghi rõ phần cần bổ sung rồi hẹn lịch nộp lại trong tuần.",
+          "Với thủ tục liên quan quyền lợi pháp lý, nên tham khảo ý kiến chuyên gia hoặc cơ quan hướng dẫn chính thức."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.ky_ket_thuan_loi", "mode": "dampen", "factor": 0.7 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me" },
+      "source": "Ánh xạ trực Phá/Nguy/Bế → trì hoãn, tắc nghẽn; Ấn tinh → giấy tờ; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.vuong_mac_hop_dong",
+      "group": "cong_viec",
+      "title": "Điều khoản hợp đồng dễ phát sinh khác biệt cách hiểu",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.day_branch", "in": ["hinh_nhat_chi", "hai_nhat_chi", "pha_nhat_chi"] },
+          { "signal": "branch_relation.month_branch", "in": ["hinh_nguyet_chi", "hai_nguyet_chi"] },
+          { "signal": "ten_god.day_stem", "is": "kiep_tai" }
+        ]
+      },
+      "weights": {
+        "branch_relation.day_branch.hinh_nhat_chi": 2,
+        "branch_relation.day_branch.hai_nhat_chi": 1.5,
+        "branch_relation.month_branch.hinh_nguyet_chi": 1,
+        "ten_god.day_stem.kiep_tai": 1,
+        "useful_god.day_element.ky": 1,
+        "than_sat.thien_hinh": 1
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có sự lệch nhau giữa điều hai bên nhớ về cam kết ban đầu và nội dung đang ghi trong văn bản.",
+        "Có xu hướng một điều khoản về thời hạn hay trách nhiệm được đọc theo hai cách khác nhau.",
+        "Bên đối tác có thể đề nghị điều chỉnh một mục sau khi mọi thứ tưởng như đã xong."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc ghi lại mọi trao đổi quan trọng bằng email hoặc biên bản.",
+          "Đọc lại phần định nghĩa và phần trách nhiệm hai bên trước khi bàn tiếp."
+        ],
+        "avoid": [
+          "Tránh đồng ý miệng với những thay đổi chưa được ghi vào văn bản.",
+          "Tránh tranh luận gay gắt qua tin nhắn khi chưa nắm rõ nội dung."
+        ],
+        "remedy": [
+          "Với bất kỳ vướng mắc hay tranh chấp nào về hợp đồng, nên tham khảo luật sư hoặc chuyên gia pháp lý trước khi quyết định.",
+          "Đề nghị một buổi làm việc có người ghi biên bản để thống nhất lại cách hiểu từng điều khoản."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.ky_ket_thuan_loi", "mode": "dampen", "factor": 0.6 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "hac_than" },
+      "source": "Ánh xạ Hình/Hại chi → mâu thuẫn điều khoản; nhấn mạnh tham khảo chuyên gia; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.ket_qua_hoc_tap_thi_cu_tot",
+      "group": "cong_viec",
+      "title": "Học tập, thi cử có đà tiến triển tốt",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_an", "thien_an"] },
+          { "signal": "ten_god.hour_stem", "in": ["chinh_an", "thien_an"] },
+          { "signal": "ten_god.day_branch", "in": ["chinh_an", "thien_an"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_an": 3,
+        "ten_god.day_stem.thien_an": 2,
+        "ten_god.hour_stem.chinh_an": 1.5,
+        "useful_god.day_element.dung": 1.5,
+        "almanac.hour_hoang_dao.hoang_dao": 0.5,
+        "than_sat.thien_duc": 0.5
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có cảm giác kiến thức ôn trước đó ăn khớp lại với nhau, giúp bạn tiếp thu bài mới nhanh hơn thường lệ.",
+        "Có xu hướng nhận được nhận xét hoặc kết quả khá ổn sau một bài kiểm tra, bài thuyết trình hay chứng chỉ.",
+        "Một người hướng dẫn hay người đi trước có thể góp ý đúng chỗ bạn đang băn khoăn."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc dành khung giờ yên tĩnh trong ngày cho phần học khó nhất.",
+          "Ghi lại những điểm vừa hiểu ra để ôn nhanh vào những hôm sau."
+        ],
+        "avoid": [
+          "Tránh chủ quan bỏ qua phần ôn tập vì thấy đà đang tốt.",
+          "Tránh thức khuya học dồn khiến hôm sau mất sức tập trung."
+        ],
+        "remedy": [
+          "Nếu gặp phần chưa nắm chắc, hãy hỏi một người đã học qua hoặc xem thêm tài liệu thay vì đoán.",
+          "Dùng cách học xen kẽ giữa 25 phút tập trung và 5 phút nghỉ để giữ nhịp ổn định."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.tien_do_cham", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Chính Ấn/Thiên Ấn → học tập, thi cử, quý nhân; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.nay_y_tuong_sang_tao",
+      "group": "cong_viec",
+      "title": "Dễ nảy ý tưởng sáng tạo",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "thuc_than" },
+          { "signal": "ten_god.hour_stem", "is": "thuc_than" },
+          { "signal": "ten_god.day_branch", "is": "thuc_than" }
+        ],
+        "none": [{ "signal": "ten_god.day_stem", "is": "that_sat" }]
+      },
+      "weights": {
+        "ten_god.day_stem.thuc_than": 3,
+        "ten_god.hour_stem.thuc_than": 1.5,
+        "ten_god.day_branch.thuc_than": 1,
+        "useful_god.day_element.dung": 1,
+        "than_sat.thien_hy": 0.5,
+        "almanac.hoang_dao.hoang_dao": 0.5
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có lúc tâm trí thư thả và một ý hay bật ra khi bạn đang làm việc khác, ví dụ lúc đi bộ hay pha trà.",
+        "Có xu hướng nhìn một vấn đề cũ bằng góc độ mới, từ đó nghĩ ra cách làm gọn hơn.",
+        "Một buổi trao đổi nhẹ nhàng với đồng nghiệp có thể gợi ra hướng triển khai chưa ai nghĩ tới."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc ghi nhanh mọi ý tưởng vào một nơi cố định để xem lại sau.",
+          "Dành nửa giờ không bị làm phiền để phác thảo ý tưởng mà chưa cần chấm điểm."
+        ],
+        "avoid": [
+          "Tránh tự gạt bỏ ý tưởng chỉ vì nó chưa hoàn chỉnh.",
+          "Tránh khoe quá nhiều khi chưa thử nghiệm ở quy mô nhỏ."
+        ],
+        "remedy": [
+          "Nếu ý tưởng còn mơ hồ, hãy thử trình bày trong ba câu với một người tin cậy để làm rõ.",
+          "Chọn một phiên bản nhỏ nhất của ý tưởng và thử trong vài ngày trước khi mở rộng."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.hop_hanh_cang_thang", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "ban_than", "directionHint": "hy_than" },
+      "source": "Ánh xạ Thực Thần → thư thả, sáng tạo; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.hop_hanh_cang_thang",
+      "group": "cong_viec",
+      "title": "Cuộc họp dễ căng, nhiều ý kiến trái chiều",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["that_sat", "thuong_quan"] },
+          { "signal": "branch_relation.month_branch", "is": "xung_nguyet_chi" },
+          { "signal": "ten_god.hour_stem", "is": "that_sat" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.that_sat": 2,
+        "ten_god.day_stem.thuong_quan": 1.5,
+        "branch_relation.month_branch.xung_nguyet_chi": 2,
+        "useful_god.day_element.ky": 1,
+        "almanac.hoang_dao.hac_dao": 1,
+        "than_sat.cau_giao": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có buổi họp kéo dài hơn dự kiến vì mỗi bộ phận giữ một quan điểm riêng về cách làm.",
+        "Có xu hướng một câu góp ý bị hiểu thành phê bình, làm không khí trong phòng chùng xuống.",
+        "Cấp trên có thể đặt những câu hỏi khó đúng vào phần bạn chuẩn bị ít nhất."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc gửi trước chương trình họp và các số liệu chính cho người tham dự.",
+          "Dùng câu hỏi mở như \"bạn có thể nói thêm về...\" để hiểu quan điểm khác."
+        ],
+        "avoid": [
+          "Tránh phản bác ngay khi cảm xúc đang dâng lên.",
+          "Tránh đưa ra cam kết về thời hạn trước đông người khi chưa kiểm tra lại."
+        ],
+        "remedy": [
+          "Nếu không khí căng, hãy đề nghị nghỉ năm phút rồi quay lại với danh sách điểm bất đồng cần chốt.",
+          "Sau họp, gửi tóm tắt các quyết định để tránh mỗi người hiểu một kiểu."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.nay_y_tuong_sang_tao", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "hac_than" },
+      "source": "Ánh xạ Thất Sát/Thương Quan, xung Chi tháng → họp căng, quan hệ cấp trên; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.thay_doi_ke_hoach_bat_ngo",
+      "group": "cong_viec",
+      "title": "Kế hoạch có thể phải điều chỉnh bất ngờ",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "branch_relation.hour_branch", "is": "xung_gio_chi" },
+          { "signal": "than_sat", "is": "dich_ma" },
+          { "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }
+        ]
+      },
+      "weights": {
+        "branch_relation.hour_branch.xung_gio_chi": 2.5,
+        "than_sat.dich_ma": 1.5,
+        "branch_relation.day_branch.xung_nhat_chi": 1.5,
+        "ten_god.hour_stem.thuong_quan": 1,
+        "qimen.hour_overall.binh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một thông tin mới làm thứ tự các đầu việc đã lên lịch phải xáo trộn lại.",
+        "Có xu hướng một cuộc hẹn hay mốc giao việc bị đổi giờ, dẫn tới việc bạn linh hoạt lại cách phân bổ buổi.",
+        "Cấp dưới hoặc bộ phận phối hợp có thể đề xuất một cách làm khác với bản kế hoạch ban đầu."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc chừa khoảng trống nhỏ trong lịch để đón những thay đổi phát sinh.",
+          "Xem thay đổi như dịp rà soát lại: việc nào thật sự quan trọng thì giữ lại."
+        ],
+        "avoid": [
+          "Tránh giữ nguyên kế hoạch cũ chỉ vì đã tốn nhiều công xây dựng.",
+          "Tránh thay đổi lớn mà chưa thông báo cho những người bị ảnh hưởng."
+        ],
+        "remedy": [
+          "Chuẩn bị sẵn một phương án dự phòng ngắn cho những việc quan trọng nhất của ngày.",
+          "Khi lịch bị đảo, hãy gửi tin cập nhật cho các bên liên quan trước, rồi mới sắp xếp lại việc của mình."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.thu_nhap_cong_viec_on_dinh", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "con_cai_cap_duoi" },
+      "source": "Ánh xạ xung Chi giờ → kế hoạch/cấp dưới; Dịch mã → biến động; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.duoc_giao_them_trach_nhiem",
+      "group": "cong_viec",
+      "title": "Được giao thêm trách nhiệm",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["chinh_quan", "that_sat"] },
+          { "signal": "ten_god.month_stem", "is": "chinh_quan" },
+          { "signal": "branch_relation.month_branch", "in": ["luc_hop_nguyet_chi", "tam_hop_nguyet_chi"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_quan": 2,
+        "ten_god.month_stem.chinh_quan": 1.5,
+        "branch_relation.month_branch.luc_hop_nguyet_chi": 1.5,
+        "ten_god.day_stem.that_sat": 1,
+        "useful_god.day_element.trung_tinh": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có việc được chuyển sang tay bạn vì người phụ trách trước đó bận hoặc thay đổi vị trí.",
+        "Có xu hướng bạn được nhờ làm người đầu mối cho một nhóm nhỏ trong một thời gian ngắn.",
+        "Một phần việc ngoài mô tả thường ngày có thể xuất hiện, kèm kỳ vọng bạn xử lý được."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc hỏi rõ tiêu chí hoàn thành và người bạn có thể nhờ hỗ trợ.",
+          "Nhận việc đi kèm một mốc báo cáo ngắn để cấp trên thấy tiến độ."
+        ],
+        "avoid": [
+          "Tránh gánh một mình những phần có thể chia cho người khác.",
+          "Tránh để việc mới lấn hết thời gian dành cho việc chính đang làm."
+        ],
+        "remedy": [
+          "Nếu khối lượng vượt sức, hãy trao đổi sớm với cấp trên để xếp lại thứ tự ưu tiên.",
+          "Viết ra những việc đã nhận cùng thời hạn, rồi đánh dấu phần cần người khác phối hợp."
+        ]
+      },
+      "ref": { "palaceHint": "su_nghiep_cha_me" },
+      "source": "Ánh xạ Chính Quan → trách nhiệm, quy củ; Thất Sát → đầu việc nặng; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.xung_dot_dong_nghiep",
+      "group": "cong_viec",
+      "title": "Dễ va chạm nhỏ với đồng nghiệp",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["ty_kien", "kiep_tai"] },
+          { "signal": "ten_god.hour_stem", "in": ["ty_kien", "kiep_tai"] },
+          { "signal": "stem_relation.day_stem", "is": "xung_nhat_chu" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.kiep_tai": 2.5,
+        "ten_god.day_stem.ty_kien": 1.5,
+        "stem_relation.day_stem.xung_nhat_chu": 1.5,
+        "useful_god.day_element.ky": 1,
+        "than_sat.bach_ho": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có sự không đồng ý nhỏ về việc ai phụ trách phần nào, nhất là khi ranh giới công việc chưa rõ.",
+        "Có xu hướng một lời nói đùa hay email ngắn bị đọc theo nghĩa nặng hơn ý người viết.",
+        "Hai người cùng vai trò có thể cùng muốn đứng tên cho một kết quả chung."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc nói rõ phần việc của mỗi người bằng văn bản ngắn ở đầu buổi làm việc chung.",
+          "Ghi nhận công sức của đồng nghiệp bằng những lời cụ thể."
+        ],
+        "avoid": [
+          "Tránh bàn chuyện cá nhân của người khác trong nhóm trò chuyện chung.",
+          "Tránh trả lời ngay khi đang bực, nhất là qua tin nhắn."
+        ],
+        "remedy": [
+          "Nếu có hiểu lầm, hãy mời đồng nghiệp trao đổi riêng, bắt đầu bằng việc nói rõ mục tiêu chung.",
+          "Cho bản thân mười phút đi lại hoặc uống nước trước khi phản hồi một tin gây khó chịu."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.quy_nhan_ho_tro_cong_viec", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "hac_than" },
+      "source": "Ánh xạ Tỷ Kiên/Kiếp Tài → đồng nghiệp ngang vai, cạnh tranh; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.tien_do_cham",
+      "group": "cong_viec",
+      "title": "Tiến độ có xu hướng chậm lại",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "almanac.truc", "in": ["be", "nguy", "pha"] },
+          { "signal": "qimen.hour_overall", "is": "hung" },
+          { "signal": "almanac.hour_hoang_dao", "is": "hac_dao" }
+        ],
+        "none": [{ "signal": "almanac.truc", "in": ["thanh", "khai"] }]
+      },
+      "weights": {
+        "almanac.truc.be": 2,
+        "almanac.truc.nguy": 1.5,
+        "qimen.hour_overall.hung": 1.5,
+        "useful_god.hour_element.ky": 1,
+        "almanac.hour_hoang_dao.hac_dao": 0.5
+      },
+      "polarityRule": "fixed:nghich",
+      "situations": [
+        "Dễ có cảm giác công việc đi chậm hơn dự tính vì phải chờ phản hồi hoặc phê duyệt từ nơi khác.",
+        "Có xu hướng một khâu quen thuộc bỗng tốn thời gian hơn do công cụ hay quy trình trục trặc.",
+        "Khó giữ nhịp làm việc liền mạch khi bị ngắt quãng bởi nhiều yêu cầu nhỏ."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc dùng thời gian chờ cho những việc nền như dọn tài liệu, rà soát danh sách việc.",
+          "Báo cáo rõ khâu đang bị nghẽn để người liên quan có thể hỗ trợ."
+        ],
+        "avoid": [
+          "Tránh dồn ép bản thân làm tắt các bước kiểm tra để bù thời gian.",
+          "Tránh bắt đầu đầu việc lớn mới trong lúc đầu việc cũ còn dang dở."
+        ],
+        "remedy": [
+          "Chọn một việc nhỏ có thể hoàn tất trọn vẹn trong hôm nay để giữ cảm giác tiến lên.",
+          "Nếu bị nghẽn do người khác, hãy gửi lời nhắc lịch sự kèm mốc thời gian cần thiết."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.ket_qua_hoc_tap_thi_cu_tot", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me" },
+      "source": "Ánh xạ trực Bế/Nguy/Phá → tắc nghẽn, trì hoãn; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.phan_bien_loi_the",
+      "group": "cong_viec",
+      "title": "Ý kiến phản biện sắc nét nhưng dễ lỡ lời",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "thuong_quan" },
+          { "signal": "ten_god.hour_stem", "is": "thuong_quan" },
+          { "signal": "ten_god.day_branch", "is": "thuong_quan" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.thuong_quan": 3,
+        "ten_god.hour_stem.thuong_quan": 1.5,
+        "ten_god.day_branch.thuong_quan": 1,
+        "useful_god.day_element.dung": 1,
+        "almanac.hoang_dao.hac_dao": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có lúc bạn nhìn ra điểm bất hợp lý trong một đề xuất và muốn nêu ý kiến thẳng thắn.",
+        "Có xu hướng một lập luận của bạn gây chú ý, đồng thời có thể làm người nghe thấy chạnh lòng.",
+        "Khả năng trong buổi trao đổi, bạn nghĩ ra hướng đi bứt phá khác hẳn quy trình quen thuộc."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc đưa phản biện kèm đề xuất thay thế cụ thể.",
+          "Chọn thời điểm và kênh phù hợp, ưu tiên trao đổi trực tiếp với người liên quan."
+        ],
+        "avoid": [
+          "Tránh dùng giọng mỉa mai hay so sánh khi nêu quan điểm.",
+          "Tránh phê bình cấp trên trước đông người."
+        ],
+        "remedy": [
+          "Nếu lỡ lời, hãy sớm nhắn một câu làm rõ ý và ghi nhận phần đúng trong quan điểm của người kia.",
+          "Viết nháp ý kiến trước, đọc lại một lượt để lược bớt từ ngữ mang tính chê bai."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.ky_ket_thuan_loi", "mode": "dampen", "factor": 0.9 }],
+      "ref": { "palaceHint": "ban_than" },
+      "source": "Ánh xạ Thương Quan → tranh luận, phản biện, dễ lỡ lời; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.thu_nhap_cong_viec_on_dinh",
+      "group": "cong_viec",
+      "title": "Công việc thực tế vận hành đều tay",
+      "baseWeight": 1.0,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "chinh_tai" },
+          { "signal": "ten_god.hour_stem", "is": "chinh_tai" },
+          { "signal": "ten_god.month_stem", "is": "chinh_tai" }
+        ],
+        "none": [{ "signal": "branch_relation.day_branch", "is": "xung_nhat_chi" }]
+      },
+      "weights": {
+        "ten_god.day_stem.chinh_tai": 3,
+        "ten_god.hour_stem.chinh_tai": 1.5,
+        "ten_god.month_stem.chinh_tai": 0.8,
+        "useful_god.day_element.dung": 1,
+        "almanac.truc.man": 0.5
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có một ngày làm việc trôi chảy, các đầu việc quen thuộc được xử lý gọn và đúng hạn.",
+        "Có xu hướng công sức bền bỉ gần đây bắt đầu được ghi nhận qua phản hồi hoặc kết quả cụ thể.",
+        "Khả năng bạn thấy rõ cách sắp xếp thời gian hiện tại đang vận hành hiệu quả."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc tận dụng nhịp ổn định để hoàn tất những việc tồn đọng nhỏ.",
+          "Ghi lại quy trình đang chạy tốt để dễ nhân rộng hoặc bàn giao sau này."
+        ],
+        "avoid": [
+          "Tránh tự đặt thêm quá nhiều mục tiêu mới chỉ vì thấy mọi việc suôn sẻ.",
+          "Tránh bỏ qua việc nghỉ giữa giờ khi đang làm đều tay."
+        ],
+        "remedy": [
+          "Nếu thấy nhịp ổn định bị phá bởi việc đột xuất, hãy tách riêng một khung giờ cố định cho việc chính.",
+          "Cuối ngày dành năm phút xem lại kết quả đã làm để chuẩn bị cho hôm sau."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.thay_doi_ke_hoach_bat_ngo", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "tai_than" },
+      "source": "Ánh xạ Chính Tài → thu nhập, công việc thực tế; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.co_hoi_kinh_doanh_moi",
+      "group": "cong_viec",
+      "title": "Xuất hiện hướng làm việc hoặc kinh doanh mới",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "is": "thien_tai" },
+          { "signal": "ten_god.hour_stem", "is": "thien_tai" },
+          { "signal": "than_sat", "in": ["dich_ma", "thien_tai"] }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.thien_tai": 3,
+        "ten_god.hour_stem.thien_tai": 1.5,
+        "than_sat.thien_tai": 1,
+        "useful_god.day_element.dung": 1,
+        "luck_cycle.luu_nguyet.dung": 0.5
+      },
+      "polarityRule": "net_valence",
+      "situations": [
+        "Dễ có một lời mời hợp tác hay một mối quen mới mở ra hướng đi chưa nằm trong kế hoạch của bạn.",
+        "Có xu hướng bạn nhận ra một nhu cầu chưa được đáp ứng trong công việc hiện tại và thấy muốn thử giải quyết.",
+        "Khả năng một cuộc trò chuyện ngẫu nhiên gợi mở ý tưởng phát triển thêm mảng việc phụ."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc tìm hiểu thêm thông tin từ nhiều nguồn trước khi dành thời gian cho hướng mới.",
+          "Thử ở quy mô nhỏ, đặt ra mốc đánh giá trong vài tuần."
+        ],
+        "avoid": [
+          "Tránh dồn toàn bộ thời gian và công sức vào một hướng chưa được kiểm chứng.",
+          "Tránh bị cuốn theo lời hứa hẹn quá đẹp mà không đối chiếu số liệu."
+        ],
+        "remedy": [
+          "Nếu cơ hội kéo theo cam kết pháp lý hay tài chính, nên tham khảo chuyên gia trước khi bước tiếp.",
+          "Viết ra ba rủi ro lớn nhất và cách giảm thiểu từng rủi ro để quyết định tỉnh táo hơn."
+        ]
+      },
+      "ref": { "palaceHint": "su_nghiep_cha_me", "directionHint": "tai_than" },
+      "source": "Ánh xạ Thiên Tài → cơ hội kinh doanh; Dịch mã → mở rộng; văn bản tự viết",
+      "confidence": "B"
+    },
+    {
+      "id": "cong_viec.quy_nhan_ho_tro_cong_viec",
+      "group": "cong_viec",
+      "title": "Có người hướng dẫn hoặc hỗ trợ đúng lúc",
+      "baseWeight": 0.9,
+      "match": {
+        "any": [
+          { "signal": "ten_god.day_stem", "in": ["thien_an", "chinh_an"] },
+          { "signal": "than_sat", "in": ["thien_duc", "nguyet_duc", "thien_y"] },
+          { "signal": "branch_relation.day_branch", "is": "luc_hop_nhat_chi" }
+        ]
+      },
+      "weights": {
+        "ten_god.day_stem.thien_an": 2,
+        "than_sat.thien_duc": 1.5,
+        "than_sat.nguyet_duc": 1.5,
+        "branch_relation.day_branch.luc_hop_nhat_chi": 1,
+        "useful_god.day_element.dung": 1
+      },
+      "polarityRule": "fixed:thuan",
+      "situations": [
+        "Dễ có một người đi trước chủ động chia sẻ kinh nghiệm đúng vào điểm bạn đang vướng.",
+        "Có xu hướng lời nhắn hay cuộc gọi từ một người quen trong nghề mở ra thông tin hữu ích.",
+        "Một cấp trên hay mentor có thể dành thời gian xem bản thảo của bạn và góp ý thẳng vào trọng tâm."
+      ],
+      "advice": {
+        "use": [
+          "Nên cân nhắc chuẩn bị sẵn vài câu hỏi cụ thể để tận dụng thời gian của người hướng dẫn.",
+          "Ghi lại lời khuyên ngay sau khi trao đổi và gửi lời cảm ơn ngắn."
+        ],
+        "avoid": [
+          "Tránh nhờ vả quá nhiều việc cùng lúc.",
+          "Tránh chỉ nghe mà không thử áp dụng một phần nhỏ."
+        ],
+        "remedy": [
+          "Nếu chưa có người phù hợp để hỏi, hãy tìm trong cộng đồng nghề hoặc tài liệu chính thống để thay thế.",
+          "Chủ động đề nghị giúp lại bằng điều bạn làm tốt, để mối quan hệ có đi có lại."
+        ]
+      },
+      "conflictsWith": [{ "id": "cong_viec.xung_dot_dong_nghiep", "mode": "dampen", "factor": 0.8 }],
+      "ref": { "palaceHint": "goc_moi_truong", "directionHint": "hy_than" },
+      "source": "Ánh xạ Ấn tinh, Thiên Đức/Nguyệt Đức → quý nhân; văn bản tự viết",
+      "confidence": "B"
+    }
+  ]
+}

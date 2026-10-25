@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "source": "Bảng Tàng can (Địa chi tàng nhân nguyên) phổ thông; tỷ trọng là quy ước của dự án (đơn giản hóa)",
+    "confidence": "B"
+  },
+  "weights": {
+    "1": [1.0],
+    "2": [0.7, 0.3],
+    "3": [0.6, 0.3, 0.1]
+  },
+  "branches": {
+    "ty": ["quy"],
+    "suu": ["ky", "quy", "tan"],
+    "dan": ["giap", "binh", "mau"],
+    "mao": ["at"],
+    "thin": ["mau", "at", "quy"],
+    "ti": ["binh", "canh", "mau"],
+    "ngo": ["dinh", "ky"],
+    "mui": ["ky", "dinh", "at"],
+    "than": ["canh", "nham", "mau"],
+    "dau": ["tan"],
+    "tuat": ["mau", "tan", "dinh"],
+    "hoi": ["nham", "giap"]
+  }
+}

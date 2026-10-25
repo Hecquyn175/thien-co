@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "source": "Bảng Nạp âm 60 Hoa Giáp phổ thông (Tam Mệnh Thông Hội); đối chiếu chéo tự động với lunar-javascript",
+    "confidence": "A"
+  },
+  "pairs": [
+    { "stems": ["Giáp Tý", "Ất Sửu"], "vi": "Hải Trung Kim", "han": "海中金", "element": "kim" },
+    { "stems": ["Bính Dần", "Đinh Mão"], "vi": "Lư Trung Hỏa", "han": "爐中火", "element": "hoa" },
+    { "stems": ["Mậu Thìn", "Kỷ Tỵ"], "vi": "Đại Lâm Mộc", "han": "大林木", "element": "moc" },
+    { "stems": ["Canh Ngọ", "Tân Mùi"], "vi": "Lộ Bàng Thổ", "han": "路旁土", "element": "tho" },
+    { "stems": ["Nhâm Thân", "Quý Dậu"], "vi": "Kiếm Phong Kim", "han": "劍鋒金", "element": "kim" },
+    { "stems": ["Giáp Tuất", "Ất Hợi"], "vi": "Sơn Đầu Hỏa", "han": "山頭火", "element": "hoa" },
+    { "stems": ["Bính Tý", "Đinh Sửu"], "vi": "Giản Hạ Thủy", "han": "澗下水", "element": "thuy" },
+    { "stems": ["Mậu Dần", "Kỷ Mão"], "vi": "Thành Đầu Thổ", "han": "城頭土", "element": "tho" },
+    { "stems": ["Canh Thìn", "Tân Tỵ"], "vi": "Bạch Lạp Kim", "han": "白蠟金", "element": "kim" },
+    { "stems": ["Nhâm Ngọ", "Quý Mùi"], "vi": "Dương Liễu Mộc", "han": "楊柳木", "element": "moc" },
+    { "stems": ["Giáp Thân", "Ất Dậu"], "vi": "Tuyền Trung Thủy", "han": "泉中水", "element": "thuy" },
+    { "stems": ["Bính Tuất", "Đinh Hợi"], "vi": "Ốc Thượng Thổ", "han": "屋上土", "element": "tho" },
+    { "stems": ["Mậu Tý", "Kỷ Sửu"], "vi": "Tích Lịch Hỏa", "han": "霹靂火", "element": "hoa" },
+    { "stems": ["Canh Dần", "Tân Mão"], "vi": "Tùng Bách Mộc", "han": "松柏木", "element": "moc" },
+    { "stems": ["Nhâm Thìn", "Quý Tỵ"], "vi": "Trường Lưu Thủy", "han": "長流水", "element": "thuy" },
+    { "stems": ["Giáp Ngọ", "Ất Mùi"], "vi": "Sa Trung Kim", "han": "砂中金", "element": "kim" },
+    { "stems": ["Bính Thân", "Đinh Dậu"], "vi": "Sơn Hạ Hỏa", "han": "山下火", "element": "hoa" },
+    { "stems": ["Mậu Tuất", "Kỷ Hợi"], "vi": "Bình Địa Mộc", "han": "平地木", "element": "moc" },
+    { "stems": ["Canh Tý", "Tân Sửu"], "vi": "Bích Thượng Thổ", "han": "壁上土", "element": "tho" },
+    { "stems": ["Nhâm Dần", "Quý Mão"], "vi": "Kim Bạch Kim", "han": "金箔金", "element": "kim" },
+    { "stems": ["Giáp Thìn", "Ất Tỵ"], "vi": "Phúc Đăng Hỏa", "han": "覆燈火", "element": "hoa" },
+    { "stems": ["Bính Ngọ", "Đinh Mùi"], "vi": "Thiên Hà Thủy", "han": "天河水", "element": "thuy" },
+    { "stems": ["Mậu Thân", "Kỷ Dậu"], "vi": "Đại Dịch Thổ", "han": "大驛土", "element": "tho" },
+    { "stems": ["Canh Tuất", "Tân Hợi"], "vi": "Thoa Xuyến Kim", "han": "釵釧金", "element": "kim" },
+    { "stems": ["Nhâm Tý", "Quý Sửu"], "vi": "Tang Đố Mộc", "han": "桑柘木", "element": "moc" },
+    { "stems": ["Giáp Dần", "Ất Mão"], "vi": "Đại Khê Thủy", "han": "大溪水", "element": "thuy" },
+    { "stems": ["Bính Thìn", "Đinh Tỵ"], "vi": "Sa Trung Thổ", "han": "沙中土", "element": "tho" },
+    { "stems": ["Mậu Ngọ", "Kỷ Mùi"], "vi": "Thiên Thượng Hỏa", "han": "天上火", "element": "hoa" },
+    { "stems": ["Canh Thân", "Tân Dậu"], "vi": "Thạch Lựu Mộc", "han": "石榴木", "element": "moc" },
+    { "stems": ["Nhâm Tuất", "Quý Hợi"], "vi": "Đại Hải Thủy", "han": "大海水", "element": "thuy" }
+  ]
+}
