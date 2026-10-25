@@ -1,0 +1,2101 @@
+{
+  "meta": {
+    "source": "Tự biên soạn từ kiến thức thuật số phổ thông cho Thiên Cơ",
+    "confidence": "B"
+  },
+  "terms": [
+    {
+      "id": "hanh_kim",
+      "term": "Hành Kim",
+      "han": "金",
+      "category": "Ngũ hành",
+      "short": "Một trong năm dạng vận động của khí trong học thuyết Ngũ hành (Kim – 金), tham gia vào chu trình tương sinh và tương khắc.",
+      "aliases": [
+        "Kim"
+      ]
+    },
+    {
+      "id": "hanh_moc",
+      "term": "Hành Mộc",
+      "han": "木",
+      "category": "Ngũ hành",
+      "short": "Một trong năm dạng vận động của khí trong học thuyết Ngũ hành (Mộc – 木), tham gia vào chu trình tương sinh và tương khắc.",
+      "aliases": [
+        "Mộc"
+      ]
+    },
+    {
+      "id": "hanh_thuy",
+      "term": "Hành Thủy",
+      "han": "水",
+      "category": "Ngũ hành",
+      "short": "Một trong năm dạng vận động của khí trong học thuyết Ngũ hành (Thủy – 水), tham gia vào chu trình tương sinh và tương khắc.",
+      "aliases": [
+        "Thủy"
+      ]
+    },
+    {
+      "id": "hanh_hoa",
+      "term": "Hành Hỏa",
+      "han": "火",
+      "category": "Ngũ hành",
+      "short": "Một trong năm dạng vận động của khí trong học thuyết Ngũ hành (Hỏa – 火), tham gia vào chu trình tương sinh và tương khắc.",
+      "aliases": [
+        "Hỏa"
+      ]
+    },
+    {
+      "id": "hanh_tho",
+      "term": "Hành Thổ",
+      "han": "土",
+      "category": "Ngũ hành",
+      "short": "Một trong năm dạng vận động của khí trong học thuyết Ngũ hành (Thổ – 土), tham gia vào chu trình tương sinh và tương khắc.",
+      "aliases": [
+        "Thổ"
+      ]
+    },
+    {
+      "id": "ngu_hanh",
+      "term": "Ngũ hành",
+      "han": "五行",
+      "category": "Ngũ hành",
+      "short": "Năm trạng thái vận động của khí: Kim, Mộc, Thủy, Hỏa, Thổ; liên hệ với nhau qua quy luật tương sinh và tương khắc."
+    },
+    {
+      "id": "tuong_sinh",
+      "term": "Tương sinh",
+      "han": "相生",
+      "category": "Ngũ hành",
+      "short": "Quan hệ nuôi dưỡng, thúc đẩy lẫn nhau giữa 5 hành: Mộc sinh Hỏa, Hỏa sinh Thổ, Thổ sinh Kim, Kim sinh Thủy, Thủy sinh Mộc."
+    },
+    {
+      "id": "tuong_khac",
+      "term": "Tương khắc",
+      "han": "相剋",
+      "category": "Ngũ hành",
+      "short": "Quan hệ chế ước, giữ thăng bằng giữa 5 hành: Mộc khắc Thổ, Thổ khắc Thủy, Thủy khắc Hỏa, Hỏa khắc Kim, Kim khắc Mộc."
+    },
+    {
+      "id": "ty_hoa",
+      "term": "Tỷ hòa",
+      "han": "比和",
+      "category": "Ngũ hành",
+      "short": "Hai thành phần cùng thuộc một hành (ví dụ Mộc gặp Mộc), tạo sự đồng điệu và bồi đắp sức mạnh."
+    },
+    {
+      "id": "am_duong",
+      "term": "Âm Dương",
+      "han": "陰陽",
+      "category": "Cơ bản",
+      "short": "Hai mặt đối lập nhưng thống nhất của vạn vật: Dương chủ động, sáng, hướng ngoại; Âm chủ tĩnh, mềm, hướng nội."
+    },
+    {
+      "id": "can_giap",
+      "term": "Thiên can Giáp",
+      "han": "甲",
+      "category": "Thiên can",
+      "short": "Thiên can Giáp (甲): thuộc Dương Mộc.",
+      "aliases": [
+        "Giáp"
+      ]
+    },
+    {
+      "id": "can_at",
+      "term": "Thiên can Ất",
+      "han": "乙",
+      "category": "Thiên can",
+      "short": "Thiên can Ất (乙): thuộc Âm Mộc.",
+      "aliases": [
+        "Ất"
+      ]
+    },
+    {
+      "id": "can_binh",
+      "term": "Thiên can Bính",
+      "han": "丙",
+      "category": "Thiên can",
+      "short": "Thiên can Bính (丙): thuộc Dương Hỏa.",
+      "aliases": [
+        "Bính"
+      ]
+    },
+    {
+      "id": "can_dinh",
+      "term": "Thiên can Đinh",
+      "han": "丁",
+      "category": "Thiên can",
+      "short": "Thiên can Đinh (丁): thuộc Âm Hỏa.",
+      "aliases": [
+        "Đinh"
+      ]
+    },
+    {
+      "id": "can_mau",
+      "term": "Thiên can Mậu",
+      "han": "戊",
+      "category": "Thiên can",
+      "short": "Thiên can Mậu (戊): thuộc Dương Thổ.",
+      "aliases": [
+        "Mậu"
+      ]
+    },
+    {
+      "id": "can_ky",
+      "term": "Thiên can Kỷ",
+      "han": "己",
+      "category": "Thiên can",
+      "short": "Thiên can Kỷ (己): thuộc Âm Thổ.",
+      "aliases": [
+        "Kỷ"
+      ]
+    },
+    {
+      "id": "can_canh",
+      "term": "Thiên can Canh",
+      "han": "庚",
+      "category": "Thiên can",
+      "short": "Thiên can Canh (庚): thuộc Dương Kim.",
+      "aliases": [
+        "Canh"
+      ]
+    },
+    {
+      "id": "can_tan",
+      "term": "Thiên can Tân",
+      "han": "辛",
+      "category": "Thiên can",
+      "short": "Thiên can Tân (辛): thuộc Âm Kim.",
+      "aliases": [
+        "Tân"
+      ]
+    },
+    {
+      "id": "can_nham",
+      "term": "Thiên can Nhâm",
+      "han": "壬",
+      "category": "Thiên can",
+      "short": "Thiên can Nhâm (壬): thuộc Dương Thủy.",
+      "aliases": [
+        "Nhâm"
+      ]
+    },
+    {
+      "id": "can_quy",
+      "term": "Thiên can Quý",
+      "han": "癸",
+      "category": "Thiên can",
+      "short": "Thiên can Quý (癸): thuộc Âm Thủy.",
+      "aliases": [
+        "Quý"
+      ]
+    },
+    {
+      "id": "chi_ty",
+      "term": "Địa chi Tý",
+      "han": "子",
+      "category": "Địa chi",
+      "short": "Địa chi Tý (子, biểu tượng Chuột): thuộc Dương Thủy, ứng với khung giờ 23h-1h.",
+      "aliases": [
+        "Tý",
+        "Giờ Tý"
+      ]
+    },
+    {
+      "id": "chi_suu",
+      "term": "Địa chi Sửu",
+      "han": "丑",
+      "category": "Địa chi",
+      "short": "Địa chi Sửu (丑, biểu tượng Trâu): thuộc Âm Thổ, ứng với khung giờ 1h-3h.",
+      "aliases": [
+        "Sửu",
+        "Giờ Sửu"
+      ]
+    },
+    {
+      "id": "chi_dan",
+      "term": "Địa chi Dần",
+      "han": "寅",
+      "category": "Địa chi",
+      "short": "Địa chi Dần (寅, biểu tượng Hổ): thuộc Dương Mộc, ứng với khung giờ 3h-5h.",
+      "aliases": [
+        "Dần",
+        "Giờ Dần"
+      ]
+    },
+    {
+      "id": "chi_mao",
+      "term": "Địa chi Mão",
+      "han": "卯",
+      "category": "Địa chi",
+      "short": "Địa chi Mão (卯, biểu tượng Mèo): thuộc Âm Mộc, ứng với khung giờ 5h-7h.",
+      "aliases": [
+        "Mão",
+        "Giờ Mão"
+      ]
+    },
+    {
+      "id": "chi_thin",
+      "term": "Địa chi Thìn",
+      "han": "辰",
+      "category": "Địa chi",
+      "short": "Địa chi Thìn (辰, biểu tượng Rồng): thuộc Dương Thổ, ứng với khung giờ 7h-9h.",
+      "aliases": [
+        "Thìn",
+        "Giờ Thìn"
+      ]
+    },
+    {
+      "id": "chi_ti",
+      "term": "Địa chi Tỵ",
+      "han": "巳",
+      "category": "Địa chi",
+      "short": "Địa chi Tỵ (巳, biểu tượng Rắn): thuộc Âm Hỏa, ứng với khung giờ 9h-11h.",
+      "aliases": [
+        "Tỵ",
+        "Giờ Tỵ"
+      ]
+    },
+    {
+      "id": "chi_ngo",
+      "term": "Địa chi Ngọ",
+      "han": "午",
+      "category": "Địa chi",
+      "short": "Địa chi Ngọ (午, biểu tượng Ngựa): thuộc Dương Hỏa, ứng với khung giờ 11h-13h.",
+      "aliases": [
+        "Ngọ",
+        "Giờ Ngọ"
+      ]
+    },
+    {
+      "id": "chi_mui",
+      "term": "Địa chi Mùi",
+      "han": "未",
+      "category": "Địa chi",
+      "short": "Địa chi Mùi (未, biểu tượng Dê): thuộc Âm Thổ, ứng với khung giờ 13h-15h.",
+      "aliases": [
+        "Mùi",
+        "Giờ Mùi"
+      ]
+    },
+    {
+      "id": "chi_than",
+      "term": "Địa chi Thân",
+      "han": "申",
+      "category": "Địa chi",
+      "short": "Địa chi Thân (申, biểu tượng Khỉ): thuộc Dương Kim, ứng với khung giờ 15h-17h.",
+      "aliases": [
+        "Thân",
+        "Giờ Thân"
+      ]
+    },
+    {
+      "id": "chi_dau",
+      "term": "Địa chi Dậu",
+      "han": "酉",
+      "category": "Địa chi",
+      "short": "Địa chi Dậu (酉, biểu tượng Gà): thuộc Âm Kim, ứng với khung giờ 17h-19h.",
+      "aliases": [
+        "Dậu",
+        "Giờ Dậu"
+      ]
+    },
+    {
+      "id": "chi_tuat",
+      "term": "Địa chi Tuất",
+      "han": "戌",
+      "category": "Địa chi",
+      "short": "Địa chi Tuất (戌, biểu tượng Chó): thuộc Dương Thổ, ứng với khung giờ 19h-21h.",
+      "aliases": [
+        "Tuất",
+        "Giờ Tuất"
+      ]
+    },
+    {
+      "id": "chi_hoi",
+      "term": "Địa chi Hợi",
+      "han": "亥",
+      "category": "Địa chi",
+      "short": "Địa chi Hợi (亥, biểu tượng Lợn): thuộc Âm Thủy, ứng với khung giờ 21h-23h.",
+      "aliases": [
+        "Hợi",
+        "Giờ Hợi"
+      ]
+    },
+    {
+      "id": "tiet_tieu_han",
+      "term": "Tiết khí Tiểu Hàn",
+      "han": "小寒",
+      "category": "Tiết khí",
+      "short": "Tiểu Hàn (小寒): mốc kinh độ Mặt Trời 285°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Tiểu Hàn"
+      ]
+    },
+    {
+      "id": "tiet_dai_han",
+      "term": "Tiết khí Đại Hàn",
+      "han": "大寒",
+      "category": "Tiết khí",
+      "short": "Đại Hàn (大寒): mốc kinh độ Mặt Trời 300°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Đại Hàn"
+      ]
+    },
+    {
+      "id": "tiet_lap_xuan",
+      "term": "Tiết khí Lập Xuân",
+      "han": "立春",
+      "category": "Tiết khí",
+      "short": "Lập Xuân (立春): mốc kinh độ Mặt Trời 315°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Lập Xuân"
+      ]
+    },
+    {
+      "id": "tiet_vu_thuy",
+      "term": "Tiết khí Vũ Thủy",
+      "han": "雨水",
+      "category": "Tiết khí",
+      "short": "Vũ Thủy (雨水): mốc kinh độ Mặt Trời 330°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Vũ Thủy"
+      ]
+    },
+    {
+      "id": "tiet_kinh_trap",
+      "term": "Tiết khí Kinh Trập",
+      "han": "驚蟄",
+      "category": "Tiết khí",
+      "short": "Kinh Trập (驚蟄): mốc kinh độ Mặt Trời 345°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Kinh Trập"
+      ]
+    },
+    {
+      "id": "tiet_xuan_phan",
+      "term": "Tiết khí Xuân Phân",
+      "han": "春分",
+      "category": "Tiết khí",
+      "short": "Xuân Phân (春分): mốc kinh độ Mặt Trời 0°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Xuân Phân"
+      ]
+    },
+    {
+      "id": "tiet_thanh_minh",
+      "term": "Tiết khí Thanh Minh",
+      "han": "清明",
+      "category": "Tiết khí",
+      "short": "Thanh Minh (清明): mốc kinh độ Mặt Trời 15°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Thanh Minh"
+      ]
+    },
+    {
+      "id": "tiet_coc_vu",
+      "term": "Tiết khí Cốc Vũ",
+      "han": "穀雨",
+      "category": "Tiết khí",
+      "short": "Cốc Vũ (穀雨): mốc kinh độ Mặt Trời 30°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Cốc Vũ"
+      ]
+    },
+    {
+      "id": "tiet_lap_ha",
+      "term": "Tiết khí Lập Hạ",
+      "han": "立夏",
+      "category": "Tiết khí",
+      "short": "Lập Hạ (立夏): mốc kinh độ Mặt Trời 45°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Lập Hạ"
+      ]
+    },
+    {
+      "id": "tiet_tieu_man",
+      "term": "Tiết khí Tiểu Mãn",
+      "han": "小滿",
+      "category": "Tiết khí",
+      "short": "Tiểu Mãn (小滿): mốc kinh độ Mặt Trời 60°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Tiểu Mãn"
+      ]
+    },
+    {
+      "id": "tiet_mang_chung",
+      "term": "Tiết khí Mang Chủng",
+      "han": "芒種",
+      "category": "Tiết khí",
+      "short": "Mang Chủng (芒種): mốc kinh độ Mặt Trời 75°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Mang Chủng"
+      ]
+    },
+    {
+      "id": "tiet_ha_chi",
+      "term": "Tiết khí Hạ Chí",
+      "han": "夏至",
+      "category": "Tiết khí",
+      "short": "Hạ Chí (夏至): mốc kinh độ Mặt Trời 90°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Hạ Chí"
+      ]
+    },
+    {
+      "id": "tiet_tieu_thu",
+      "term": "Tiết khí Tiểu Thử",
+      "han": "小暑",
+      "category": "Tiết khí",
+      "short": "Tiểu Thử (小暑): mốc kinh độ Mặt Trời 105°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Tiểu Thử"
+      ]
+    },
+    {
+      "id": "tiet_dai_thu",
+      "term": "Tiết khí Đại Thử",
+      "han": "大暑",
+      "category": "Tiết khí",
+      "short": "Đại Thử (大暑): mốc kinh độ Mặt Trời 120°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Đại Thử"
+      ]
+    },
+    {
+      "id": "tiet_lap_thu",
+      "term": "Tiết khí Lập Thu",
+      "han": "立秋",
+      "category": "Tiết khí",
+      "short": "Lập Thu (立秋): mốc kinh độ Mặt Trời 135°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Lập Thu"
+      ]
+    },
+    {
+      "id": "tiet_xu_thu",
+      "term": "Tiết khí Xử Thử",
+      "han": "處暑",
+      "category": "Tiết khí",
+      "short": "Xử Thử (處暑): mốc kinh độ Mặt Trời 150°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Xử Thử"
+      ]
+    },
+    {
+      "id": "tiet_bach_lo",
+      "term": "Tiết khí Bạch Lộ",
+      "han": "白露",
+      "category": "Tiết khí",
+      "short": "Bạch Lộ (白露): mốc kinh độ Mặt Trời 165°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Bạch Lộ"
+      ]
+    },
+    {
+      "id": "tiet_thu_phan",
+      "term": "Tiết khí Thu Phân",
+      "han": "秋分",
+      "category": "Tiết khí",
+      "short": "Thu Phân (秋分): mốc kinh độ Mặt Trời 180°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Thu Phân"
+      ]
+    },
+    {
+      "id": "tiet_han_lo",
+      "term": "Tiết khí Hàn Lộ",
+      "han": "寒露",
+      "category": "Tiết khí",
+      "short": "Hàn Lộ (寒露): mốc kinh độ Mặt Trời 195°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Hàn Lộ"
+      ]
+    },
+    {
+      "id": "tiet_suong_giang",
+      "term": "Tiết khí Sương Giáng",
+      "han": "霜降",
+      "category": "Tiết khí",
+      "short": "Sương Giáng (霜降): mốc kinh độ Mặt Trời 210°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Sương Giáng"
+      ]
+    },
+    {
+      "id": "tiet_lap_dong",
+      "term": "Tiết khí Lập Đông",
+      "han": "立冬",
+      "category": "Tiết khí",
+      "short": "Lập Đông (立冬): mốc kinh độ Mặt Trời 225°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Lập Đông"
+      ]
+    },
+    {
+      "id": "tiet_tieu_tuyet",
+      "term": "Tiết khí Tiểu Tuyết",
+      "han": "小雪",
+      "category": "Tiết khí",
+      "short": "Tiểu Tuyết (小雪): mốc kinh độ Mặt Trời 240°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Tiểu Tuyết"
+      ]
+    },
+    {
+      "id": "tiet_dai_tuyet",
+      "term": "Tiết khí Đại Tuyết",
+      "han": "大雪",
+      "category": "Tiết khí",
+      "short": "Đại Tuyết (大雪): mốc kinh độ Mặt Trời 255°, thuộc nhóm 'Tiết (mốc đổi tháng Can Chi)'.",
+      "aliases": [
+        "Đại Tuyết"
+      ]
+    },
+    {
+      "id": "tiet_dong_chi",
+      "term": "Tiết khí Đông Chí",
+      "han": "冬至",
+      "category": "Tiết khí",
+      "short": "Đông Chí (冬至): mốc kinh độ Mặt Trời 270°, thuộc nhóm 'Trung khí (mốc định tên tháng âm lịch)'.",
+      "aliases": [
+        "Đông Chí"
+      ]
+    },
+    {
+      "id": "ty_kien",
+      "term": "Tỷ Kiên",
+      "han": "比肩",
+      "category": "Thập thần",
+      "short": "Cùng hành và cùng Âm Dương với Nhật chủ: đại diện cho bạn bè, đồng nghiệp ngang hàng, tính tự chủ và sự hợp tác."
+    },
+    {
+      "id": "kiep_tai",
+      "term": "Kiếp Tài",
+      "han": "劫財",
+      "category": "Thập thần",
+      "short": "Cùng hành nhưng khác Âm Dương với Nhật chủ: đại diện cho sự cạnh tranh, nhiệt huyết xã giao nhưng dễ phát sinh hao tán tiền bạc."
+    },
+    {
+      "id": "thuc_than",
+      "term": "Thực Thần",
+      "han": "食神",
+      "category": "Thập thần",
+      "short": "Do Nhật chủ sinh ra và cùng Âm Dương: chủ sự thư thái, tài ăn nói, sáng tạo, ẩm thực và phúc lộc nhẹ nhàng."
+    },
+    {
+      "id": "thuong_quan",
+      "term": "Thương Quan",
+      "han": "傷官",
+      "category": "Thập thần",
+      "short": "Do Nhật chủ sinh ra và khác Âm Dương: chủ tư duy phản biện sắc sảo, ý tưởng bứt phá nhưng cần giữ lời nói ôn hòa."
+    },
+    {
+      "id": "thien_tai",
+      "term": "Thiên Tài",
+      "han": "偏財",
+      "category": "Thập thần",
+      "short": "Do Nhật chủ khắc chế và cùng Âm Dương: đại diện cho khoản thu linh hoạt, cơ hội thị trường và sự hào phóng."
+    },
+    {
+      "id": "chinh_tai",
+      "term": "Chính Tài",
+      "han": "正財",
+      "category": "Thập thần",
+      "short": "Do Nhật chủ khắc chế và khác Âm Dương: đại diện cho thu nhập chính đáng, sự cần kiệm, thực tế và ổn định."
+    },
+    {
+      "id": "that_sat",
+      "term": "Thất Sát",
+      "han": "七殺",
+      "category": "Thập thần",
+      "short": "Khắc Nhật chủ và cùng Âm Dương (còn gọi Thiên Quan): đại diện cho áp lực, thử thách, sự quyết đoán và kỷ luật thép."
+    },
+    {
+      "id": "chinh_quan",
+      "term": "Chính Quan",
+      "han": "正官",
+      "category": "Thập thần",
+      "short": "Khắc Nhật chủ và khác Âm Dương: đại diện cho quy tắc, trách nhiệm, danh dự, cấp trên và con đường chính thống."
+    },
+    {
+      "id": "thien_an",
+      "term": "Thiên Ấn",
+      "han": "偏印",
+      "category": "Thập thần",
+      "short": "Sinh ra Nhật chủ và cùng Âm Dương (Kiêu Thần): đại diện cho trực giác, nghiên cứu chuyên sâu và góc nhìn độc đáo."
+    },
+    {
+      "id": "chinh_an",
+      "term": "Chính Ấn",
+      "han": "正印",
+      "category": "Thập thần",
+      "short": "Sinh ra Nhật chủ và khác Âm Dương: đại diện cho quý nhân che chở, học vấn, giấy tờ, sự bao dung và tín nhiệm."
+    },
+    {
+      "id": "tu_tru",
+      "term": "Tứ trụ (Bát Tự)",
+      "han": "四柱八字",
+      "category": "Bát Tự",
+      "short": "Bốn trụ Năm, Tháng, Ngày, Giờ lúc sinh; mỗi trụ gồm 1 Thiên can và 1 Địa chi (tổng cộng 8 chữ)."
+    },
+    {
+      "id": "nhat_chu",
+      "term": "Nhật chủ (Nhật nguyên)",
+      "han": "日主",
+      "category": "Bát Tự",
+      "short": "Thiên can của trụ Ngày sinh — đại diện cho chính bản thân người xem trong lá số Bát Tự."
+    },
+    {
+      "id": "tang_can",
+      "term": "Tàng can",
+      "han": "藏干",
+      "category": "Bát Tự",
+      "short": "Các Thiên can ẩn bên trong mỗi Địa chi (gồm bản khí, trung khí, dư khí), phản ánh nguồn lực tiềm ẩn."
+    },
+    {
+      "id": "nap_am",
+      "term": "Nạp âm",
+      "han": "納音",
+      "category": "Bát Tự",
+      "short": "Hệ thống 30 hình tượng ngũ hành của 60 Hoa Giáp (như Hải Trung Kim, Lư Trung Hỏa), dùng bổ trợ khi xét mệnh và hợp tuổi."
+    },
+    {
+      "id": "than_vuong_nhuoc",
+      "term": "Thân vượng / Thân nhược",
+      "han": "身旺/身弱",
+      "category": "Bát Tự",
+      "short": "Mức độ mạnh yếu của Nhật chủ dựa trên Đắc lệnh (tháng sinh), Đắc địa (gốc rễ ở Chi) và Đắc thế (Can trợ giúp)."
+    },
+    {
+      "id": "dung_than",
+      "term": "Dụng thần",
+      "han": "用神",
+      "category": "Bát Tự",
+      "short": "Ngũ hành quan trọng nhất giúp cân bằng lá số (theo Phù Ức và Điều hậu). Gặp ngày/giờ thuộc Dụng thần thì nhịp vận thường thuận hòa."
+    },
+    {
+      "id": "hy_than",
+      "term": "Hỷ thần",
+      "han": "喜神",
+      "category": "Bát Tự",
+      "short": "Ngũ hành sinh trợ hoặc phối hợp với Dụng thần, mang lại tác động tích cực cho bản mệnh."
+    },
+    {
+      "id": "ky_than",
+      "term": "Kỵ thần",
+      "han": "忌神",
+      "category": "Bát Tự",
+      "short": "Ngũ hành khắc chế Dụng thần hoặc làm lá số mất cân bằng; gặp ngày Kỵ thần nên hành xử điềm tĩnh, chậm rãi."
+    },
+    {
+      "id": "dieu_hau",
+      "term": "Điều hậu",
+      "han": "調候",
+      "category": "Bát Tự",
+      "short": "Phép cân bằng hàn – nhiệt –燥 – thấp theo mùa sinh (ví dụ sinh mùa đông lạnh ưu tiên Hỏa sưởi ấm)."
+    },
+    {
+      "id": "dai_van",
+      "term": "Đại vận",
+      "han": "大運",
+      "category": "Bát Tự",
+      "short": "Từng chu kỳ 10 năm của cuộc đời, khởi từ trụ Tháng theo chiều thuận hoặc nghịch tùy Âm Dương năm sinh và giới tính."
+    },
+    {
+      "id": "luu_nien",
+      "term": "Lưu niên",
+      "han": "流年",
+      "category": "Bát Tự",
+      "short": "Can Chi của năm hiện tại đang xét, đóng vai trò bối cảnh năm tác động lên lá số."
+    },
+    {
+      "id": "luu_nguyet",
+      "term": "Lưu nguyệt",
+      "han": "流月",
+      "category": "Bát Tự",
+      "short": "Can Chi của tháng hiện tại (tính theo tiết khí), phản ánh nhịp vận từng tháng trong năm."
+    },
+    {
+      "id": "ngu_hop",
+      "term": "Thiên can Ngũ hợp",
+      "han": "天干五合",
+      "category": "Quan hệ Can Chi",
+      "short": "5 cặp Thiên can hòa hợp: Giáp–Kỷ, Ất–Canh, Bính–Tân, Đinh–Nhâm, Mậu–Quý."
+    },
+    {
+      "id": "luc_hop",
+      "term": "Địa chi Lục hợp",
+      "han": "地支六合",
+      "category": "Quan hệ Can Chi",
+      "short": "6 cặp Địa chi hòa hợp: Tý–Sửu, Dần–Hợi, Mão–Tuất, Thìn–Dậu, Tỵ–Thân, Ngọ–Mùi."
+    },
+    {
+      "id": "tam_hop",
+      "term": "Tam hợp",
+      "han": "三合",
+      "category": "Quan hệ Can Chi",
+      "short": "4 bộ ba Địa chi hội tụ thành cục mạnh: Thân–Tý–Thìn (Thủy), Hợi–Mão–Mùi (Mộc), Dần–Ngọ–Tuất (Hỏa), Tỵ–Dậu–Sửu (Kim)."
+    },
+    {
+      "id": "ban_tam_hop",
+      "term": "Bán tam hợp",
+      "han": "半三合",
+      "category": "Quan hệ Can Chi",
+      "short": "Hai trong ba Địa chi của bộ Tam hợp gặp nhau, tạo lực liên kết và hỗ trợ nhẹ nhàng."
+    },
+    {
+      "id": "tam_hoi",
+      "term": "Tam hội phương",
+      "han": "三會",
+      "category": "Quan hệ Can Chi",
+      "short": "Ba Địa chi cùng một phương mùa: Dần–Mão–Thìn (Đông Mộc), Tỵ–Ngọ–Mùi (Nam Hỏa), Thân–Dậu–Tuất (Tây Kim), Hợi–Tý–Sửu (Bắc Thủy)."
+    },
+    {
+      "id": "luc_xung",
+      "term": "Lục xung",
+      "han": "六沖",
+      "category": "Quan hệ Can Chi",
+      "short": "6 cặp Địa chi đối đỉnh nhau (Tý–Ngọ, Sửu–Mùi, Dần–Thân, Mão–Dậu, Thìn–Tuất, Tỵ–Hợi), báo hiệu sự dịch chuyển hoặc va chạm."
+    },
+    {
+      "id": "tuong_hinh",
+      "term": "Tương hình",
+      "han": "相刑",
+      "category": "Quan hệ Can Chi",
+      "short": "Quan hệ rèn giũa, khắt khe giữa các Địa chi (Vô ân: Dần–Tỵ–Thân; Ỷ thế: Sửu–Tuất–Mùi; Vô lễ: Tý–Mão; Tự hình: Thìn, Ngọ, Dậu, Hợi)."
+    },
+    {
+      "id": "tuong_hai",
+      "term": "Tương hại (Lục hại)",
+      "han": "六害",
+      "category": "Quan hệ Can Chi",
+      "short": "6 cặp Địa chi cản trở ngầm (Tý–Mùi, Sửu–Ngọ, Dần–Tỵ, Mão–Thìn, Thân–Hợi, Dậu–Tuất), dễ gây hiểu lầm nhỏ."
+    },
+    {
+      "id": "tuong_pha",
+      "term": "Tương phá (Lục phá)",
+      "han": "六破",
+      "category": "Quan hệ Can Chi",
+      "short": "6 cặp Địa chi làm gián đoạn nhẹ tiến độ (Tý–Dậu, Sửu–Thìn, Dần–Hợi, Mão–Ngọ, Tỵ–Thân, Mùi–Tuất)."
+    },
+    {
+      "id": "cung_ban_than",
+      "term": "Cung Bản thân (Nhật chủ)",
+      "category": "Cung vị",
+      "short": "Trụ Ngày đại diện cho nội tâm, thể trạng và thái độ trực tiếp của bạn."
+    },
+    {
+      "id": "cung_phoi_ngau",
+      "term": "Cung Phối ngẫu (Nhật chi)",
+      "category": "Cung vị",
+      "short": "Chi Ngày đại diện cho người bạn đời, người gần gũi nhất và đời sống tình cảm."
+    },
+    {
+      "id": "cung_su_nghiep_cha_me",
+      "term": "Cung Sự nghiệp / Cha mẹ (Nguyệt trụ)",
+      "category": "Cung vị",
+      "short": "Trụ Tháng đại diện cho môi trường công việc, cấp trên, nề nếp và cha mẹ."
+    },
+    {
+      "id": "cung_goc_moi_truong",
+      "term": "Cung Gốc / Môi trường (Niên trụ)",
+      "category": "Cung vị",
+      "short": "Trụ Năm đại diện cho gia đình gốc, ông bà tổ tiên và bối cảnh xã hội bên ngoài."
+    },
+    {
+      "id": "cung_con_cai_cap_duoi",
+      "term": "Cung Con cái / Cấp dưới (Thời trụ)",
+      "category": "Cung vị",
+      "short": "Trụ Giờ đại diện cho kế hoạch dài hạn, cấp dưới, con cái và thành quả về sau."
+    },
+    {
+      "id": "truc_kien",
+      "term": "Trực Kiến",
+      "han": "建",
+      "category": "12 Trực",
+      "short": "Ngày khởi đầu khí mới của tháng: hợp việc bắt đầu nhẹ nhàng, xuất hành, nhận việc; kỵ động thổ lớn."
+    },
+    {
+      "id": "truc_tru",
+      "term": "Trực Trừ",
+      "han": "除",
+      "category": "12 Trực",
+      "short": "Ngày dọn bỏ cái cũ, làm sạch và giải quyết tồn đọng; hợp dọn dẹp, khám sức khỏe định kỳ."
+    },
+    {
+      "id": "truc_man",
+      "term": "Trực Mãn",
+      "han": "滿",
+      "category": "12 Trực",
+      "short": "Ngày đầy đặn, sung túc: hợp khai trương, cầu tài, cưới hỏi, sum họp."
+    },
+    {
+      "id": "truc_binh",
+      "term": "Trực Bình",
+      "han": "平",
+      "category": "12 Trực",
+      "short": "Ngày cân bằng, ôn hòa: hợp bàn bạc công việc thường nhật, tu sửa nhỏ, hòa giải."
+    },
+    {
+      "id": "truc_dinh",
+      "term": "Trực Định",
+      "han": "定",
+      "category": "12 Trực",
+      "short": "Ngày ổn định, yên vị: hợp ký kết thỏa thuận dài hạn, nhập trạch, cưới hỏi."
+    },
+    {
+      "id": "truc_chap",
+      "term": "Trực Chấp",
+      "han": "執",
+      "category": "12 Trực",
+      "short": "Ngày giữ gìn, củng cố nề nếp: hợp tu bổ, xây dựng nội bộ, tuyển dụng."
+    },
+    {
+      "id": "truc_pha",
+      "term": "Trực Phá",
+      "han": "破",
+      "category": "12 Trực",
+      "short": "Ngày xung khí tháng (Nguyệt Phá): chỉ hợp tháo dỡ cũ hoặc xử lý việc dứt điểm; kỵ khởi sự lớn."
+    },
+    {
+      "id": "truc_nguy",
+      "term": "Trực Nguy",
+      "han": "危",
+      "category": "12 Trực",
+      "short": "Ngày cần thận trọng: nên làm việc tỉ mỉ tại chỗ, hạn chế mạo hiểm hoặc đi xa."
+    },
+    {
+      "id": "truc_thanh",
+      "term": "Trực Thành",
+      "han": "成",
+      "category": "12 Trực",
+      "short": "Ngày thành tựu, viên mãn: hợp khai trương, ký hợp đồng, cưới hỏi, nhập học/thi cử."
+    },
+    {
+      "id": "truc_thu",
+      "term": "Trực Thu",
+      "han": "收",
+      "category": "12 Trực",
+      "short": "Ngày thu hoạch, cất giữ: hợp thu hồi công nợ, tổng kết, tích lũy tài sản."
+    },
+    {
+      "id": "truc_khai",
+      "term": "Trực Khai",
+      "han": "開",
+      "category": "12 Trực",
+      "short": "Ngày mở mang, hanh thông: rất hợp khai trương, xuất hành, nhậm chức, động thổ, cưới hỏi."
+    },
+    {
+      "id": "truc_be",
+      "term": "Trực Bế",
+      "han": "閉",
+      "category": "12 Trực",
+      "short": "Ngày thu khép khí: hợp nghỉ ngơi, kiểm điểm nội bộ, tu sửa kín; kỵ khai trương, mở việc mới."
+    },
+    {
+      "id": "tu_giac",
+      "term": "Sao Giác Mộc Giao",
+      "han": "角",
+      "category": "28 Tú",
+      "short": "Sao Giác chủ về văn thư, học hành, cưới hỏi, dựng việc dài hạn. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Giác"
+      ]
+    },
+    {
+      "id": "tu_cang",
+      "term": "Sao Cang Kim Long",
+      "han": "亢",
+      "category": "28 Tú",
+      "short": "Sao Cang khí cương: nên thận trọng lời ăn tiếng nói, tránh khởi sự vội. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Cang"
+      ]
+    },
+    {
+      "id": "tu_de",
+      "term": "Sao Đê Thổ Lạc",
+      "han": "氐",
+      "category": "28 Tú",
+      "short": "Sao Đê không lợi cho việc mở hàng lớn hoặc đi xa dài ngày. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Đê"
+      ]
+    },
+    {
+      "id": "tu_phong",
+      "term": "Sao Phòng Nhật Thố",
+      "han": "房",
+      "category": "28 Tú",
+      "short": "Sao Phòng đại cát: thuận cưới hỏi, nhập trạch, khai trương, xuất hành. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Phòng"
+      ]
+    },
+    {
+      "id": "tu_tam",
+      "term": "Sao Tâm Nguyệt Hồ",
+      "han": "心",
+      "category": "28 Tú",
+      "short": "Sao Tâm dễ sinh nóng vội, bất đồng; nên làm việc thường nhật, tránh ký kết lớn. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Tâm"
+      ]
+    },
+    {
+      "id": "tu_vi_dong",
+      "term": "Sao Vĩ Hỏa Hổ",
+      "han": "尾",
+      "category": "28 Tú",
+      "short": "Sao Vĩ chủ tích lũy, bền vững: hợp cưới hỏi, xây dựng, ký kết. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Vĩ"
+      ]
+    },
+    {
+      "id": "tu_co",
+      "term": "Sao Cơ Thủy Báo",
+      "han": "箕",
+      "category": "28 Tú",
+      "short": "Sao Cơ thuận lợi cho khai mở, thu tài, tu tạo nhà cửa. (Thuộc nhóm Đông Thanh Long).",
+      "aliases": [
+        "Sao Cơ"
+      ]
+    },
+    {
+      "id": "tu_dau_bac",
+      "term": "Sao Đẩu Mộc Giải",
+      "han": "斗",
+      "category": "28 Tú",
+      "short": "Sao Đẩu cát tinh: hợp khởi tạo dự án, cầu học, động thổ, cưới hỏi. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Đẩu"
+      ]
+    },
+    {
+      "id": "tu_nguu",
+      "term": "Sao Ngưu Kim Ngưu",
+      "han": "牛",
+      "category": "28 Tú",
+      "short": "Sao Ngưu chủ vất vả, chậm tiến độ; nên chuẩn bị kỹ trước khi đi xa. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Ngưu"
+      ]
+    },
+    {
+      "id": "tu_nu",
+      "term": "Sao Nữ Thổ Bức",
+      "han": "女",
+      "category": "28 Tú",
+      "short": "Sao Nữ hợp việc học nghệ, nội vụ; tránh tranh tụng và cưới hỏi. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Nữ"
+      ]
+    },
+    {
+      "id": "tu_hu",
+      "term": "Sao Hư Nhật Thử",
+      "han": "虛",
+      "category": "28 Tú",
+      "short": "Sao Hư chủ hao tán năng lượng; nên tĩnh dưỡng, hạn chế mở mang mới. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Hư"
+      ]
+    },
+    {
+      "id": "tu_nguy_tu",
+      "term": "Sao Nguy Nguyệt Yến",
+      "han": "危",
+      "category": "28 Tú",
+      "short": "Sao Nguy nên giữ an toàn khi di chuyển và làm việc trên cao. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Nguy"
+      ]
+    },
+    {
+      "id": "tu_that",
+      "term": "Sao Thất Hỏa Trư",
+      "han": "室",
+      "category": "28 Tú",
+      "short": "Sao Thất lợi cho xây dựng, nhập trạch, cưới hỏi, khai trương. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Thất"
+      ]
+    },
+    {
+      "id": "tu_bich",
+      "term": "Sao Bích Thủy Du",
+      "han": "壁",
+      "category": "28 Tú",
+      "short": "Sao Bích chủ văn chương, phúc đức: rất hợp học tập, ký kết, khai trương, cưới hỏi. (Thuộc nhóm Bắc Huyền Vũ).",
+      "aliases": [
+        "Sao Bích"
+      ]
+    },
+    {
+      "id": "tu_khue",
+      "term": "Sao Khuê Mộc Lang",
+      "han": "奎",
+      "category": "28 Tú",
+      "short": "Sao Khuê hợp việc văn hóa, học thuật, tu sửa; tránh kiện tụng. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Khuê"
+      ]
+    },
+    {
+      "id": "tu_lau",
+      "term": "Sao Lâu Kim Cẩu",
+      "han": "婁",
+      "category": "28 Tú",
+      "short": "Sao Lâu chủ tụ họp, hòa hợp: thuận cưới hỏi, giao dịch, nhập trạch. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Lâu"
+      ]
+    },
+    {
+      "id": "tu_vi_tay",
+      "term": "Sao Vị Thổ Trĩ",
+      "han": "胃",
+      "category": "28 Tú",
+      "short": "Sao Vị chủ kho tàng, sung túc: thuận khai trương, cầu tài, khởi công. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Vị"
+      ]
+    },
+    {
+      "id": "tu_mao",
+      "term": "Sao Mão Nhật Kê",
+      "han": "昴",
+      "category": "28 Tú",
+      "short": "Sao Mão không thuận cho việc hỷ sự hay mở cửa hàng mới. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Mão"
+      ]
+    },
+    {
+      "id": "tu_tat",
+      "term": "Sao Tất Nguyệt Ô",
+      "han": "畢",
+      "category": "28 Tú",
+      "short": "Sao Tất đại cát: lợi cho cưới hỏi, giao dịch, xây dựng, xuất hành. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Tất"
+      ]
+    },
+    {
+      "id": "tu_chuy",
+      "term": "Sao Chủy Hỏa Hầu",
+      "han": "觜",
+      "category": "28 Tú",
+      "short": "Sao Chủy dễ vướng tranh cãi hoặc hao tổn nếu vội vàng ký kết. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Chủy"
+      ]
+    },
+    {
+      "id": "tu_sam",
+      "term": "Sao Sâm Thủy Viên",
+      "han": "參",
+      "category": "28 Tú",
+      "short": "Sao Sâm chủ hanh thông đường công danh, giao thương, xuất hành, dựng nhà. (Thuộc nhóm Tây Bạch Hổ).",
+      "aliases": [
+        "Sao Sâm"
+      ]
+    },
+    {
+      "id": "tu_tinh_nam",
+      "term": "Sao Tỉnh Mộc Hãn",
+      "han": "井",
+      "category": "28 Tú",
+      "short": "Sao Tỉnh thuận cho học hành, thi cử, tu tạo, gặp gỡ quý nhân. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Tỉnh"
+      ]
+    },
+    {
+      "id": "tu_quy",
+      "term": "Sao Quỷ Kim Dương",
+      "han": "鬼",
+      "category": "28 Tú",
+      "short": "Sao Quỷ kỵ việc hỷ và khởi sự lớn; hợp tĩnh tâm hoặc việc tâm linh truyền thống. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Quỷ"
+      ]
+    },
+    {
+      "id": "tu_lieu",
+      "term": "Sao Liễu Thổ Chương",
+      "han": "柳",
+      "category": "28 Tú",
+      "short": "Sao Liễu dễ sinh nóng nảy; nên kiềm chế cảm xúc, hoãn việc trọng đại. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Liễu"
+      ]
+    },
+    {
+      "id": "tu_tinh_sao",
+      "term": "Sao Tinh Nhật Mã",
+      "han": "星",
+      "category": "28 Tú",
+      "short": "Sao Tinh hợp chỉnh trang, xuất hành ngắn; không lợi cho cưới hỏi. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Tinh"
+      ]
+    },
+    {
+      "id": "tu_truong",
+      "term": "Sao Trương Nguyệt Lộc",
+      "han": "張",
+      "category": "28 Tú",
+      "short": "Sao Trương cát tường: hợp mở hàng, cưới hỏi, ký kết, nhập trạch. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Trương"
+      ]
+    },
+    {
+      "id": "tu_duc",
+      "term": "Sao Dực Hỏa Xà",
+      "han": "翼",
+      "category": "28 Tú",
+      "short": "Sao Dực thuận cho văn chương, học tập, lên kế hoạch dài hạn. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Dực"
+      ]
+    },
+    {
+      "id": "tu_chan_tu",
+      "term": "Sao Chẩn Thủy Dẫn",
+      "han": "軫",
+      "category": "28 Tú",
+      "short": "Sao Chẩn chủ đi lại hanh thông, mua phương tiện, nhập trạch, cưới hỏi. (Thuộc nhóm Nam Chu Tước).",
+      "aliases": [
+        "Sao Chẩn"
+      ]
+    },
+    {
+      "id": "hd_thanh_long",
+      "term": "Thanh Long (Hoàng đạo)",
+      "han": "青龍",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Cát thần chủ hỷ khí, thuận lợi khởi sự và gặp gỡ."
+    },
+    {
+      "id": "hd_minh_duong",
+      "term": "Minh Đường (Hoàng đạo)",
+      "han": "明堂",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Cát thần chủ minh bạch, quý nhân, hợp công việc chính thống."
+    },
+    {
+      "id": "hd_thien_hinh",
+      "term": "Thiên Hình (Hắc đạo)",
+      "han": "天刑",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Hắc đạo chủ kỷ luật khắt khe, nên cẩn trọng thủ tục pháp lý."
+    },
+    {
+      "id": "hd_chu_tuoc",
+      "term": "Chu Tước (Hắc đạo)",
+      "han": "朱雀",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Hắc đạo dễ sinh khẩu thiệt, tranh luận lời qua tiếng lại."
+    },
+    {
+      "id": "hd_kim_quy",
+      "term": "Kim Quỹ (Hoàng đạo)",
+      "han": "金匱",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Cát thần chủ tài lộc tích lũy, hợp giao dịch, cưới hỏi."
+    },
+    {
+      "id": "hd_bao_quang",
+      "term": "Bảo Quang (Hoàng đạo)",
+      "han": "寶光",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Cát thần (Thiên Đức Hoàng đạo) chủ bình an, hóa giải trở ngại."
+    },
+    {
+      "id": "hd_bach_ho",
+      "term": "Bạch Hổ (Hắc đạo)",
+      "han": "白虎",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Hắc đạo chủ va chạm hoặc vội vàng, nên giữ bình tĩnh khi đi lại."
+    },
+    {
+      "id": "hd_ngoc_duong",
+      "term": "Ngọc Đường (Hoàng đạo)",
+      "han": "玉堂",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Cát thần chủ học hành, văn thư, thăng tiến."
+    },
+    {
+      "id": "hd_thien_lao",
+      "term": "Thiên Lao (Hắc đạo)",
+      "han": "天牢",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Hắc đạo chủ bó buộc, trì trệ; tránh việc mạo hiểm."
+    },
+    {
+      "id": "hd_nguyen_vu",
+      "term": "Huyền Vũ (Hắc đạo)",
+      "han": "玄武",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Hắc đạo dễ nhầm lẫn thông tin hoặc thất lạc đồ vặt."
+    },
+    {
+      "id": "hd_tu_menh",
+      "term": "Tư Mệnh (Hoàng đạo)",
+      "han": "司命",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Cát thần chủ sinh khí, thuận lợi cho việc nhà và mưu sự ban ngày."
+    },
+    {
+      "id": "hd_cau_tran",
+      "term": "Câu Trần (Hắc đạo)",
+      "han": "勾陳",
+      "category": "Hoàng / Hắc đạo",
+      "short": "Hắc đạo chủ dây dưa, vướng mắc tiến độ."
+    },
+    {
+      "id": "than_sat_thien_duc",
+      "term": "Sao Thiên Đức",
+      "han": "天德",
+      "category": "Thần sát",
+      "short": "Đại cát tinh nâng đỡ, hóa giải nhiều điều bất lợi, hợp mọi việc thiện lành. Quy tắc: Theo Chi tháng (Dần→Đinh, Mão→Thân, Thìn→Nhâm, Tỵ→Tân, Ngọ→Hợi, Mùi→Giáp, Thân→Quý, Dậu→Dần, Tuất→Bính, Hợi→Ất, Tý→Tỵ, Sửu→Canh).",
+      "aliases": [
+        "Thiên Đức"
+      ]
+    },
+    {
+      "id": "than_sat_nguyet_duc",
+      "term": "Sao Nguyệt Đức",
+      "han": "月德",
+      "category": "Thần sát",
+      "short": "Cát tinh chủ phúc đức trong tháng, lợi cho cưới hỏi, ký kết, cầu phúc, sửa sang. Quy tắc: Tam hợp Chi tháng qui về Can dương: Dần-Ngọ-Tuất → Bính; Thân-Tý-Thìn → Nhâm; Hợi-Mão-Mùi → Giáp; Tỵ-Dậu-Sửu → Canh.",
+      "aliases": [
+        "Nguyệt Đức"
+      ]
+    },
+    {
+      "id": "than_sat_thien_hy",
+      "term": "Sao Thiên Hỷ",
+      "han": "天喜",
+      "category": "Thần sát",
+      "short": "Cát tinh chủ tin vui, hỷ sự, giao kết tình cảm và cưới hỏi. Quy tắc: Theo Chi tháng (Dần→Tuất, Mão→Hợi, Thìn→Tý, Tỵ→Sửu, Ngọ→Dần, Mùi→Mão, Thân→Thìn, Dậu→Tỵ, Tuất→Ngọ, Hợi→Mùi, Tý→Thân, Sửu→Dậu).",
+      "aliases": [
+        "Thiên Hỷ"
+      ]
+    },
+    {
+      "id": "than_sat_thien_quan",
+      "term": "Sao Thiên Quan",
+      "han": "天官",
+      "category": "Thần sát",
+      "short": "Cát tinh lợi cho công vụ, thi cử, nhậm chức, gặp cấp trên. Quy tắc: Theo Chi tháng (Dần→Khuyển/Tuất, Mão→Tý, Thìn→Dần, Tỵ→Thìn, Ngọ→Ngọ, Mùi→Thân, Thân→Tuất, Dậu→Tý, Tuất→Dần, Hợi→Thìn, Tý→Ngọ, Sửu→Thân).",
+      "aliases": [
+        "Thiên Quan"
+      ]
+    },
+    {
+      "id": "than_sat_thien_phu",
+      "term": "Sao Thiên Phú",
+      "han": "天富",
+      "category": "Thần sát",
+      "short": "Cát tinh chủ sung túc, tích trữ: hợp khai trương, nhập kho, mở tài khoản/tiết kiệm. Quy tắc: Theo Chi tháng (Dần→Thìn, Mão→Tỵ, Thìn→Ngọ, Tỵ→Mùi, Ngọ→Thân, Mùi→Dậu, Thân→Tuất, Dậu→Hợi, Tuất→Tý, Hợi→Sửu, Tý→Dần, Sửu→Mão).",
+      "aliases": [
+        "Thiên Phú"
+      ]
+    },
+    {
+      "id": "than_sat_thien_tai",
+      "term": "Sao Thiên Tài",
+      "han": "天財",
+      "category": "Thần sát",
+      "short": "Sao tốt cho giao thương, buôn bán, ký kết hợp đồng kinh tế. Quy tắc: Theo Chi tháng (Dần→Thìn, Mão→Ngọ, Thìn→Thân, Tỵ→Tuất, Ngọ→Tý, Mùi→Dần, Thân→Thìn, Dậu→Ngọ, Tuất→Thân, Hợi→Tuất, Tý→Tý, Sửu→Dần).",
+      "aliases": [
+        "Thiên Tài"
+      ]
+    },
+    {
+      "id": "than_sat_thien_y",
+      "term": "Sao Thiên Y",
+      "han": "天醫",
+      "category": "Thần sát",
+      "short": "Theo truyền thống là ngày thuận cho chăm sóc sức khỏe, thăm khám định kỳ. Quy tắc: Chi ngày liền trước Chi tháng (Dần→Sửu, Mão→Dần, ..., Sửu→Tý).",
+      "aliases": [
+        "Thiên Y"
+      ]
+    },
+    {
+      "id": "than_sat_sinh_khi",
+      "term": "Sao Sinh Khí",
+      "han": "生氣",
+      "category": "Thần sát",
+      "short": "Đại cát tinh chủ sinh sôi, nảy nở: rất hợp động thổ, trồng cây, khởi công, bắt đầu dự án. Quy tắc: Chi ngày lùi 2 cung từ Chi tháng (tháng Dần ngày Tý, tháng Mão ngày Sửu...).",
+      "aliases": [
+        "Sinh Khí"
+      ]
+    },
+    {
+      "id": "than_sat_dich_ma",
+      "term": "Sao Dịch Mã",
+      "han": "驛馬",
+      "category": "Thần sát",
+      "short": "Sao chủ di chuyển, đi xa, công tác, vận chuyển, nhậm chức hoặc đổi chỗ làm. Quy tắc: Tam hợp Chi tháng đối xung chữ đầu: Dần-Ngọ-Tuất → Thân; Thân-Tý-Thìn → Dần; Tỵ-Dậu-Sửu → Hợi; Hợi-Mão-Mùi → Tỵ.",
+      "aliases": [
+        "Dịch Mã"
+      ]
+    },
+    {
+      "id": "than_sat_tam_hop_ngay",
+      "term": "Sao Tam Hợp",
+      "han": "三合",
+      "category": "Thần sát",
+      "short": "Khí ngày hòa hợp với lệnh tháng: thuận cho hợp tác, bàn bạc, cưới hỏi. Quy tắc: Chi ngày nằm trong bộ Tam hợp với Chi tháng.",
+      "aliases": [
+        "Tam Hợp"
+      ]
+    },
+    {
+      "id": "than_sat_luc_hop_ngay",
+      "term": "Sao Lục Hợp",
+      "han": "六合",
+      "category": "Thần sát",
+      "short": "Ngày giao hòa, thuận cho kết nối đối tác, hòa giải, giao dịch. Quy tắc: Chi ngày Lục hợp với Chi tháng.",
+      "aliases": [
+        "Lục Hợp"
+      ]
+    },
+    {
+      "id": "than_sat_sat_chu",
+      "term": "Sao Sát Chủ",
+      "han": "殺主",
+      "category": "Thần sát",
+      "short": "Sao hung theo Ngọc Hạp: kiêng khởi công xây dựng lớn, cưới hỏi, nhập trạch. Quy tắc: Theo tháng âm lịch phổ thông (T1→Tỵ, T2→Tý, T3→Mùi, T4→Mão, T5→Thân, T6→Tuất, T7→Sửu, T8→Hợi, T9→Ngọ, T10→Dậu, T11→Dần, T12→Thìn).",
+      "aliases": [
+        "Sát Chủ"
+      ]
+    },
+    {
+      "id": "than_sat_tho_tu",
+      "term": "Sao Thọ Tử",
+      "han": "受死",
+      "category": "Thần sát",
+      "short": "Sao hung trong Hiệp Kỷ: kỵ khai trương, cưới hỏi, động thổ. Quy tắc: Theo Chi tháng (Dần→Tuất, Mão→Thìn, Thìn→Hợi, Tỵ→Tỵ, Ngọ→Tý, Mùi→Ngọ, Thân→Sửu, Dậu→Mùi, Tuất→Dần, Hợi→Thân, Tý→Mão, Sửu→Dậu).",
+      "aliases": [
+        "Thọ Tử"
+      ]
+    },
+    {
+      "id": "than_sat_tam_nuong",
+      "term": "Sao Tam Nương",
+      "han": "三娘",
+      "category": "Thần sát",
+      "short": "Ngày kiêng dân gian Việt Nam: nên tránh khởi sự vội vàng, cưới hỏi hoặc khai trương lớn. Quy tắc: Ngày âm lịch mùng 3, 7, 13, 18, 22, 27 mỗi tháng.",
+      "aliases": [
+        "Tam Nương"
+      ]
+    },
+    {
+      "id": "than_sat_nguyet_ky",
+      "term": "Sao Nguyệt Kỵ",
+      "han": "月忌",
+      "category": "Thần sát",
+      "short": "Ngày kiêng truyền thống: nên làm việc quen thuộc, hạn chế mở đầu dự án lớn. Quy tắc: Ngày âm lịch mùng 5, 14, 23 mỗi tháng ('mùng năm, mười bốn, hai ba').",
+      "aliases": [
+        "Nguyệt Kỵ"
+      ]
+    },
+    {
+      "id": "than_sat_duong_cong_ky",
+      "term": "Sao Dương Công Kỵ Nhật",
+      "han": "楊公忌日",
+      "category": "Thần sát",
+      "short": "Ngày Dương Công Kỵ truyền thống: kỵ động thổ, cưới hỏi, khai trương trọng đại. Quy tắc: 13 ngày kỵ trong năm âm lịch: 1/13, 2/11, 3/9, 4/7, 5/5, 6/3, 7/1, 7/29, 8/27, 9/25, 10/23, 11/21, 12/19.",
+      "aliases": [
+        "Dương Công Kỵ Nhật"
+      ]
+    },
+    {
+      "id": "than_sat_nguyet_pha",
+      "term": "Sao Nguyệt Phá",
+      "han": "月破",
+      "category": "Thần sát",
+      "short": "Đại hao/Nguyệt Phá: xung khí của tháng, chỉ hợp dọn dẹp cái cũ, kỵ mở việc mới. Quy tắc: Chi ngày Lục xung với Chi tháng (trùng ngày Trực Phá).",
+      "aliases": [
+        "Nguyệt Phá"
+      ]
+    },
+    {
+      "id": "than_sat_ha_khoi",
+      "term": "Sao Hà Khôi",
+      "han": "河魁",
+      "category": "Thần sát",
+      "short": "Hung thần kỵ khởi công xây dựng, tranh tụng và mở cửa hàng. Quy tắc: Theo Chi tháng (Dần→Hợi, Mão→Tý, Thìn→Sửu, Tỵ→Dần, Ngọ→Mão, Mùi→Thìn, Thân→Tỵ, Dậu→Ngọ, Tuất→Mùi, Hợi→Thân, Tý→Dậu, Sửu→Tuất).",
+      "aliases": [
+        "Hà Khôi"
+      ]
+    },
+    {
+      "id": "than_sat_cau_giao",
+      "term": "Sao Cẩu Giảo",
+      "han": "勾絞",
+      "category": "Thần sát",
+      "short": "Hung thần dễ gây vướng mắc thủ tục hoặc hiểu lầm trong phối hợp. Quy tắc: Đối xung với Hà Khôi: Dần→Tỵ, Mão→Ngọ, Thìn→Mùi, Tỵ→Thân, Ngọ→Dậu, Mùi→Tuất, Thân→Hợi, Dậu→Tý, Tuất→Sửu, Hợi→Dần, Tý→Mão, Sửu→Thìn.",
+      "aliases": [
+        "Cẩu Giảo"
+      ]
+    },
+    {
+      "id": "than_sat_vang_vong",
+      "term": "Sao Vãng Vong",
+      "han": "往亡",
+      "category": "Thần sát",
+      "short": "Kỵ xuất hành xa hoặc phát động việc tranh đua. Quy tắc: Theo Chi tháng (Dần→Dần, Mão→Tỵ, Thìn→Thân, Tỵ→Hợi, Ngọ→Mão, Mùi→Ngọ, Thân→Dậu, Dậu→Tý, Tuất→Thìn, Hợi→Mùi, Tý→Tuất, Sửu→Sửu).",
+      "aliases": [
+        "Vãng Vong"
+      ]
+    },
+    {
+      "id": "than_sat_kiep_sat",
+      "term": "Sao Kiếp Sát",
+      "han": "劫煞",
+      "category": "Thần sát",
+      "short": "Dễ hao tán tiền vặt hoặc gặp trở ngại bất ngờ; nên giữ kỹ đồ đạc. Quy tắc: Tam hợp Chi tháng: Dần-Ngọ-Tuất → Hợi; Thân-Tý-Thìn → Tỵ; Tỵ-Dậu-Sửu → Dần; Hợi-Mão-Mùi → Thân.",
+      "aliases": [
+        "Kiếp Sát"
+      ]
+    },
+    {
+      "id": "than_sat_tai_sat",
+      "term": "Sao Tai Sát",
+      "han": "災煞",
+      "category": "Thần sát",
+      "short": "Nên đi lại điềm tĩnh, tránh tranh cãi gay gắt. Quy tắc: Tam hợp Chi tháng đối xung tướng tinh: Dần-Ngọ-Tuất → Tý; Thân-Tý-Thìn → Ngọ; Tỵ-Dậu-Sửu → Mão; Hợi-Mão-Mùi → Dậu.",
+      "aliases": [
+        "Tai Sát"
+      ]
+    },
+    {
+      "id": "bagua_kham",
+      "term": "Quẻ Khảm (Bắc)",
+      "han": "坎",
+      "category": "Bát quái",
+      "short": "Quẻ Khảm ☵: thuộc hành THUY, hướng Bắc. Chủ về: Sự nghiệp, dòng chảy công việc, trí tuệ sâu. Đại diện: Trung nam, người làm nghiên cứu/kỹ thuật."
+    },
+    {
+      "id": "bagua_khon",
+      "term": "Quẻ Khôn (Tây Nam)",
+      "han": "坤",
+      "category": "Bát quái",
+      "short": "Quẻ Khôn ☷: thuộc hành THO, hướng Tây Nam. Chủ về: Tình cảm, gia đạo, sự bao dung, nuôi dưỡng. Đại diện: Mẹ, người nữ lớn tuổi, người hỗ trợ hậu cần."
+    },
+    {
+      "id": "bagua_chan",
+      "term": "Quẻ Chấn (Đông)",
+      "han": "震",
+      "category": "Bát quái",
+      "short": "Quẻ Chấn ☳: thuộc hành MOC, hướng Đông. Chủ về: Khởi động, hành động nhanh, sức bật, gia đình. Đại diện: Trưởng nam, người tiên phong năng động."
+    },
+    {
+      "id": "bagua_ton",
+      "term": "Quẻ Tốn (Đông Nam)",
+      "han": "巽",
+      "category": "Bát quái",
+      "short": "Quẻ Tốn ☴: thuộc hành MOC, hướng Đông Nam. Chủ về: Tài lộc tích lũy, giao tiếp mềm mỏng, văn thư. Đại diện: Trưởng nữ, người làm truyền thông/giáo dục."
+    },
+    {
+      "id": "bagua_can",
+      "term": "Quẻ Càn (Tây Bắc)",
+      "han": "乾",
+      "category": "Bát quái",
+      "short": "Quẻ Càn ☰: thuộc hành KIM, hướng Tây Bắc. Chủ về: Quý nhân, quyền uy, quyết đoán, định hướng lớn. Đại diện: Cha, cấp trên, bậc trưởng bối/quý nhân."
+    },
+    {
+      "id": "bagua_doai",
+      "term": "Quẻ Đoài (Tây)",
+      "han": "兌",
+      "category": "Bát quái",
+      "short": "Quẻ Đoài ☱: thuộc hành KIM, hướng Tây. Chủ về: Lời nói, thương thảo, niềm vui, con cái. Đại diện: Thiếu nữ, người hoạt ngôn/ngoại giao."
+    },
+    {
+      "id": "bagua_gen",
+      "term": "Quẻ Cấn (Đông Bắc)",
+      "han": "艮",
+      "category": "Bát quái",
+      "short": "Quẻ Cấn ☶: thuộc hành THO, hướng Đông Bắc. Chủ về: Học vấn, tĩnh tâm, điểm dừng, tích lũy nội lực. Đại diện: Thiếu nam, người điềm tĩnh cẩn trọng."
+    },
+    {
+      "id": "bagua_ly",
+      "term": "Quẻ Ly (Nam)",
+      "han": "離",
+      "category": "Bát quái",
+      "short": "Quẻ Ly ☲: thuộc hành HOA, hướng Nam. Chủ về: Danh tiếng, sáng tỏ, giấy tờ, nghệ thuật. Đại diện: Trung nữ, người làm sáng tạo/công chúng."
+    },
+    {
+      "id": "mq_sinh_khi",
+      "term": "Hướng Sinh Khí (Bát Trạch)",
+      "han": "生氣",
+      "category": "Mệnh quái",
+      "short": "Thuận cho sinh lực, mở mang công việc, khởi sự"
+    },
+    {
+      "id": "mq_thien_y",
+      "term": "Hướng Thiên Y (Bát Trạch)",
+      "han": "天醫",
+      "category": "Mệnh quái",
+      "short": "Thuận cho nghỉ ngơi, bồi dưỡng thể trạng, gặp người giúp đỡ"
+    },
+    {
+      "id": "mq_dien_nien",
+      "term": "Hướng Diên Niên (Bát Trạch)",
+      "han": "延年",
+      "category": "Mệnh quái",
+      "short": "Thuận cho hòa khí gia đình, gắn kết đối tác lâu dài"
+    },
+    {
+      "id": "mq_phuc_vi",
+      "term": "Hướng Phục Vị (Bát Trạch)",
+      "han": "伏位",
+      "category": "Mệnh quái",
+      "short": "Thuận cho tĩnh tâm, học tập, giữ nhịp ổn định"
+    },
+    {
+      "id": "mq_hoa_hai",
+      "term": "Hướng Họa Hại (Bát Trạch)",
+      "han": "禍害",
+      "category": "Mệnh quái",
+      "short": "Dễ vướng thị phi vụn vặt hoặc hiểu lầm lời nói"
+    },
+    {
+      "id": "mq_luc_sat",
+      "term": "Hướng Lục Sát (Bát Trạch)",
+      "han": "六煞",
+      "category": "Mệnh quái",
+      "short": "Dễ xao nhãng tình cảm, trì trệ giấy tờ"
+    },
+    {
+      "id": "mq_ngu_quy",
+      "term": "Hướng Ngũ Quỷ (Bát Trạch)",
+      "han": "五鬼",
+      "category": "Mệnh quái",
+      "short": "Dễ nóng nảy, tranh cãi hoặc phát sinh việc ngoài dự tính"
+    },
+    {
+      "id": "mq_tuyet_menh",
+      "term": "Hướng Tuyệt Mệnh (Bát Trạch)",
+      "han": "絕命",
+      "category": "Mệnh quái",
+      "short": "Hướng khắc mạnh theo Bát Trạch, nên tránh ngồi/hướng chính lâu dài"
+    },
+    {
+      "id": "fs_1",
+      "term": "Sao Nhất Bạch Tham Lang",
+      "han": "一白",
+      "category": "Phi tinh",
+      "short": "Cát tinh chủ nhân duyên, quý nhân, trí tuệ và giao tiếp mềm mỏng."
+    },
+    {
+      "id": "fs_2",
+      "term": "Sao Nhị Hắc Cự Môn",
+      "han": "二黑",
+      "category": "Phi tinh",
+      "short": "Sao chủ sự uể oải, dễ mệt mỏi nhẹ; nên giữ không gian thoáng đãng và nghỉ ngơi điều độ."
+    },
+    {
+      "id": "fs_3",
+      "term": "Sao Tam Bích Lộc Tồn",
+      "han": "三碧",
+      "category": "Phi tinh",
+      "short": "Sao chủ sự sốt ruột, dễ tranh luận gay gắt; nên lắng nghe và chậm lại trước khi phản hồi."
+    },
+    {
+      "id": "fs_4",
+      "term": "Sao Tứ Lục Văn Khúc",
+      "han": "四綠",
+      "category": "Phi tinh",
+      "short": "Cát tinh chủ văn chương, học tập, thi cử, giấy tờ và sáng tạo."
+    },
+    {
+      "id": "fs_5",
+      "term": "Sao Ngũ Hoàng Liêm Trinh",
+      "han": "五黃",
+      "category": "Phi tinh",
+      "short": "Sao chủ biến động mạnh trong Cửu tinh: nên giữ tĩnh, tránh động thổ ồn ào ở phương vị này."
+    },
+    {
+      "id": "fs_6",
+      "term": "Sao Lục Bạch Vũ Khúc",
+      "han": "六白",
+      "category": "Phi tinh",
+      "short": "Cát tinh chủ công danh, kỷ luật, trách nhiệm và nguồn lực chính thống."
+    },
+    {
+      "id": "fs_7",
+      "term": "Sao Thất Xích Phá Quân",
+      "han": "七赤",
+      "category": "Phi tinh",
+      "short": "Sao chủ khẩu thiệt hoặc chi tiêu phát sinh; nên cẩn trọng lời nói và kiểm soát ví tiền."
+    },
+    {
+      "id": "fs_8",
+      "term": "Sao Bát Bạch Tả Phù",
+      "han": "八白",
+      "category": "Phi tinh",
+      "short": "Đại cát tinh chủ tài lộc ổn định, tích lũy và cơ hội hợp tác thực tế."
+    },
+    {
+      "id": "fs_9",
+      "term": "Sao Cửu Tử Hữu Bật",
+      "han": "九紫",
+      "category": "Phi tinh",
+      "short": "Cát tinh chủ tin vui, hỷ sự, sự kiện sôi nổi và danh tiếng."
+    },
+    {
+      "id": "qm_huu_mon",
+      "term": "Hưu Môn (Kỳ Môn)",
+      "han": "休門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Cát môn chủ quý nhân, nghỉ ngơi hồi phục, hòa giải và gặp gỡ nhẹ nhàng."
+    },
+    {
+      "id": "qm_sinh_mon",
+      "term": "Sinh Môn (Kỳ Môn)",
+      "han": "生門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Đại cát môn chủ sinh khí, tài lộc, kinh doanh, mở mang dự án."
+    },
+    {
+      "id": "qm_thuong_mon",
+      "term": "Thương Môn (Kỳ Môn)",
+      "han": "傷門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Hung môn chủ va chạm hoặc tranh thắng; hợp thu hồi nợ cũ, nên cẩn thận khi đi lại."
+    },
+    {
+      "id": "qm_do_mon",
+      "term": "Đỗ Môn (Kỳ Môn)",
+      "han": "杜門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Bình môn chủ kỹ thuật, nghiên cứu kín đáo, bảo mật; ít thuận cho giao tế ồn ào."
+    },
+    {
+      "id": "qm_canh_mon",
+      "term": "Cảnh Môn (Kỳ Môn)",
+      "han": "景門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Bình môn chủ văn thư, truyền thông, kế hoạch, thi cử; cần kiểm chứng thông tin kỹ."
+    },
+    {
+      "id": "qm_tu_mon",
+      "term": "Tử Môn (Kỳ Môn)",
+      "han": "死門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Hung môn chủ tĩnh lặng, bế tắc; kỵ khởi sự mới, chỉ hợp việc kết thúc cái cũ."
+    },
+    {
+      "id": "qm_kinh_mon",
+      "term": "Kinh Môn (Kỳ Môn)",
+      "han": "驚門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Hung môn chủ lo âu, tranh biện, tin đồn; nên bình tĩnh kiểm tra thực tế."
+    },
+    {
+      "id": "qm_khai_mon",
+      "term": "Khai Môn (Kỳ Môn)",
+      "han": "開門",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Đại cát môn chủ khai mở công việc, nhậm chức, ký kết, xuất hành xa."
+    },
+    {
+      "id": "qm_deity_truc_phu",
+      "term": "Trực Phù (Bát Thần Kỳ Môn)",
+      "han": "值符",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Đầu thần cát tường, quý nhân nâng đỡ."
+    },
+    {
+      "id": "qm_deity_dang_xa",
+      "term": "Đằng Xà (Bát Thần Kỳ Môn)",
+      "han": "螣蛇",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ lo nghĩ quanh co, dễ phân tâm."
+    },
+    {
+      "id": "qm_deity_thai_am",
+      "term": "Thái Âm (Bát Thần Kỳ Môn)",
+      "han": "太陰",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ mưu tính kín đáo, âm thầm hỗ trợ."
+    },
+    {
+      "id": "qm_deity_luc_hop",
+      "term": "Lục Hợp (Bát Thần Kỳ Môn)",
+      "han": "六合",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ hòa hợp, thương lượng, giao dịch thuận."
+    },
+    {
+      "id": "qm_deity_bach_ho_qm",
+      "term": "Bạch Hổ (Bát Thần Kỳ Môn)",
+      "han": "白虎",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ áp lực mạnh, cần đi lại cẩn thận."
+    },
+    {
+      "id": "qm_deity_huyen_vu_qm",
+      "term": "Huyền Vũ (Bát Thần Kỳ Môn)",
+      "han": "玄武",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ nhầm lẫn thông tin, cần minh bạch sổ sách."
+    },
+    {
+      "id": "qm_deity_cuu_dia",
+      "term": "Cửu Địa (Bát Thần Kỳ Môn)",
+      "han": "九地",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ bền bỉ, phòng thủ, tích lũy chắc chắn."
+    },
+    {
+      "id": "qm_deity_cuu_thien",
+      "term": "Cửu Thiên (Bát Thần Kỳ Môn)",
+      "han": "九天",
+      "category": "Kỳ Môn Độn Giáp",
+      "short": "Chủ vươn xa, chủ động xuất hành, mở rộng."
+    },
+    {
+      "id": "nayin_海中金",
+      "term": "Nạp âm Hải Trung Kim",
+      "han": "海中金",
+      "category": "Nạp âm",
+      "short": "Hải Trung Kim (海中金): nạp âm của hai tuổi/ngày Giáp Tý và Ất Sửu.",
+      "aliases": [
+        "Hải Trung Kim"
+      ]
+    },
+    {
+      "id": "nayin_爐中火",
+      "term": "Nạp âm Lư Trung Hỏa",
+      "han": "爐中火",
+      "category": "Nạp âm",
+      "short": "Lư Trung Hỏa (爐中火): nạp âm của hai tuổi/ngày Bính Dần và Đinh Mão.",
+      "aliases": [
+        "Lư Trung Hỏa"
+      ]
+    },
+    {
+      "id": "nayin_大林木",
+      "term": "Nạp âm Đại Lâm Mộc",
+      "han": "大林木",
+      "category": "Nạp âm",
+      "short": "Đại Lâm Mộc (大林木): nạp âm của hai tuổi/ngày Mậu Thìn và Kỷ Tỵ.",
+      "aliases": [
+        "Đại Lâm Mộc"
+      ]
+    },
+    {
+      "id": "nayin_路旁土",
+      "term": "Nạp âm Lộ Bàng Thổ",
+      "han": "路旁土",
+      "category": "Nạp âm",
+      "short": "Lộ Bàng Thổ (路旁土): nạp âm của hai tuổi/ngày Canh Ngọ và Tân Mùi.",
+      "aliases": [
+        "Lộ Bàng Thổ"
+      ]
+    },
+    {
+      "id": "nayin_劍鋒金",
+      "term": "Nạp âm Kiếm Phong Kim",
+      "han": "劍鋒金",
+      "category": "Nạp âm",
+      "short": "Kiếm Phong Kim (劍鋒金): nạp âm của hai tuổi/ngày Nhâm Thân và Quý Dậu.",
+      "aliases": [
+        "Kiếm Phong Kim"
+      ]
+    },
+    {
+      "id": "nayin_山頭火",
+      "term": "Nạp âm Sơn Đầu Hỏa",
+      "han": "山頭火",
+      "category": "Nạp âm",
+      "short": "Sơn Đầu Hỏa (山頭火): nạp âm của hai tuổi/ngày Giáp Tuất và Ất Hợi.",
+      "aliases": [
+        "Sơn Đầu Hỏa"
+      ]
+    },
+    {
+      "id": "nayin_澗下水",
+      "term": "Nạp âm Giản Hạ Thủy",
+      "han": "澗下水",
+      "category": "Nạp âm",
+      "short": "Giản Hạ Thủy (澗下水): nạp âm của hai tuổi/ngày Bính Tý và Đinh Sửu.",
+      "aliases": [
+        "Giản Hạ Thủy"
+      ]
+    },
+    {
+      "id": "nayin_城頭土",
+      "term": "Nạp âm Thành Đầu Thổ",
+      "han": "城頭土",
+      "category": "Nạp âm",
+      "short": "Thành Đầu Thổ (城頭土): nạp âm của hai tuổi/ngày Mậu Dần và Kỷ Mão.",
+      "aliases": [
+        "Thành Đầu Thổ"
+      ]
+    },
+    {
+      "id": "nayin_白蠟金",
+      "term": "Nạp âm Bạch Lạp Kim",
+      "han": "白蠟金",
+      "category": "Nạp âm",
+      "short": "Bạch Lạp Kim (白蠟金): nạp âm của hai tuổi/ngày Canh Thìn và Tân Tỵ.",
+      "aliases": [
+        "Bạch Lạp Kim"
+      ]
+    },
+    {
+      "id": "nayin_楊柳木",
+      "term": "Nạp âm Dương Liễu Mộc",
+      "han": "楊柳木",
+      "category": "Nạp âm",
+      "short": "Dương Liễu Mộc (楊柳木): nạp âm của hai tuổi/ngày Nhâm Ngọ và Quý Mùi.",
+      "aliases": [
+        "Dương Liễu Mộc"
+      ]
+    },
+    {
+      "id": "nayin_泉中水",
+      "term": "Nạp âm Tuyền Trung Thủy",
+      "han": "泉中水",
+      "category": "Nạp âm",
+      "short": "Tuyền Trung Thủy (泉中水): nạp âm của hai tuổi/ngày Giáp Thân và Ất Dậu.",
+      "aliases": [
+        "Tuyền Trung Thủy"
+      ]
+    },
+    {
+      "id": "nayin_屋上土",
+      "term": "Nạp âm Ốc Thượng Thổ",
+      "han": "屋上土",
+      "category": "Nạp âm",
+      "short": "Ốc Thượng Thổ (屋上土): nạp âm của hai tuổi/ngày Bính Tuất và Đinh Hợi.",
+      "aliases": [
+        "Ốc Thượng Thổ"
+      ]
+    },
+    {
+      "id": "nayin_霹靂火",
+      "term": "Nạp âm Tích Lịch Hỏa",
+      "han": "霹靂火",
+      "category": "Nạp âm",
+      "short": "Tích Lịch Hỏa (霹靂火): nạp âm của hai tuổi/ngày Mậu Tý và Kỷ Sửu.",
+      "aliases": [
+        "Tích Lịch Hỏa"
+      ]
+    },
+    {
+      "id": "nayin_松柏木",
+      "term": "Nạp âm Tùng Bách Mộc",
+      "han": "松柏木",
+      "category": "Nạp âm",
+      "short": "Tùng Bách Mộc (松柏木): nạp âm của hai tuổi/ngày Canh Dần và Tân Mão.",
+      "aliases": [
+        "Tùng Bách Mộc"
+      ]
+    },
+    {
+      "id": "nayin_長流水",
+      "term": "Nạp âm Trường Lưu Thủy",
+      "han": "長流水",
+      "category": "Nạp âm",
+      "short": "Trường Lưu Thủy (長流水): nạp âm của hai tuổi/ngày Nhâm Thìn và Quý Tỵ.",
+      "aliases": [
+        "Trường Lưu Thủy"
+      ]
+    },
+    {
+      "id": "nayin_砂中金",
+      "term": "Nạp âm Sa Trung Kim",
+      "han": "砂中金",
+      "category": "Nạp âm",
+      "short": "Sa Trung Kim (砂中金): nạp âm của hai tuổi/ngày Giáp Ngọ và Ất Mùi.",
+      "aliases": [
+        "Sa Trung Kim"
+      ]
+    },
+    {
+      "id": "nayin_山下火",
+      "term": "Nạp âm Sơn Hạ Hỏa",
+      "han": "山下火",
+      "category": "Nạp âm",
+      "short": "Sơn Hạ Hỏa (山下火): nạp âm của hai tuổi/ngày Bính Thân và Đinh Dậu.",
+      "aliases": [
+        "Sơn Hạ Hỏa"
+      ]
+    },
+    {
+      "id": "nayin_平地木",
+      "term": "Nạp âm Bình Địa Mộc",
+      "han": "平地木",
+      "category": "Nạp âm",
+      "short": "Bình Địa Mộc (平地木): nạp âm của hai tuổi/ngày Mậu Tuất và Kỷ Hợi.",
+      "aliases": [
+        "Bình Địa Mộc"
+      ]
+    },
+    {
+      "id": "nayin_壁上土",
+      "term": "Nạp âm Bích Thượng Thổ",
+      "han": "壁上土",
+      "category": "Nạp âm",
+      "short": "Bích Thượng Thổ (壁上土): nạp âm của hai tuổi/ngày Canh Tý và Tân Sửu.",
+      "aliases": [
+        "Bích Thượng Thổ"
+      ]
+    },
+    {
+      "id": "nayin_金箔金",
+      "term": "Nạp âm Kim Bạch Kim",
+      "han": "金箔金",
+      "category": "Nạp âm",
+      "short": "Kim Bạch Kim (金箔金): nạp âm của hai tuổi/ngày Nhâm Dần và Quý Mão.",
+      "aliases": [
+        "Kim Bạch Kim"
+      ]
+    },
+    {
+      "id": "nayin_覆燈火",
+      "term": "Nạp âm Phúc Đăng Hỏa",
+      "han": "覆燈火",
+      "category": "Nạp âm",
+      "short": "Phúc Đăng Hỏa (覆燈火): nạp âm của hai tuổi/ngày Giáp Thìn và Ất Tỵ.",
+      "aliases": [
+        "Phúc Đăng Hỏa"
+      ]
+    },
+    {
+      "id": "nayin_天河水",
+      "term": "Nạp âm Thiên Hà Thủy",
+      "han": "天河水",
+      "category": "Nạp âm",
+      "short": "Thiên Hà Thủy (天河水): nạp âm của hai tuổi/ngày Bính Ngọ và Đinh Mùi.",
+      "aliases": [
+        "Thiên Hà Thủy"
+      ]
+    },
+    {
+      "id": "nayin_大驛土",
+      "term": "Nạp âm Đại Dịch Thổ",
+      "han": "大驛土",
+      "category": "Nạp âm",
+      "short": "Đại Dịch Thổ (大驛土): nạp âm của hai tuổi/ngày Mậu Thân và Kỷ Dậu.",
+      "aliases": [
+        "Đại Dịch Thổ"
+      ]
+    },
+    {
+      "id": "nayin_釵釧金",
+      "term": "Nạp âm Thoa Xuyến Kim",
+      "han": "釵釧金",
+      "category": "Nạp âm",
+      "short": "Thoa Xuyến Kim (釵釧金): nạp âm của hai tuổi/ngày Canh Tuất và Tân Hợi.",
+      "aliases": [
+        "Thoa Xuyến Kim"
+      ]
+    },
+    {
+      "id": "nayin_桑柘木",
+      "term": "Nạp âm Tang Đố Mộc",
+      "han": "桑柘木",
+      "category": "Nạp âm",
+      "short": "Tang Đố Mộc (桑柘木): nạp âm của hai tuổi/ngày Nhâm Tý và Quý Sửu.",
+      "aliases": [
+        "Tang Đố Mộc"
+      ]
+    },
+    {
+      "id": "nayin_大溪水",
+      "term": "Nạp âm Đại Khê Thủy",
+      "han": "大溪水",
+      "category": "Nạp âm",
+      "short": "Đại Khê Thủy (大溪水): nạp âm của hai tuổi/ngày Giáp Dần và Ất Mão.",
+      "aliases": [
+        "Đại Khê Thủy"
+      ]
+    },
+    {
+      "id": "nayin_沙中土",
+      "term": "Nạp âm Sa Trung Thổ",
+      "han": "沙中土",
+      "category": "Nạp âm",
+      "short": "Sa Trung Thổ (沙中土): nạp âm của hai tuổi/ngày Bính Thìn và Đinh Tỵ.",
+      "aliases": [
+        "Sa Trung Thổ"
+      ]
+    },
+    {
+      "id": "nayin_天上火",
+      "term": "Nạp âm Thiên Thượng Hỏa",
+      "han": "天上火",
+      "category": "Nạp âm",
+      "short": "Thiên Thượng Hỏa (天上火): nạp âm của hai tuổi/ngày Mậu Ngọ và Kỷ Mùi.",
+      "aliases": [
+        "Thiên Thượng Hỏa"
+      ]
+    },
+    {
+      "id": "nayin_石榴木",
+      "term": "Nạp âm Thạch Lựu Mộc",
+      "han": "石榴木",
+      "category": "Nạp âm",
+      "short": "Thạch Lựu Mộc (石榴木): nạp âm của hai tuổi/ngày Canh Thân và Tân Dậu.",
+      "aliases": [
+        "Thạch Lựu Mộc"
+      ]
+    },
+    {
+      "id": "nayin_大海水",
+      "term": "Nạp âm Đại Hải Thủy",
+      "han": "大海水",
+      "category": "Nạp âm",
+      "short": "Đại Hải Thủy (大海水): nạp âm của hai tuổi/ngày Nhâm Tuất và Quý Hợi.",
+      "aliases": [
+        "Đại Hải Thủy"
+      ]
+    },
+    {
+      "id": "que_chu",
+      "term": "Quẻ chủ (Bản quái)",
+      "han": "本卦",
+      "category": "Kinh Dịch",
+      "short": "Quẻ gốc gieo được ban đầu, phản ánh bối cảnh và trạng thái hiện tại của sự việc."
+    },
+    {
+      "id": "que_ho",
+      "term": "Quẻ hỗ (Hỗ quái)",
+      "han": "互卦",
+      "category": "Kinh Dịch",
+      "short": "Quẻ lập từ 4 hào giữa (hào 2,3,4 làm hạ quái; hào 3,4,5 làm thượng quái), phản ánh diễn biến bên trong."
+    },
+    {
+      "id": "que_bien",
+      "term": "Quẻ biến (Chi quái)",
+      "han": "之卦",
+      "category": "Kinh Dịch",
+      "short": "Quẻ thu được sau khi đổi Âm/Dương các hào động của Quẻ chủ, phản ánh xu hướng chuyển hóa tiếp theo."
+    },
+    {
+      "id": "hao_dong",
+      "term": "Hào động",
+      "han": "動爻",
+      "category": "Kinh Dịch",
+      "short": "Hào âm hoặc dương đạt tới cực điểm (Lão âm 6 hoặc Lão dương 9) và chuyển hóa sang trạng thái đối lập."
+    },
+    {
+      "id": "do_tin_cay_abc",
+      "term": "Độ tin cậy dữ liệu (A / B / C)",
+      "category": "Ứng dụng",
+      "short": "Mức A: công thức thiên văn/toán học kiểm chứng chéo được; Mức B: bảng tra cổ truyền phổ biến; Mức C: thuật số nhiều trường phái bất đồng (như Kỳ Môn)."
+    }
+  ]
+}
