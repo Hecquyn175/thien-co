@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "source": "Bát quái Hậu thiên Văn Vương (Thuyết Quái truyện — Kinh Dịch)",
+    "confidence": "A"
+  },
+  "trigrams": [
+    {
+      "id": "kham",
+      "number": 1,
+      "vi": "Khảm",
+      "han": "坎",
+      "symbol": "☵",
+      "lines": "010",
+      "element": "thuy",
+      "direction": "bac",
+      "directionVi": "Bắc",
+      "degreeCenter": 0,
+      "lifeArea": "Sự nghiệp, dòng chảy công việc, trí tuệ sâu",
+      "person": "Trung nam, người làm nghiên cứu/kỹ thuật"
+    },
+    {
+      "id": "khon",
+      "number": 2,
+      "vi": "Khôn",
+      "han": "坤",
+      "symbol": "☷",
+      "lines": "000",
+      "element": "tho",
+      "direction": "tay_nam",
+      "directionVi": "Tây Nam",
+      "degreeCenter": 225,
+      "lifeArea": "Tình cảm, gia đạo, sự bao dung, nuôi dưỡng",
+      "person": "Mẹ, người nữ lớn tuổi, người hỗ trợ hậu cần"
+    },
+    {
+      "id": "chan",
+      "number": 3,
+      "vi": "Chấn",
+      "han": "震",
+      "symbol": "☳",
+      "lines": "100",
+      "element": "moc",
+      "direction": "dong",
+      "directionVi": "Đông",
+      "degreeCenter": 90,
+      "lifeArea": "Khởi động, hành động nhanh, sức bật, gia đình",
+      "person": "Trưởng nam, người tiên phong năng động"
+    },
+    {
+      "id": "ton",
+      "number": 4,
+      "vi": "Tốn",
+      "han": "巽",
+      "symbol": "☴",
+      "lines": "011",
+      "element": "moc",
+      "direction": "dong_nam",
+      "directionVi": "Đông Nam",
+      "degreeCenter": 135,
+      "lifeArea": "Tài lộc tích lũy, giao tiếp mềm mỏng, văn thư",
+      "person": "Trưởng nữ, người làm truyền thông/giáo dục"
+    },
+    {
+      "id": "can",
+      "number": 6,
+      "vi": "Càn",
+      "han": "乾",
+      "symbol": "☰",
+      "lines": "111",
+      "element": "kim",
+      "direction": "tay_bac",
+      "directionVi": "Tây Bắc",
+      "degreeCenter": 315,
+      "lifeArea": "Quý nhân, quyền uy, quyết đoán, định hướng lớn",
+      "person": "Cha, cấp trên, bậc trưởng bối/quý nhân"
+    },
+    {
+      "id": "doai",
+      "number": 7,
+      "vi": "Đoài",
+      "han": "兌",
+      "symbol": "☱",
+      "lines": "110",
+      "element": "kim",
+      "direction": "tay",
+      "directionVi": "Tây",
+      "degreeCenter": 270,
+      "lifeArea": "Lời nói, thương thảo, niềm vui, con cái",
+      "person": "Thiếu nữ, người hoạt ngôn/ngoại giao"
+    },
+    {
+      "id": "gen",
+      "number": 8,
+      "vi": "Cấn",
+      "han": "艮",
+      "symbol": "☶",
+      "lines": "001",
+      "element": "tho",
+      "direction": "dong_bac",
+      "directionVi": "Đông Bắc",
+      "degreeCenter": 45,
+      "lifeArea": "Học vấn, tĩnh tâm, điểm dừng, tích lũy nội lực",
+      "person": "Thiếu nam, người điềm tĩnh cẩn trọng"
+    },
+    {
+      "id": "ly",
+      "number": 9,
+      "vi": "Ly",
+      "han": "離",
+      "symbol": "☲",
+      "lines": "101",
+      "element": "hoa",
+      "direction": "nam",
+      "directionVi": "Nam",
+      "degreeCenter": 180,
+      "lifeArea": "Danh tiếng, sáng tỏ, giấy tờ, nghệ thuật",
+      "person": "Trung nữ, người làm sáng tạo/công chúng"
+    }
+  ]
+}

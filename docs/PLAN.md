@@ -6,7 +6,7 @@ Thứ tự ưu tiên khi thiếu thời gian: (a) tầng thời gian + Can Chi �
 | # | Giai đoạn | Cổng | Trạng thái |
 |---|---|---|---|
 | 1 | Khung dự án, tooling, CI Pages, tầng thời gian (JDN, tiết khí, âm lịch VN) | Mục 3.4 xanh | ☑ |
-| 2 | Can Chi 4 trụ, nạp âm, tàng can, giờ Tý, ngũ hành, quan hệ, thập thần | Test bảng + đối chiếu chéo xanh | ☐ |
+| 2 | Can Chi 4 trụ, nạp âm, tàng can, giờ Tý, ngũ hành, quan hệ, thập thần | Test bảng + đối chiếu chéo xanh | ☑ |
 | 3 | Bát Tự: lá số, vượng nhược, dụng thần, đại vận, cung vị, mệnh quái | Snapshot 3 hồ sơ mẫu | ☐ |
 | 4 | Dữ liệu xem ngày: Trực, Tú, Hoàng đạo, thần sát, xuất hành, giờ đẹp | `lint:data` xanh | ☐ |
 | 5 | Registry tín hiệu + `match` + scorer + selector | Test determinism | ☐ |

@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "source": "Bát Trạch Minh Cảnh — Đông/Tây tứ mệnh và 8 du niên (Sinh khí, Thiên y, Diên niên, Phục vị / Tuyệt mệnh, Ngũ quỷ, Lục sát, Họa hại)",
+    "confidence": "B"
+  },
+  "stars": {
+    "sinh_khi": {
+      "id": "sinh_khi",
+      "vi": "Sinh Khí",
+      "han": "生氣",
+      "auspicious": true,
+      "rank": 1,
+      "meaning": "Thuận cho sinh lực, mở mang công việc, khởi sự"
+    },
+    "thien_y": {
+      "id": "thien_y",
+      "vi": "Thiên Y",
+      "han": "天醫",
+      "auspicious": true,
+      "rank": 2,
+      "meaning": "Thuận cho nghỉ ngơi, bồi dưỡng thể trạng, gặp người giúp đỡ"
+    },
+    "dien_nien": {
+      "id": "dien_nien",
+      "vi": "Diên Niên",
+      "han": "延年",
+      "auspicious": true,
+      "rank": 3,
+      "meaning": "Thuận cho hòa khí gia đình, gắn kết đối tác lâu dài"
+    },
+    "phuc_vi": {
+      "id": "phuc_vi",
+      "vi": "Phục Vị",
+      "han": "伏位",
+      "auspicious": true,
+      "rank": 4,
+      "meaning": "Thuận cho tĩnh tâm, học tập, giữ nhịp ổn định"
+    },
+    "hoa_hai": {
+      "id": "hoa_hai",
+      "vi": "Họa Hại",
+      "han": "禍害",
+      "auspicious": false,
+      "rank": 5,
+      "meaning": "Dễ vướng thị phi vụn vặt hoặc hiểu lầm lời nói"
+    },
+    "luc_sat": {
+      "id": "luc_sat",
+      "vi": "Lục Sát",
+      "han": "六煞",
+      "auspicious": false,
+      "rank": 6,
+      "meaning": "Dễ xao nhãng tình cảm, trì trệ giấy tờ"
+    },
+    "ngu_quy": {
+      "id": "ngu_quy",
+      "vi": "Ngũ Quỷ",
+      "han": "五鬼",
+      "auspicious": false,
+      "rank": 7,
+      "meaning": "Dễ nóng nảy, tranh cãi hoặc phát sinh việc ngoài dự tính"
+    },
+    "tuyet_menh": {
+      "id": "tuyet_menh",
+      "vi": "Tuyệt Mệnh",
+      "han": "絕命",
+      "auspicious": false,
+      "rank": 8,
+      "meaning": "Hướng khắc mạnh theo Bát Trạch, nên tránh ngồi/hướng chính lâu dài"
+    }
+  },
+  "kuaMap": {
+    "1": {
+      "trigram": "kham",
+      "group": "dong_tu_menh",
+      "directions": {
+        "dong_nam": "sinh_khi",
+        "dong": "thien_y",
+        "nam": "dien_nien",
+        "bac": "phuc_vi",
+        "tay": "hoa_hai",
+        "tay_bac": "luc_sat",
+        "dong_bac": "ngu_quy",
+        "tay_nam": "tuyet_menh"
+      }
+    },
+    "2": {
+      "trigram": "khon",
+      "group": "tay_tu_menh",
+      "directions": {
+        "dong_bac": "sinh_khi",
+        "tay": "thien_y",
+        "tay_bac": "dien_nien",
+        "tay_nam": "phuc_vi",
+        "dong": "hoa_hai",
+        "nam": "luc_sat",
+        "dong_nam": "ngu_quy",
+        "bac": "tuyet_menh"
+      }
+    },
+    "3": {
+      "trigram": "chan",
+      "group": "dong_tu_menh",
+      "directions": {
+        "nam": "sinh_khi",
+        "bac": "thien_y",
+        "dong_nam": "dien_nien",
+        "dong": "phuc_vi",
+        "tay_nam": "hoa_hai",
+        "dong_bac": "luc_sat",
+        "tay_bac": "ngu_quy",
+        "tay": "tuyet_menh"
+      }
+    },
+    "4": {
+      "trigram": "ton",
+      "group": "dong_tu_menh",
+      "directions": {
+        "bac": "sinh_khi",
+        "nam": "thien_y",
+        "dong": "dien_nien",
+        "dong_nam": "phuc_vi",
+        "tay_bac": "hoa_hai",
+        "tay": "luc_sat",
+        "tay_nam": "ngu_quy",
+        "dong_bac": "tuyet_menh"
+      }
+    },
+    "6": {
+      "trigram": "can",
+      "group": "tay_tu_menh",
+      "directions": {
+        "tay": "sinh_khi",
+        "dong_bac": "thien_y",
+        "tay_nam": "dien_nien",
+        "tay_bac": "phuc_vi",
+        "dong_nam": "hoa_hai",
+        "bac": "luc_sat",
+        "dong": "ngu_quy",
+        "nam": "tuyet_menh"
+      }
+    },
+    "7": {
+      "trigram": "doai",
+      "group": "tay_tu_menh",
+      "directions": {
+        "tay_bac": "sinh_khi",
+        "tay_nam": "thien_y",
+        "dong_bac": "dien_nien",
+        "tay": "phuc_vi",
+        "bac": "hoa_hai",
+        "dong_nam": "luc_sat",
+        "nam": "ngu_quy",
+        "dong": "tuyet_menh"
+      }
+    },
+    "8": {
+      "trigram": "gen",
+      "group": "tay_tu_menh",
+      "directions": {
+        "tay_nam": "sinh_khi",
+        "tay_bac": "thien_y",
+        "tay": "dien_nien",
+        "dong_bac": "phuc_vi",
+        "nam": "hoa_hai",
+        "dong": "luc_sat",
+        "bac": "ngu_quy",
+        "dong_nam": "tuyet_menh"
+      }
+    },
+    "9": {
+      "trigram": "ly",
+      "group": "dong_tu_menh",
+      "directions": {
+        "dong": "sinh_khi",
+        "dong_nam": "thien_y",
+        "bac": "dien_nien",
+        "nam": "phuc_vi",
+        "dong_bac": "hoa_hai",
+        "tay_nam": "luc_sat",
+        "tay": "ngu_quy",
+        "tay_bac": "tuyet_menh"
+      }
+    }
+  }
+}
