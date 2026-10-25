@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "source": "Huyền Không Phi Tinh & Lạc Thư Cửu Tinh phổ thông (Đường bay Lạc Thư: 5→6→7→8→9→1→2→3→4)",
+    "confidence": "B"
+  },
+  "loShuOrder": [
+    { "palace": "trung_cung", "vi": "Trung cung" },
+    { "palace": "tay_bac", "vi": "Tây Bắc (Càn)" },
+    { "palace": "tay", "vi": "Tây (Đoài)" },
+    { "palace": "dong_bac", "vi": "Đông Bắc (Cấn)" },
+    { "palace": "nam", "vi": "Nam (Ly)" },
+    { "palace": "bac", "vi": "Bắc (Khảm)" },
+    { "palace": "tay_nam", "vi": "Tây Nam (Khôn)" },
+    { "palace": "dong", "vi": "Đông (Chấn)" },
+    { "palace": "dong_nam", "vi": "Đông Nam (Tốn)" }
+  ],
+  "stars": [
+    {
+      "number": 1,
+      "vi": "Nhất Bạch Tham Lang",
+      "shortVi": "Nhất Bạch",
+      "han": "一白",
+      "element": "thuy",
+      "nature": "cat",
+      "tags": ["nguoi", "cong_viec", "quy_nhan"],
+      "summary": "Cát tinh chủ nhân duyên, quý nhân, trí tuệ và giao tiếp mềm mỏng."
+    },
+    {
+      "number": 2,
+      "vi": "Nhị Hắc Cự Môn",
+      "shortVi": "Nhị Hắc",
+      "han": "二黑",
+      "element": "tho",
+      "nature": "hung",
+      "tags": ["suc_khoe_di_chuyen", "met_moi"],
+      "summary": "Sao chủ sự uể oải, dễ mệt mỏi nhẹ; nên giữ không gian thoáng đãng và nghỉ ngơi điều độ."
+    },
+    {
+      "number": 3,
+      "vi": "Tam Bích Lộc Tồn",
+      "shortVi": "Tam Bích",
+      "han": "三碧",
+      "element": "moc",
+      "nature": "hung",
+      "tags": ["nguoi", "cong_viec", "tranh_luan"],
+      "summary": "Sao chủ sự sốt ruột, dễ tranh luận gay gắt; nên lắng nghe và chậm lại trước khi phản hồi."
+    },
+    {
+      "number": 4,
+      "vi": "Tứ Lục Văn Khúc",
+      "shortVi": "Tứ Lục",
+      "han": "四綠",
+      "element": "moc",
+      "nature": "cat",
+      "tags": ["cong_viec", "hoc_tap", "sang_tao"],
+      "summary": "Cát tinh chủ văn chương, học tập, thi cử, giấy tờ và sáng tạo."
+    },
+    {
+      "number": 5,
+      "vi": "Ngũ Hoàng Liêm Trinh",
+      "shortVi": "Ngũ Hoàng",
+      "han": "五黃",
+      "element": "tho",
+      "nature": "hung",
+      "tags": ["suc_khoe_di_chuyen", "tien_bac", "can_trong"],
+      "summary": "Sao chủ biến động mạnh trong Cửu tinh: nên giữ tĩnh, tránh động thổ ồn ào ở phương vị này."
+    },
+    {
+      "number": 6,
+      "vi": "Lục Bạch Vũ Khúc",
+      "shortVi": "Lục Bạch",
+      "han": "六白",
+      "element": "kim",
+      "nature": "cat",
+      "tags": ["cong_viec", "tien_bac", "quyen_uy"],
+      "summary": "Cát tinh chủ công danh, kỷ luật, trách nhiệm và nguồn lực chính thống."
+    },
+    {
+      "number": 7,
+      "vi": "Thất Xích Phá Quân",
+      "shortVi": "Thất Xích",
+      "han": "七赤",
+      "element": "kim",
+      "nature": "hung",
+      "tags": ["nguoi", "tien_bac", "hao_tai"],
+      "summary": "Sao chủ khẩu thiệt hoặc chi tiêu phát sinh; nên cẩn trọng lời nói và kiểm soát ví tiền."
+    },
+    {
+      "number": 8,
+      "vi": "Bát Bạch Tả Phù",
+      "shortVi": "Bát Bạch",
+      "han": "八白",
+      "element": "tho",
+      "nature": "cat",
+      "tags": ["tien_bac", "cong_viec", "tai_loc"],
+      "summary": "Đại cát tinh chủ tài lộc ổn định, tích lũy và cơ hội hợp tác thực tế."
+    },
+    {
+      "number": 9,
+      "vi": "Cửu Tử Hữu Bật",
+      "shortVi": "Cửu Tử",
+      "han": "九紫",
+      "element": "hoa",
+      "nature": "cat",
+      "tags": ["nguoi", "cong_viec", "hy_su"],
+      "summary": "Cát tinh chủ tin vui, hỷ sự, sự kiện sôi nổi và danh tiếng."
+    }
+  ]
+}

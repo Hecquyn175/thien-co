@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ",
+    "confidence": "B"
+  },
+  "variants": {
+    "good": [
+      "Hướng thuận lợi nổi bật hôm nay là {huong} (nhất là quanh giờ {gio}) — hợp cho việc xuất hành hoặc ngồi làm việc tập trung.",
+      "Khi bắt đầu chuyến đi hoặc cuộc hẹn quan trọng quanh giờ {gio}, bạn có thể ưu tiên khởi hành về phía {huong}.",
+      "Khí tốt hội tụ ở hướng {huong} vào khoảng giờ {gio}, thuận cho việc gặp gỡ và trao đổi thiện chí.",
+      "Hướng {huong} (quanh giờ {gio}) mang lại cảm giác chủ động, sáng sủa theo la bàn truyền thống."
+    ],
+    "careful": [
+      "Hướng {huong} hôm nay trùng sao kỵ truyền thống; nếu đi về phía này, bạn chỉ cần xuất phát thong thả và kiểm tra kỹ lộ trình.",
+      "Lưu ý nhẹ ở hướng {huong}: nên chuẩn bị dư thời gian di chuyển và giữ tâm thế điềm tĩnh.",
+      "Với hướng {huong}, truyền thống khuyên tránh khởi công ồn ào; việc đi lại thường nhật vẫn diễn ra bình thường khi bạn cẩn trọng.",
+      "Nếu có lịch trình về hướng {huong}, hãy ưu tiên khung giờ Hoàng đạo để tăng thêm sự an tâm."
+    ],
+    "none": [
+      "Các hướng trong ngày ở trạng thái cân bằng, bạn có thể di chuyển linh hoạt theo nhu cầu thực tế.",
+      "Hôm nay không có hướng xung khắc mạnh; sự chuẩn bị chu đáo về phương tiện và lộ trình là quan trọng nhất.",
+      "La bàn các hướng tương đối ôn hòa, hãy ưu tiên hướng thuận tiện nhất cho công việc của bạn."
+    ]
+  }
+}

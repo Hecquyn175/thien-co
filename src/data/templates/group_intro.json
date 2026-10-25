@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ",
+    "confidence": "B"
+  },
+  "variants": {
+    "nguoi": [
+      "Giao tiếp và các mối quan hệ xung quanh trong ngày:",
+      "Tương tác với đồng nghiệp, người thân và đối tác hôm nay:",
+      "Dòng chảy nhân duyên và cách ứng xử với người xung quanh:",
+      "Những tín hiệu đáng chú ý trong chuyện con người và kết nối:"
+    ],
+    "tien_bac": [
+      "Nhịp thu chi, quản lý tài chính và tài sản cá nhân:",
+      "Xu hướng về tiền bạc, giao dịch và thói quen chi tiêu:",
+      "Các tín hiệu liên quan đến ngân sách và kế hoạch tài chính:",
+      "Điểm cần lưu tâm khi sử dụng tiền bạc trong ngày:"
+    ],
+    "cong_viec": [
+      "Tiến độ công việc, học tập và xử lý giấy tờ:",
+      "Nhịp vận tại nơi làm việc, kế hoạch và thủ tục hành chính:",
+      "Các tín hiệu về nhiệm vụ chuyên môn, ý tưởng và học tập:",
+      "Sự tập trung và phối hợp trong công việc hôm nay:"
+    ],
+    "suc_khoe_di_chuyen": [
+      "Nhịp sinh hoạt, thể trạng và việc đi lại trong ngày:",
+      "Năng lượng cơ thể, sự thư giãn và lưu ý khi di chuyển:",
+      "Các tín hiệu về nếp nghỉ ngơi, thay đổi lịch trình và đi lại:",
+      "Chăm sóc bản thân và giữ nhịp di chuyển an toàn:"
+    ]
+  }
+}

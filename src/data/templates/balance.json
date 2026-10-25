@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ — cân bằng hai mặt khi sự kiện mâu thuẫn",
+    "confidence": "B"
+  },
+  "variants": {
+    "both_sides": [
+      "Hôm nay vừa có tín hiệu '{ten_a}' vừa xen lẫn '{ten_b}': thuận lợi có thể đi kèm điều kiện ràng buộc, nên tỉnh táo cân nhắc cả hai mặt.",
+      "Đáng chú ý, '{ten_a}' và '{ten_b}' cùng xuất hiện ở các lớp khác nhau — bạn có thể tận dụng cơ hội nhưng vẫn nên giữ một khoản dự phòng an toàn.",
+      "Khí ngày mang tính hai chiều giữa '{ten_a}' và '{ten_b}': buổi thuận dễ mở ra cơ hội, nhưng lúc giao thời cần kiểm soát nhịp độ để tránh quá đà.",
+      "Giữa '{ten_a}' và '{ten_b}', điểm mấu chốt là biết dừng đúng lúc: đón nhận phần thuận lợi và chủ động giảm nhẹ phần rủi ro.",
+      "Sự song hành của '{ten_a}' cùng '{ten_b}' nhắc bạn giữ thái độ điềm đạm: không chủ quan khi việc đang trôi chảy và không sốt ruột khi gặp bước đệm."
+    ]
+  }
+}

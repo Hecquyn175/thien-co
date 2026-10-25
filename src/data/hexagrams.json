@@ -1,0 +1,1234 @@
+{
+  "meta": {
+    "source": "Thứ tự Văn Vương (King Wen); lời quẻ tóm tắt tự viết, không chép nguyên văn sách có bản quyền",
+    "confidence": "B"
+  },
+  "trigrams": [
+    {
+      "id": "can",
+      "vi": "Càn",
+      "han": "乾",
+      "symbol": "☰",
+      "lines": "111",
+      "element": "kim",
+      "nature": "Trời"
+    },
+    {
+      "id": "doai",
+      "vi": "Đoài",
+      "han": "兌",
+      "symbol": "☱",
+      "lines": "110",
+      "element": "kim",
+      "nature": "Đầm/Trạch"
+    },
+    {
+      "id": "ly",
+      "vi": "Ly",
+      "han": "離",
+      "symbol": "☲",
+      "lines": "101",
+      "element": "hoa",
+      "nature": "Lửa/Hỏa"
+    },
+    {
+      "id": "chan",
+      "vi": "Chấn",
+      "han": "震",
+      "symbol": "☳",
+      "lines": "100",
+      "element": "moc",
+      "nature": "Sấm/Lôi"
+    },
+    {
+      "id": "ton",
+      "vi": "Tốn",
+      "han": "巽",
+      "symbol": "☴",
+      "lines": "011",
+      "element": "moc",
+      "nature": "Gió/Phong"
+    },
+    {
+      "id": "kham",
+      "vi": "Khảm",
+      "han": "坎",
+      "symbol": "☵",
+      "lines": "010",
+      "element": "thuy",
+      "nature": "Nước/Thủy"
+    },
+    {
+      "id": "gen",
+      "vi": "Cấn",
+      "han": "艮",
+      "symbol": "☶",
+      "lines": "001",
+      "element": "tho",
+      "nature": "Núi/Sơn"
+    },
+    {
+      "id": "khon",
+      "vi": "Khôn",
+      "han": "坤",
+      "symbol": "☷",
+      "lines": "000",
+      "element": "tho",
+      "nature": "Đất/Địa"
+    }
+  ],
+  "hexagrams": [
+    {
+      "number": 1,
+      "han": "乾",
+      "vi": "Thuần Càn",
+      "upper": "can",
+      "lower": "can",
+      "lines": "111111",
+      "nature": "cat",
+      "judgement": "Chủ động sáng tạo, giữ chí hướng chính trực và biết lượng sức khi tiến bước.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Càn gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Trời trên Trời) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 2,
+      "han": "坤",
+      "vi": "Thuần Khôn",
+      "upper": "khon",
+      "lower": "khon",
+      "lines": "000000",
+      "nature": "cat",
+      "judgement": "Nhu thuận, bao dung, lấy sự bền bỉ và nâng đỡ làm gốc để thành việc.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Khôn gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đất/Địa trên Đất/Địa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 3,
+      "han": "屯",
+      "vi": "Thủy Lôi Truân",
+      "upper": "kham",
+      "lower": "chan",
+      "lines": "100010",
+      "nature": "binh",
+      "judgement": "Bước đầu khởi sự còn bỡ ngỡ, nên kiên trì chuẩn bị nền tảng và tìm người đồng hành.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Lôi Truân khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 4,
+      "han": "蒙",
+      "vi": "Sơn Thủy Mông",
+      "upper": "gen",
+      "lower": "kham",
+      "lines": "010001",
+      "nature": "binh",
+      "judgement": "Cần học hỏi, làm rõ thông tin mù mờ bằng thái độ khiêm tốn và cầu thị.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Thủy Mông khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 5,
+      "han": "需",
+      "vi": "Thủy Thiên Nhu",
+      "upper": "kham",
+      "lower": "can",
+      "lines": "111010",
+      "nature": "cat",
+      "judgement": "Biết chờ đợi đúng thời điểm, dưỡng sức và chuẩn bị chu đáo trước khi hành động.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Thiên Nhu gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Nước/Thủy trên Trời) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 6,
+      "han": "訟",
+      "vi": "Thiên Thủy Tụng",
+      "upper": "can",
+      "lower": "kham",
+      "lines": "010111",
+      "nature": "hung",
+      "judgement": "Dễ phát sinh bất đồng quan điểm; ưu tiên thương lượng ôn hòa và dừng lại đúng lúc.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Thủy Tụng nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 7,
+      "han": "師",
+      "vi": "Địa Thủy Sư",
+      "upper": "khon",
+      "lower": "kham",
+      "lines": "010000",
+      "nature": "binh",
+      "judgement": "Đòi hỏi kỷ luật, tổ chức chặt chẽ và sự phối hợp đồng lòng của tập thể.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Thủy Sư khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 8,
+      "han": "比",
+      "vi": "Thủy Địa Tỷ",
+      "upper": "kham",
+      "lower": "khon",
+      "lines": "000010",
+      "nature": "cat",
+      "judgement": "Gắn kết thân thiện, chọn bạn mà chơi, hợp tác chân thành đem lại sức mạnh.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Địa Tỷ gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Nước/Thủy trên Đất/Địa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 9,
+      "han": "小畜",
+      "vi": "Phong Thiên Tiểu Súc",
+      "upper": "ton",
+      "lower": "can",
+      "lines": "111011",
+      "nature": "binh",
+      "judgement": "Tích lũy từng bước nhỏ, dùng sự mềm mỏng để điều tiết sức mạnh lớn.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Thiên Tiểu Súc khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 10,
+      "han": "履",
+      "vi": "Thiên Trạch Lý",
+      "upper": "can",
+      "lower": "doai",
+      "lines": "110111",
+      "nature": "cat",
+      "judgement": "Đi từng bước cẩn trọng, giữ lễ nghĩa và quy tắc sẽ vượt qua chỗ khó.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Trạch Lý gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Trời trên Đầm/Trạch) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 11,
+      "han": "泰",
+      "vi": "Địa Thiên Thái",
+      "upper": "khon",
+      "lower": "can",
+      "lines": "111000",
+      "nature": "cat",
+      "judgement": "Trên dưới giao hòa, khí vận thông suốt; thuận lợi cho hợp tác và triển khai kế hoạch.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Thiên Thái gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đất/Địa trên Trời) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 12,
+      "han": "否",
+      "vi": "Thiên Địa Bĩ",
+      "upper": "can",
+      "lower": "khon",
+      "lines": "000111",
+      "nature": "hung",
+      "judgement": "Tạm thời thiếu sự ăn ý; nên giữ mình, củng cố nội lực thay vì vội mở rộng.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Địa Bĩ nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 13,
+      "han": "同人",
+      "vi": "Thiên Hỏa Đồng Nhân",
+      "upper": "can",
+      "lower": "ly",
+      "lines": "101111",
+      "nature": "cat",
+      "judgement": "Cùng chí hướng, công tâm và minh bạch giúp quy tụ được nhiều người ủng hộ.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Hỏa Đồng Nhân gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Trời trên Lửa/Hỏa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 14,
+      "han": "大有",
+      "vi": "Hỏa Thiên Đại Hữu",
+      "upper": "ly",
+      "lower": "can",
+      "lines": "111101",
+      "nature": "cat",
+      "judgement": "Thu hoạch sung túc nhờ tầm nhìn sáng rõ và cách cư xử khiêm nhường.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Thiên Đại Hữu gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Lửa/Hỏa trên Trời) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 15,
+      "han": "謙",
+      "vi": "Địa Sơn Khiêm",
+      "upper": "khon",
+      "lower": "gen",
+      "lines": "001000",
+      "nature": "cat",
+      "judgement": "Khiêm tốn, biết mình biết người là chìa khóa giúp mọi việc hanh thông bền lâu.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Sơn Khiêm gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đất/Địa trên Núi/Sơn) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 16,
+      "han": "豫",
+      "vi": "Lôi Địa Dự",
+      "upper": "chan",
+      "lower": "khon",
+      "lines": "000100",
+      "nature": "cat",
+      "judgement": "Tinh thần phấn chấn, chuẩn bị sẵn sàng từ trước nhưng không để sự chủ quan lấn át.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Địa Dự gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Sấm/Lôi trên Đất/Địa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 17,
+      "han": "隨",
+      "vi": "Trạch Lôi Tùy",
+      "upper": "doai",
+      "lower": "chan",
+      "lines": "100110",
+      "nature": "cat",
+      "judgement": "Linh hoạt thích ứng theo hoàn cảnh thực tế nhưng vẫn giữ vững nguyên tắc cốt lõi.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Lôi Tùy gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đầm/Trạch trên Sấm/Lôi) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 18,
+      "han": "蠱",
+      "vi": "Sơn Phong Cổ",
+      "upper": "gen",
+      "lower": "ton",
+      "lines": "011001",
+      "nature": "binh",
+      "judgement": "Thời điểm chấn chỉnh những việc trì trệ lâu ngày và sửa chữa sai sót cũ.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Phong Cổ khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 19,
+      "han": "臨",
+      "vi": "Địa Trạch Lâm",
+      "upper": "khon",
+      "lower": "doai",
+      "lines": "110000",
+      "nature": "cat",
+      "judgement": "Khí dương đang lên, gần gũi quan tâm tới công việc và cộng sự sẽ đạt kết quả tốt.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Trạch Lâm gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đất/Địa trên Đầm/Trạch) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 20,
+      "han": "觀",
+      "vi": "Phong Địa Quan",
+      "upper": "ton",
+      "lower": "khon",
+      "lines": "000011",
+      "nature": "binh",
+      "judgement": "Quan sát kỹ lưỡng toàn cục và tự soi xét lại mình trước khi đưa ra quyết định.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Địa Quan khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 21,
+      "han": "噬嗑",
+      "vi": "Hỏa Lôi Phệ Hạp",
+      "upper": "ly",
+      "lower": "chan",
+      "lines": "100101",
+      "nature": "binh",
+      "judgement": "Giải quyết dứt khoát vướng mắc cản trở bằng quy tắc rõ ràng và công bằng.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Lôi Phệ Hạp khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 22,
+      "han": "賁",
+      "vi": "Sơn Hỏa Bí",
+      "upper": "gen",
+      "lower": "ly",
+      "lines": "101001",
+      "nature": "cat",
+      "judgement": "Chăm chút hình thức, lễ nghi và cách trình bày vừa phải, không để hoa mỹ lấn át thực chất.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Hỏa Bí gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Núi/Sơn trên Lửa/Hỏa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 23,
+      "han": "剝",
+      "vi": "Sơn Địa Bác",
+      "upper": "gen",
+      "lower": "khon",
+      "lines": "000001",
+      "nature": "hung",
+      "judgement": "Nền tảng dễ hao mòn nếu chủ quan; nên nghỉ ngơi, bảo toàn nguồn lực và chờ thời.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Địa Bác nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 24,
+      "han": "復",
+      "vi": "Địa Lôi Phục",
+      "upper": "khon",
+      "lower": "chan",
+      "lines": "100000",
+      "nature": "cat",
+      "judgement": "Sinh khí quay trở lại sau giai đoạn trầm lắng; hợp khởi động nhẹ nhàng từng bước.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Lôi Phục gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đất/Địa trên Sấm/Lôi) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 25,
+      "han": "無妄",
+      "vi": "Thiên Lôi Vô Vọng",
+      "upper": "can",
+      "lower": "chan",
+      "lines": "100111",
+      "nature": "binh",
+      "judgement": "Làm việc tự nhiên, chân thật, không cầu may rủi hay kỳ vọng viển vông.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Lôi Vô Vọng khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 26,
+      "han": "大畜",
+      "vi": "Sơn Thiên Đại Súc",
+      "upper": "gen",
+      "lower": "can",
+      "lines": "111001",
+      "nature": "cat",
+      "judgement": "Tích lũy tri thức và nguồn lực dày dặn, học hỏi kinh nghiệm xưa để tiến xa.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Thiên Đại Súc gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Núi/Sơn trên Trời) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 27,
+      "han": "頤",
+      "vi": "Sơn Lôi Di",
+      "upper": "gen",
+      "lower": "chan",
+      "lines": "100001",
+      "nature": "binh",
+      "judgement": "Cẩn trọng lời ăn tiếng nói và cách chăm sóc, bồi dưỡng thể trạng hàng ngày.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Lôi Di khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 28,
+      "han": "大過",
+      "vi": "Trạch Phong Đại Quá",
+      "upper": "doai",
+      "lower": "ton",
+      "lines": "011110",
+      "nature": "hung",
+      "judgement": "Gánh nặng vượt mức thường ngày; cần bình tĩnh giảm tải và gia cố chỗ yếu.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Phong Đại Quá nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 29,
+      "han": "坎",
+      "vi": "Thuần Khảm",
+      "upper": "kham",
+      "lower": "kham",
+      "lines": "010010",
+      "nature": "hung",
+      "judgement": "Thử thách chồng lớp; giữ lòng thành tín và đi từng bước đều đặn như dòng nước chảy.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Khảm nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 30,
+      "han": "離",
+      "vi": "Thuần Ly",
+      "upper": "ly",
+      "lower": "ly",
+      "lines": "101101",
+      "nature": "cat",
+      "judgement": "Sáng suốt, văn minh, biết nương tựa vào chuẩn mực đúng đắn để tỏa sáng bền lâu.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Ly gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Lửa/Hỏa trên Lửa/Hỏa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 31,
+      "han": "咸",
+      "vi": "Trạch Sơn Hàm",
+      "upper": "doai",
+      "lower": "gen",
+      "lines": "001110",
+      "nature": "cat",
+      "judgement": "Cảm ứng tự nhiên, lắng nghe bằng sự chân thành và tâm thế không định kiến.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Sơn Hàm gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đầm/Trạch trên Núi/Sơn) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 32,
+      "han": "恆",
+      "vi": "Lôi Phong Hằng",
+      "upper": "chan",
+      "lower": "ton",
+      "lines": "011100",
+      "nature": "cat",
+      "judgement": "Bền bỉ, kiên định với mục tiêu dài hạn đồng thời uyển chuyển trong cách làm.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Phong Hằng gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Sấm/Lôi trên Gió/Phong) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 33,
+      "han": "遯",
+      "vi": "Thiên Sơn Độn",
+      "upper": "can",
+      "lower": "gen",
+      "lines": "001111",
+      "nature": "binh",
+      "judgement": "Biết lùi một bước đúng lúc để giữ khoảng cách an toàn trước những chuyện ồn ào.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Sơn Độn khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 34,
+      "han": "大壯",
+      "vi": "Lôi Thiên Đại Tráng",
+      "upper": "chan",
+      "lower": "can",
+      "lines": "111100",
+      "nature": "cat",
+      "judgement": "Khí lực dồi dào; càng mạnh mẽ càng cần cư xử đúng mực, tránh nóng nảy cậy sức.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Thiên Đại Tráng gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Sấm/Lôi trên Trời) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 35,
+      "han": "晉",
+      "vi": "Hỏa Địa Tấn",
+      "upper": "ly",
+      "lower": "khon",
+      "lines": "000101",
+      "nature": "cat",
+      "judgement": "Mặt trời mọc trên đất: tiến bộ từng bước sáng sủa, dễ được ghi nhận năng lực.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Địa Tấn gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Lửa/Hỏa trên Đất/Địa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 36,
+      "han": "明夷",
+      "vi": "Địa Hỏa Minh Di",
+      "upper": "khon",
+      "lower": "ly",
+      "lines": "101000",
+      "nature": "hung",
+      "judgement": "Khi hoàn cảnh chưa thuận, nên kín đáo giữ gìn sự sáng suốt bên trong và nhẫn nại.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Hỏa Minh Di nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 37,
+      "han": "家人",
+      "vi": "Phong Hỏa Gia Nhân",
+      "upper": "ton",
+      "lower": "ly",
+      "lines": "101011",
+      "nature": "cat",
+      "judgement": "Chăm lo nề nếp gia đình và nội bộ; lời nói đi đôi với việc làm tạo sự ấm êm.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Hỏa Gia Nhân gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Gió/Phong trên Lửa/Hỏa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 38,
+      "han": "睽",
+      "vi": "Hỏa Trạch Khuê",
+      "upper": "ly",
+      "lower": "doai",
+      "lines": "110101",
+      "nature": "binh",
+      "judgement": "Có sự khác biệt góc nhìn; tôn trọng điểm riêng và tìm điểm chung trong việc nhỏ.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Trạch Khuê khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 39,
+      "han": "蹇",
+      "vi": "Thủy Sơn Kiển",
+      "upper": "kham",
+      "lower": "gen",
+      "lines": "001010",
+      "nature": "hung",
+      "judgement": "Đường đi có chướng ngại phía trước; nên dừng lại rà soát và nhờ người có kinh nghiệm.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Sơn Kiển nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 40,
+      "han": "解",
+      "vi": "Lôi Thủy Giải",
+      "upper": "chan",
+      "lower": "kham",
+      "lines": "010100",
+      "nature": "cat",
+      "judgement": "Cơn căng thẳng dần được tháo gỡ; nên giải quyết gọn việc tồn đọng và bao dung.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Thủy Giải gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Sấm/Lôi trên Nước/Thủy) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 41,
+      "han": "損",
+      "vi": "Sơn Trạch Tổn",
+      "upper": "gen",
+      "lower": "doai",
+      "lines": "110001",
+      "nature": "binh",
+      "judgement": "Bớt phần rườm rà, tiết giảm chi tiêu không cần thiết để tập trung cho điều cốt lõi.",
+      "meaning": {
+        "nguoi": "Quẻ Sơn Trạch Tổn khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 42,
+      "han": "益",
+      "vi": "Phong Lôi Ích",
+      "upper": "ton",
+      "lower": "chan",
+      "lines": "100011",
+      "nature": "cat",
+      "judgement": "Tăng thêm lợi ích nhờ biết sẻ chia, học điều hay và sửa đổi kịp thời.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Lôi Ích gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Gió/Phong trên Sấm/Lôi) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 43,
+      "han": "夬",
+      "vi": "Trạch Thiên Quải",
+      "upper": "doai",
+      "lower": "can",
+      "lines": "111110",
+      "nature": "binh",
+      "judgement": "Cần quyết đoán loại bỏ thói quen xấu nhưng vẫn giữ thái độ ôn hòa, không cực đoan.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Thiên Quải khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 44,
+      "han": "姤",
+      "vi": "Thiên Phong Cấu",
+      "upper": "can",
+      "lower": "ton",
+      "lines": "011111",
+      "nature": "binh",
+      "judgement": "Gặp gỡ tình cờ; nên tỉnh táo nhận diện những tác động nhỏ ngay từ lúc mới phát sinh.",
+      "meaning": {
+        "nguoi": "Quẻ Thiên Phong Cấu khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 45,
+      "han": "萃",
+      "vi": "Trạch Địa Tụy",
+      "upper": "doai",
+      "lower": "khon",
+      "lines": "000110",
+      "nature": "cat",
+      "judgement": "Tụ họp nhân lực và nguồn lực; chuẩn bị chu đáo giúp buổi gặp gỡ đạt hiệu quả.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Địa Tụy gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đầm/Trạch trên Đất/Địa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 46,
+      "han": "升",
+      "vi": "Địa Phong Thăng",
+      "upper": "khon",
+      "lower": "ton",
+      "lines": "011000",
+      "nature": "cat",
+      "judgement": "Vươn lên từng nấc vững chắc như cây mọc trong đất, thuận lợi cho học tập và sự nghiệp.",
+      "meaning": {
+        "nguoi": "Quẻ Địa Phong Thăng gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đất/Địa trên Gió/Phong) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 47,
+      "han": "困",
+      "vi": "Trạch Thủy Khốn",
+      "upper": "doai",
+      "lower": "kham",
+      "lines": "010110",
+      "nature": "hung",
+      "judgement": "Cảm giác bó hẹp nguồn lực; giữ tinh thần lạc quan và tiết kiệm sức lực sẽ vượt qua.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Thủy Khốn nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 48,
+      "han": "井",
+      "vi": "Thủy Phong Tỉnh",
+      "upper": "kham",
+      "lower": "ton",
+      "lines": "011010",
+      "nature": "cat",
+      "judgement": "Giếng nước nuôi dưỡng bền bỉ: giữ vững chuyên môn và chăm chút công cụ làm việc.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Phong Tỉnh gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Nước/Thủy trên Gió/Phong) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 49,
+      "han": "革",
+      "vi": "Trạch Hỏa Cách",
+      "upper": "doai",
+      "lower": "ly",
+      "lines": "101110",
+      "nature": "binh",
+      "judgement": "Đổi mới phương pháp khi điều kiện đã chín muồi và có sự đồng thuận rõ ràng.",
+      "meaning": {
+        "nguoi": "Quẻ Trạch Hỏa Cách khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 50,
+      "han": "鼎",
+      "vi": "Hỏa Phong Đỉnh",
+      "upper": "ly",
+      "lower": "ton",
+      "lines": "011101",
+      "nature": "cat",
+      "judgement": "Vững vàng như chiếc đỉnh: rèn luyện tài năng, hợp tác hài hòa và đổi mới nền nếp.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Phong Đỉnh gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Lửa/Hỏa trên Gió/Phong) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 51,
+      "han": "震",
+      "vi": "Thuần Chấn",
+      "upper": "chan",
+      "lower": "chan",
+      "lines": "100100",
+      "nature": "binh",
+      "judgement": "Có biến động bất ngờ nhắc nhở sự cảnh giác; giữ bình tĩnh tự khắc chuyển thành an ổn.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Chấn khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 52,
+      "han": "艮",
+      "vi": "Thuần Cấn",
+      "upper": "gen",
+      "lower": "gen",
+      "lines": "001001",
+      "nature": "binh",
+      "judgement": "Biết dừng đúng chỗ, giữ tâm tĩnh lặng trước ngoại cảnh xao động.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Cấn khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 53,
+      "han": "漸",
+      "vi": "Phong Sơn Tiệm",
+      "upper": "ton",
+      "lower": "gen",
+      "lines": "001011",
+      "nature": "cat",
+      "judgement": "Tiến triển tuần tự từng bước đúng quy trình sẽ mang lại kết quả bền vững.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Sơn Tiệm gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Gió/Phong trên Núi/Sơn) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 54,
+      "han": "歸妹",
+      "vi": "Lôi Trạch Quy Muội",
+      "upper": "chan",
+      "lower": "doai",
+      "lines": "110100",
+      "nature": "hung",
+      "judgement": "Tránh hành động theo cảm xúc nhất thời; cần xét kỹ vị trí và nguyên tắc lâu dài.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Trạch Quy Muội nhắc nên lắng nghe kỹ hơn và tránh tranh luận vội vàng khi góc nhìn đôi bên chưa gặp nhau.",
+        "tien_bac": "Về tiền bạc, nên ưu tiên giữ nhịp chi tiêu tiết kiệm, kiểm tra kỹ sổ sách và tránh quyết định vội theo cảm xúc.",
+        "cong_viec": "Trong công việc, dễ có khâu cần chỉnh sửa hoặc chờ đợi; nên ưu tiên hoàn thành việc quen thuộc và kiểm tra kỹ văn bản.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 55,
+      "han": "豐",
+      "vi": "Lôi Hỏa Phong",
+      "upper": "chan",
+      "lower": "ly",
+      "lines": "101100",
+      "nature": "cat",
+      "judgement": "Thời điểm công việc dồi dào, sáng tỏ; nên tranh thủ hoàn tất khi điều kiện đang thuận.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Hỏa Phong gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Sấm/Lôi trên Lửa/Hỏa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 56,
+      "han": "旅",
+      "vi": "Hỏa Sơn Lữ",
+      "upper": "ly",
+      "lower": "gen",
+      "lines": "001101",
+      "nature": "binh",
+      "judgement": "Tâm thế người đi xa: cư xử khiêm nhường, gọn nhẹ và cẩn trọng nơi lạ.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Sơn Lữ khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 57,
+      "han": "巽",
+      "vi": "Thuần Tốn",
+      "upper": "ton",
+      "lower": "ton",
+      "lines": "011011",
+      "nature": "cat",
+      "judgement": "Mềm mỏng, thấm sâu từng chút như làn gió; thuận lợi cho thương thảo và học hỏi.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Tốn gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Gió/Phong trên Gió/Phong) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 58,
+      "han": "兌",
+      "vi": "Thuần Đoài",
+      "upper": "doai",
+      "lower": "doai",
+      "lines": "110110",
+      "nature": "cat",
+      "judgement": "Giao tiếp vui vẻ, chân thành nâng đỡ nhau bằng lời nói hòa nhã.",
+      "meaning": {
+        "nguoi": "Quẻ Thuần Đoài gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Đầm/Trạch trên Đầm/Trạch) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 59,
+      "han": "渙",
+      "vi": "Phong Thủy Hoán",
+      "upper": "ton",
+      "lower": "kham",
+      "lines": "010011",
+      "nature": "binh",
+      "judgement": "Giải tỏa sự hiểu lầm hoặc bế tắc, quy tụ lại tinh thần bằng mục tiêu chung.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Thủy Hoán khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 60,
+      "han": "節",
+      "vi": "Thủy Trạch Tiết",
+      "upper": "kham",
+      "lower": "doai",
+      "lines": "110010",
+      "nature": "cat",
+      "judgement": "Biết tiết chế chừng mực trong chi tiêu, thời gian và lời nói để giữ sự cân bằng.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Trạch Tiết gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Nước/Thủy trên Đầm/Trạch) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 61,
+      "han": "中孚",
+      "vi": "Phong Trạch Trung Phu",
+      "upper": "ton",
+      "lower": "doai",
+      "lines": "110011",
+      "nature": "cat",
+      "judgement": "Lòng tin và sự chân thật từ bên trong giúp hóa giải nghi ngờ và gắn kết bền chặt.",
+      "meaning": {
+        "nguoi": "Quẻ Phong Trạch Trung Phu gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Gió/Phong trên Đầm/Trạch) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 62,
+      "han": "小過",
+      "vi": "Lôi Sơn Tiểu Quá",
+      "upper": "chan",
+      "lower": "gen",
+      "lines": "001100",
+      "nature": "binh",
+      "judgement": "Chú tâm làm thật kỹ những việc nhỏ, khiêm tốn và tiết kiệm thay vì mưu cầu việc quá lớn.",
+      "meaning": {
+        "nguoi": "Quẻ Lôi Sơn Tiểu Quá khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 63,
+      "han": "既濟",
+      "vi": "Thủy Hỏa Ký Tế",
+      "upper": "kham",
+      "lower": "ly",
+      "lines": "101010",
+      "nature": "cat",
+      "judgement": "Mọi việc đã vào khuôn khổ cân bằng; càng thuận lợi càng nên duy trì sự cẩn trọng.",
+      "meaning": {
+        "nguoi": "Quẻ Thủy Hỏa Ký Tế gợi mở không khí giao tiếp thuận hòa; bạn có xu hướng tìm được sự đồng cảm khi giữ thái độ chân thành.",
+        "tien_bac": "Về tài chính, nhịp vận có xu hướng ổn định; bạn nên cân nhắc phân bổ hợp lý và ưu tiên các kế hoạch đã nắm rõ thông tin.",
+        "cong_viec": "Trong công việc và học tập, tượng quẻ (Nước/Thủy trên Lửa/Hỏa) thuận cho việc triển khai kế hoạch có trật tự và phối hợp nhóm.",
+        "suc_khoe_di_chuyen": "Nhịp sinh hoạt và đi lại tương đối nhẹ nhàng; hãy duy trì giờ giấc nghỉ ngơi điều độ. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    },
+    {
+      "number": 64,
+      "han": "未濟",
+      "vi": "Hỏa Thủy Vị Tế",
+      "upper": "ly",
+      "lower": "kham",
+      "lines": "010101",
+      "nature": "binh",
+      "judgement": "Chu kỳ mới đang mở ra phía trước; kiên nhẫn hoàn thiện từng khâu cuối cùng.",
+      "meaning": {
+        "nguoi": "Quẻ Hỏa Thủy Vị Tế khuyên giữ chừng mực, rõ ràng trong lời hẹn và tôn trọng khoảng riêng của người đối diện.",
+        "tien_bac": "Về ngân sách, thích hợp để rà soát lại các khoản thu chi thường kỳ và tích lũy từng bước nhỏ an toàn.",
+        "cong_viec": "Trong công việc, nên đi tuần tự từng bước, củng cố chuyên môn và ghi chép rõ các mốc tiến độ.",
+        "suc_khoe_di_chuyen": "Nên dành thêm thời gian thư giãn, giữ ấm cơ thể và thong thả khi di chuyển. Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+      },
+      "confidence": "B",
+      "source": "Thứ tự Văn Vương (Kinh Dịch); lời giải tóm tắt tự biên soạn cho Thiên Cơ"
+    }
+  ]
+}

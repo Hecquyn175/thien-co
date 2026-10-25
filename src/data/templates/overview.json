@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ — giọng nhẹ nhàng, tham khảo văn hóa",
+    "confidence": "B"
+  },
+  "variants": {
+    "dai_cat": [
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nhịp khí hôm nay khá hanh thông và nâng đỡ bản mệnh, thuận lợi để bạn chủ động triển khai việc đã chuẩn bị kỹ.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nhiều tín hiệu thuận hội tụ, dễ gặp sự phối hợp nhịp nhàng từ người xung quanh và tiến độ công việc trôi chảy.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Dòng năng lượng trong ngày hài hòa với Dụng thần, thích hợp cho việc giao lưu, bàn bạc hoặc chốt các bước quan trọng.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Cục diện ngày sáng sủa, tinh thần dễ tỉnh táo và tập trung; bạn có thể ưu tiên các việc cần sự quyết đoán.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Khí ngày tương trợ lá số, dễ có tin vui nhỏ hoặc tháo gỡ được vướng mắc tồn đọng từ trước."
+    ],
+    "cat": [
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nhịp ngày nhìn chung thuận hòa, các kế hoạch vừa sức dễ đạt kết quả như kỳ vọng.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Tín hiệu tích cực chiếm ưu thế, phù hợp để duy trì đà công việc và mở rộng kết nối ôn hòa.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Thời điểm khá êm ả để bạn hoàn tất giấy tờ, trao đổi công việc hoặc chăm chút đời sống cá nhân.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Có sự nâng đỡ nhẹ từ khí ngày; chỉ cần giữ kế hoạch rõ ràng là mọi việc sẽ đi đúng quỹ đạo.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Không khí trong ngày thuận lợi cho sự hợp tác và lắng nghe, dễ tìm được tiếng nói chung."
+    ],
+    "binh": [
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Khí ngày ở mức cân bằng, có cả điểm thuận lẫn chỗ cần lưu tâm; hợp nhất với việc giữ nhịp độ đều đặn.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Một ngày bình ổn, thích hợp để xử lý công việc thường nhật, rà soát kế hoạch và không cần vội vàng bứt phá.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Các tín hiệu đan xen vừa phải; làm việc gì cũng nên đi từng bước chắc chắn sẽ giữ được sự chủ động.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nhịp vận trung tính, kết quả trong ngày phụ thuộc nhiều vào cách bạn sắp xếp thứ tự ưu tiên.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Ngày thích hợp cho các hoạt động quen thuộc, hoàn thiện việc đang dở dang và dành thời gian nghỉ ngơi hợp lý."
+    ],
+    "hung": [
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Hôm nay dễ có vài nhịp chùng hoặc phát sinh việc nhỏ ngoài dự tính; bạn nên chậm lại một nhịp và ưu tiên việc quen thuộc.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Khí ngày có phần va chạm nhẹ với lá số, nên kiểm tra kỹ thông tin trước khi quyết định và giữ lời nói ôn hòa.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Có xu hướng tốn thêm thời gian cho thủ tục hoặc trao đổi; chuẩn bị phương án dự phòng sẽ giúp bạn thảnh thơi hơn.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nên ưu tiên sự an toàn, gọn gàng trong công việc và chi tiêu, tạm hoãn các quyết định vội vã.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nhịp ngày cần sự kiên nhẫn; lắng nghe nhiều hơn và nghỉ ngơi đúng lúc sẽ giúp mọi chuyện nhẹ nhàng qua đi."
+    ],
+    "dai_hung": [
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Nhiều tín hiệu nhắc bạn nên giữ nhịp độ thật thong thả, chỉ tập trung vào việc thiết yếu và tránh ôm đồm.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Hôm nay hợp với nguyên tắc 'tĩnh hơn động': ưu tiên hoàn thành việc cũ, hạn chế khởi sự mới hoặc tranh luận căng thẳng.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Khí ngày có xung khắc với bản mệnh; việc giữ tâm thế bình tĩnh, đi lại thong thả và ngủ nghỉ sớm là cách ứng phó tốt nhất.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Dễ có cảm giác bận rộn hoặc nhiều việc chồng chéo; hãy chia nhỏ đầu việc và đừng ngại dời các việc chưa gấp sang ngày khác.",
+      "Ngày {can_chi_ngay} (điểm vận {diem}/100): Một ngày nên dành ưu tiên cho sự an ổn nội tâm, rà soát kỹ giấy tờ – tài chính và chăm sóc thể trạng."
+    ]
+  }
+}

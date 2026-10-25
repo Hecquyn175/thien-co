@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "source": "Kỳ Môn Độn Giáp Thời Gia — Chuyển Bàn, Sách Bổ pháp (拆補法) phổ thông. Nhiều trường phái bất đồng (cờ C)",
+    "confidence": "C"
+  },
+  "method": "chuyen_ban_sach_bo",
+  "methodLabelVi": "Chuyển Bàn · Sách Bổ pháp (Tham khảo, nhiều trường phái)",
+  "ringOrder": ["bac", "dong_bac", "dong", "dong_nam", "nam", "tay_nam", "tay", "tay_bac"],
+  "loShuByDir": {
+    "bac": 1,
+    "tay_nam": 2,
+    "dong": 3,
+    "dong_nam": 4,
+    "tay_bac": 6,
+    "tay": 7,
+    "dong_bac": 8,
+    "nam": 9
+  },
+  "juBySolarTerm": {
+    "dong_chi": { "duongDon": true, "yuan": [1, 7, 4] },
+    "tieu_han": { "duongDon": true, "yuan": [2, 8, 5] },
+    "dai_han": { "duongDon": true, "yuan": [3, 9, 6] },
+    "lap_xuan": { "duongDon": true, "yuan": [8, 5, 2] },
+    "vu_thuy": { "duongDon": true, "yuan": [9, 6, 3] },
+    "kinh_trap": { "duongDon": true, "yuan": [1, 7, 4] },
+    "xuan_phan": { "duongDon": true, "yuan": [3, 9, 6] },
+    "thanh_minh": { "duongDon": true, "yuan": [4, 1, 7] },
+    "coc_vu": { "duongDon": true, "yuan": [5, 2, 8] },
+    "lap_ha": { "duongDon": true, "yuan": [4, 1, 7] },
+    "tieu_man": { "duongDon": true, "yuan": [5, 2, 8] },
+    "mang_chung": { "duongDon": true, "yuan": [6, 3, 9] },
+    "ha_chi": { "duongDon": false, "yuan": [9, 3, 6] },
+    "tieu_thu": { "duongDon": false, "yuan": [8, 2, 5] },
+    "dai_thu": { "duongDon": false, "yuan": [7, 1, 4] },
+    "lap_thu": { "duongDon": false, "yuan": [2, 5, 8] },
+    "xu_thu": { "duongDon": false, "yuan": [1, 4, 7] },
+    "bach_lo": { "duongDon": false, "yuan": [9, 3, 6] },
+    "thu_phan": { "duongDon": false, "yuan": [7, 1, 4] },
+    "han_lo": { "duongDon": false, "yuan": [6, 9, 3] },
+    "suong_giang": { "duongDon": false, "yuan": [5, 8, 2] },
+    "lap_dong": { "duongDon": false, "yuan": [6, 9, 3] },
+    "tieu_tuyet": { "duongDon": false, "yuan": [5, 8, 2] },
+    "dai_tuyet": { "duongDon": false, "yuan": [4, 7, 1] }
+  },
+  "doors": [
+    { "id": "huu_mon", "vi": "Hưu Môn", "han": "休門", "homePalace": 1, "element": "thuy", "rating": "cat", "summary": "Cát môn chủ quý nhân, nghỉ ngơi hồi phục, hòa giải và gặp gỡ nhẹ nhàng." },
+    { "id": "sinh_mon", "vi": "Sinh Môn", "han": "生門", "homePalace": 8, "element": "tho", "rating": "cat", "summary": "Đại cát môn chủ sinh khí, tài lộc, kinh doanh, mở mang dự án." },
+    { "id": "thuong_mon", "vi": "Thương Môn", "han": "傷門", "homePalace": 3, "element": "moc", "rating": "hung", "summary": "Hung môn chủ va chạm hoặc tranh thắng; hợp thu hồi nợ cũ, nên cẩn thận khi đi lại." },
+    { "id": "do_mon", "vi": "Đỗ Môn", "han": "杜門", "homePalace": 4, "element": "moc", "rating": "binh", "summary": "Bình môn chủ kỹ thuật, nghiên cứu kín đáo, bảo mật; ít thuận cho giao tế ồn ào." },
+    { "id": "canh_mon", "vi": "Cảnh Môn", "han": "景門", "homePalace": 9, "element": "hoa", "rating": "binh", "summary": "Bình môn chủ văn thư, truyền thông, kế hoạch, thi cử; cần kiểm chứng thông tin kỹ." },
+    { "id": "tu_mon", "vi": "Tử Môn", "han": "死門", "homePalace": 2, "element": "tho", "rating": "hung", "summary": "Hung môn chủ tĩnh lặng, bế tắc; kỵ khởi sự mới, chỉ hợp việc kết thúc cái cũ." },
+    { "id": "kinh_mon", "vi": "Kinh Môn", "han": "驚門", "homePalace": 7, "element": "kim", "rating": "hung", "summary": "Hung môn chủ lo âu, tranh biện, tin đồn; nên bình tĩnh kiểm tra thực tế." },
+    { "id": "khai_mon", "vi": "Khai Môn", "han": "開門", "homePalace": 6, "element": "kim", "rating": "cat", "summary": "Đại cát môn chủ khai mở công việc, nhậm chức, ký kết, xuất hành xa." }
+  ],
+  "stars": [
+    { "id": "thien_bong", "vi": "Thiên Bồng", "han": "天蓬", "homePalace": 1, "rating": "hung" },
+    { "id": "thien_nham", "vi": "Thiên Nhậm", "han": "天任", "homePalace": 8, "rating": "cat" },
+    { "id": "thien_xung", "vi": "Thiên Xung", "han": "天沖", "homePalace": 3, "rating": "cat" },
+    { "id": "thien_phu", "vi": "Thiên Phụ", "han": "天輔", "homePalace": 4, "rating": "cat" },
+    { "id": "thien_anh", "vi": "Thiên Anh", "han": "天英", "homePalace": 9, "rating": "binh" },
+    { "id": "thien_nhu", "vi": "Thiên Nhuế", "han": "天芮", "homePalace": 2, "rating": "hung" },
+    { "id": "thien_tru", "vi": "Thiên Trụ", "han": "天柱", "homePalace": 7, "rating": "hung" },
+    { "id": "thien_tam", "vi": "Thiên Tâm", "han": "天心", "homePalace": 6, "rating": "cat" },
+    { "id": "thien_cam", "vi": "Thiên Cầm", "han": "天禽", "homePalace": 5, "rating": "cat" }
+  ],
+  "deities": [
+    { "id": "truc_phu", "vi": "Trực Phù", "han": "值符", "rating": "cat", "summary": "Đầu thần cát tường, quý nhân nâng đỡ." },
+    { "id": "dang_xa", "vi": "Đằng Xà", "han": "螣蛇", "rating": "hung", "summary": "Chủ lo nghĩ quanh co, dễ phân tâm." },
+    { "id": "thai_am", "vi": "Thái Âm", "han": "太陰", "rating": "cat", "summary": "Chủ mưu tính kín đáo, âm thầm hỗ trợ." },
+    { "id": "luc_hop", "vi": "Lục Hợp", "han": "六合", "rating": "cat", "summary": "Chủ hòa hợp, thương lượng, giao dịch thuận." },
+    { "id": "bach_ho_qm", "vi": "Bạch Hổ", "han": "白虎", "rating": "hung", "summary": "Chủ áp lực mạnh, cần đi lại cẩn thận." },
+    { "id": "huyen_vu_qm", "vi": "Huyền Vũ", "han": "玄武", "rating": "hung", "summary": "Chủ nhầm lẫn thông tin, cần minh bạch sổ sách." },
+    { "id": "cuu_dia", "vi": "Cửu Địa", "han": "九地", "rating": "cat", "summary": "Chủ bền bỉ, phòng thủ, tích lũy chắc chắn." },
+    { "id": "cuu_thien", "vi": "Cửu Thiên", "han": "九天", "rating": "cat", "summary": "Chủ vươn xa, chủ động xuất hành, mở rộng." }
+  ]
+}

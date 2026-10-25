@@ -9,8 +9,8 @@ Thứ tự ưu tiên khi thiếu thời gian: (a) tầng thời gian + Can Chi �
 | 2 | Can Chi 4 trụ, nạp âm, tàng can, giờ Tý, ngũ hành, quan hệ, thập thần | Test bảng + đối chiếu chéo xanh | ☑ |
 | 3 | Bát Tự: lá số, vượng nhược, dụng thần, đại vận, cung vị, mệnh quái | Snapshot 3 hồ sơ mẫu | ☑ |
 | 4 | Dữ liệu xem ngày: Trực, Tú, Hoàng đạo, thần sát, xuất hành, giờ đẹp | `lint:data` xanh | ☑ |
-| 5 | Registry tín hiệu + `match` + scorer + selector | Test determinism | ☐ |
-| 6 | Danh mục sự kiện (≥ 48), template, narrator seed, explain | `lint:data` + từ cấm xanh | ☐ |
+| 5 | Registry tín hiệu + `match` + scorer + selector | Test determinism | ☑ |
+| 6 | Danh mục sự kiện (≥ 48), template, narrator seed, explain | `lint:data` + từ cấm xanh | ☑ |
 | 7 | UI nền: theme, font (kiểm glyph), onboarding, hồ sơ, Hôm nay | Kiểm tra thủ công 360px | ☐ |
 | 8 | Lịch tháng, dòng thời gian canh giờ, la bàn Bát quái, Hướng | Chạy offline ổn | ☐ |
 | 9 | Chọn ngày, Hợp tuổi, Gieo quẻ + 64 quẻ, Tra cứu | Test picker/compat | ☐ |

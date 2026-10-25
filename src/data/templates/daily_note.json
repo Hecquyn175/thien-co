@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ",
+    "confidence": "B"
+  },
+  "variants": {
+    "thuan": [
+      "Lời nhắn hôm nay: Khi nhịp vận đang thuận, sự khiêm tốn và chuẩn bị chu đáo sẽ giúp kết quả bền vững hơn nhiều.",
+      "Lời nhắn hôm nay: Hãy ưu tiên hoàn thành 1–2 việc quan trọng nhất trong khung giờ đẹp và chia sẻ thiện chí với người đồng hành.",
+      "Lời nhắn hôm nay: Tận dụng lúc tinh thần minh mẫn để giải quyết việc tồn đọng, nhưng vẫn nhớ dành khoảng nghỉ ngắn cho cơ thể.",
+      "Lời nhắn hôm nay: Sự hanh thông hôm nay là bước đệm tốt; ghi chép lại những điều hiệu quả sẽ giúp ích cho cả tuần tới.",
+      "Lời nhắn hôm nay: Mở lòng đón nhận sự hỗ trợ và giữ cam kết rõ ràng trong từng lời hẹn."
+    ],
+    "binh": [
+      "Lời nhắn hôm nay: Một ngày bình thường được làm tốt từng việc nhỏ chính là nền tảng vững vàng nhất.",
+      "Lời nhắn hôm nay: Giữ nhịp thở đều, làm gọn từng đầu việc và không để những chuyện vụn vặt làm phân tán sự tập trung.",
+      "Lời nhắn hôm nay: Sự ổn định đến từ thói quen kiểm tra lại thông tin trước khi gửi đi và nghỉ ngơi đúng giờ.",
+      "Lời nhắn hôm nay: Khi khí ngày trung hòa, chính sự chủ động và thái độ ôn hòa của bạn sẽ tạo nên hướng thuận.",
+      "Lời nhắn hôm nay: Hãy ưu tiên sự rõ ràng, giản dị trong cả giao tiếp lẫn chi tiêu hôm nay."
+    ],
+    "nghich": [
+      "Lời nhắn hôm nay: Chậm lại một nhịp không phải là lùi bước, mà là để quan sát kỹ hơn và giữ trọn sự chủ động.",
+      "Lời nhắn hôm nay: Những ngày có tín hiệu nghịch rất hợp để dọn dẹp việc cũ, kiểm tra lại sổ sách và đi ngủ sớm hơn thường lệ.",
+      "Lời nhắn hôm nay: Trước một tình huống gây sốt ruột, hãy cho mình vài phút tĩnh tâm trước khi hồi đáp.",
+      "Lời nhắn hôm nay: Giảm bớt các kỳ vọng cầu toàn trong ngày hôm nay sẽ giúp tâm trí bạn nhẹ nhõm và sáng suốt hơn.",
+      "Lời nhắn hôm nay: Ưu tiên sự an toàn khi đi lại, giữ ấm cơ thể và chọn cách trao đổi mềm mỏng."
+    ],
+    "no_profile": [
+      "Bạn đang xem ở chế độ nền chung (chưa có hồ sơ ngày sinh). Hãy tạo hồ sơ cá nhân để mở khóa phân tích Tứ trụ, Dụng thần và dự đoán sự kiện sát với bản mệnh.",
+      "Dự đoán hiện tại dựa trên khí ngày chung (Trực, Tú, Hoàng đạo). Thêm ngày giờ sinh trong mục Hồ sơ sẽ giúp hệ thống cá nhân hóa cho riêng bạn.",
+      "Chưa có lá số Bát Tự: các thẻ dưới đây phản ánh xu hướng chung của ngày. Tạo hồ sơ (lưu 100% trên thiết bị) để xem chi tiết từng cung vị.",
+      "Mẹo nhỏ: Khi có hồ sơ ngày sinh, nút 'Vì sao?' sẽ chỉ rõ từng tương tác giữa ngày hôm nay với Nhật chủ và các trụ của bạn."
+    ],
+    "disclaimer_short": [
+      "Lưu ý: Mọi thông tin mang tính tham khảo văn hóa truyền thống và giải trí; không thay thế tư vấn y tế, pháp lý hay tài chính chuyên nghiệp.",
+      "Ghi chú: Nội dung được tính toán hoàn toàn tự động theo quy tắc Can Chi cổ truyền để bạn chiêm nghiệm, không phải lời phán đoán khoa học."
+    ]
+  }
+}

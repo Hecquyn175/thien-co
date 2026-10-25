@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ — nhắc nhở y tế, pháp lý, tài chính chuẩn mực",
+    "confidence": "A"
+  },
+  "variants": {
+    "doctor": [
+      "Nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ.",
+      "Mọi biểu hiện khác lạ của cơ thể cần được thăm khám kịp thời; nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ.",
+      "Lưu ý chăm sóc thể trạng đúng khoa học; nếu thấy không khỏe, hãy hỏi ý kiến bác sĩ."
+    ],
+    "legal": [
+      "Với các điều khoản hợp đồng hoặc thủ tục hành chính phức tạp, bạn nên tham khảo ý kiến chuyên gia pháp lý.",
+      "Hãy đọc kỹ văn bản và hỏi ý kiến chuyên gia pháp lý trước khi ký kết các cam kết quan trọng.",
+      "Mọi vướng mắc về quy định hay giấy tờ nên được rà soát cùng người có chuyên môn pháp lý."
+    ],
+    "finance": [
+      "Hãy giữ thói quen ghi chép thu chi rõ ràng và cân nhắc kỹ thông tin trước mọi quyết định tiền bạc.",
+      "Không nên quyết định vội vàng vì tâm lý nhất thời; hãy đối chiếu ngân sách thực tế của bạn.",
+      "Ưu tiên sự an toàn và minh bạch trong quản lý tài chính cá nhân, tham khảo người có chuyên môn khi cần."
+    ]
+  }
+}

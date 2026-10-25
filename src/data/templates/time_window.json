@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "Tự biên soạn cho Thiên Cơ",
+    "confidence": "B"
+  },
+  "variants": {
+    "has_window": [
+      "Tín hiệu này dễ rõ nét hơn vào các khung giờ: {gio}.",
+      "Các canh giờ {gio} là lúc khí ngày tác động mạnh hơn tới tình huống này.",
+      "Bạn nên lưu tâm hoặc chủ động sắp xếp việc liên quan quanh giờ {gio}.",
+      "Khung giờ {gio} có xu hướng kích hoạt rõ nhất nhóm tín hiệu này."
+    ],
+    "no_window": [
+      "Tín hiệu trải đều trong ngày, không tập trung riêng vào canh giờ nào.",
+      "Ảnh hưởng diễn ra âm ỉ suốt cả ngày, nên giữ nhịp ứng xử ổn định.",
+      "Không cố định khung giờ hẹp; bạn có thể linh hoạt theo lịch cá nhân."
+    ]
+  }
+}
